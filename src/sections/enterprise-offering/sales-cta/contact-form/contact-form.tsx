@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { Formik, FormikActions } from 'formik';
+import { Formik, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
 
 import { fullWidth } from '@bit/bit.base-ui.layout.align';
@@ -24,7 +24,7 @@ const validationSchema = Yup.object({
 export class ContactForm extends Component<ContactFormProps> {
 	handleFormikSubmission = (
 		values: ContactValues,
-		{ setSubmitting }: FormikActions<ContactValues>
+		{ setSubmitting }: FormikHelpers<ContactValues>
 	) => {
 		const { onSubmitMessage } = this.props;
 
