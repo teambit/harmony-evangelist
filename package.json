@@ -71,7 +71,7 @@
     "formik": "^2.1.5",
     "lodash.debounce": "^4.0.8",
     "node-sass": "^4.14.1",
-    "number-abbreviate": "ac^2.0.0",
+    "number-abbreviate": "^2.0.0",
     "react": "^16.13.1",
     "react-create-ref": "^1.0.1",
     "react-dom": "^16.13.1",
