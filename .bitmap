@@ -4,18 +4,18 @@
     "content/bit-testimonials": {
         "files": [
             {
-                "relativePath": "src/content/bit-testimonials/bit-testimonials.tsx",
+                "relativePath": "bit-testimonials.tsx",
                 "test": false,
                 "name": "bit-testimonials.tsx"
             },
             {
-                "relativePath": "src/content/bit-testimonials/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/content/bit-testimonials/bit-testimonials.tsx",
-        "trackDir": "src/content/bit-testimonials",
+        "mainFile": "bit-testimonials.tsx",
+        "rootDir": "src/content/bit-testimonials",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -23,18 +23,18 @@
     "content/links": {
         "files": [
             {
-                "relativePath": "src/content/links/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/content/links/links.ts",
+                "relativePath": "links.ts",
                 "test": false,
                 "name": "links.ts"
             }
         ],
-        "mainFile": "src/content/links/index.ts",
-        "trackDir": "src/content/links",
+        "mainFile": "index.ts",
+        "rootDir": "src/content/links",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -42,18 +42,18 @@
     "css-components/fade-in-out": {
         "files": [
             {
-                "relativePath": "src/css-components/fade-in-out/fade-in-out.module.scss",
+                "relativePath": "fade-in-out.module.scss",
                 "test": false,
                 "name": "fade-in-out.module.scss"
             },
             {
-                "relativePath": "src/css-components/fade-in-out/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/css-components/fade-in-out/index.ts",
-        "trackDir": "src/css-components/fade-in-out",
+        "mainFile": "index.ts",
+        "rootDir": "src/css-components/fade-in-out",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -61,28 +61,28 @@
     "dev-tools/component-highlighter": {
         "files": [
             {
-                "relativePath": "src/dev-tools/component-highlighter/component-highlighter.module.scss",
+                "relativePath": "component-highlighter.module.scss",
                 "test": false,
                 "name": "component-highlighter.module.scss"
             },
             {
-                "relativePath": "src/dev-tools/component-highlighter/component-highlighter.tsx",
+                "relativePath": "component-highlighter.tsx",
                 "test": false,
                 "name": "component-highlighter.tsx"
             },
             {
-                "relativePath": "src/dev-tools/component-highlighter/content-type.ts",
+                "relativePath": "content-type.ts",
                 "test": false,
                 "name": "content-type.ts"
             },
             {
-                "relativePath": "src/dev-tools/component-highlighter/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/dev-tools/component-highlighter/index.ts",
-        "trackDir": "src/dev-tools/component-highlighter",
+        "mainFile": "index.ts",
+        "rootDir": "src/dev-tools/component-highlighter",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -90,63 +90,63 @@
     "dev-tools/component-label": {
         "files": [
             {
-                "relativePath": "src/dev-tools/component-label/base-url.tsx",
+                "relativePath": "base-url.tsx",
                 "test": false,
                 "name": "base-url.tsx"
             },
             {
-                "relativePath": "src/dev-tools/component-label/component-label.tsx",
+                "relativePath": "component-label.tsx",
                 "test": false,
                 "name": "component-label.tsx"
             },
             {
-                "relativePath": "src/dev-tools/component-label/default-label/default-label.module.scss",
+                "relativePath": "default-label/default-label.module.scss",
                 "test": false,
                 "name": "default-label.module.scss"
             },
             {
-                "relativePath": "src/dev-tools/component-label/default-label/default-label.tsx",
+                "relativePath": "default-label/default-label.tsx",
                 "test": false,
                 "name": "default-label.tsx"
             },
             {
-                "relativePath": "src/dev-tools/component-label/default-label/index.ts",
+                "relativePath": "default-label/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/dev-tools/component-label/duo-component-bubble/duo-component-bubble.module.scss",
+                "relativePath": "duo-component-bubble/duo-component-bubble.module.scss",
                 "test": false,
                 "name": "duo-component-bubble.module.scss"
             },
             {
-                "relativePath": "src/dev-tools/component-label/duo-component-bubble/duo-component-bubble.tsx",
+                "relativePath": "duo-component-bubble/duo-component-bubble.tsx",
                 "test": false,
                 "name": "duo-component-bubble.tsx"
             },
             {
-                "relativePath": "src/dev-tools/component-label/duo-component-bubble/duo-component-types.ts",
+                "relativePath": "duo-component-bubble/duo-component-types.ts",
                 "test": false,
                 "name": "duo-component-types.ts"
             },
             {
-                "relativePath": "src/dev-tools/component-label/duo-component-bubble/index.ts",
+                "relativePath": "duo-component-bubble/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/dev-tools/component-label/duo-component-bubble/scope-colors.module.scss",
+                "relativePath": "duo-component-bubble/scope-colors.module.scss",
                 "test": false,
                 "name": "scope-colors.module.scss"
             },
             {
-                "relativePath": "src/dev-tools/component-label/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/dev-tools/component-label/index.ts",
-        "trackDir": "src/dev-tools/component-label",
+        "mainFile": "index.ts",
+        "rootDir": "src/dev-tools/component-label",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -154,23 +154,23 @@
     "dev-tools/overlay-border": {
         "files": [
             {
-                "relativePath": "src/dev-tools/overlay-border/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/dev-tools/overlay-border/overlay-border.module.scss",
+                "relativePath": "overlay-border.module.scss",
                 "test": false,
                 "name": "overlay-border.module.scss"
             },
             {
-                "relativePath": "src/dev-tools/overlay-border/overlay-border.tsx",
+                "relativePath": "overlay-border.tsx",
                 "test": false,
                 "name": "overlay-border.tsx"
             }
         ],
-        "mainFile": "src/dev-tools/overlay-border/index.ts",
-        "trackDir": "src/dev-tools/overlay-border",
+        "mainFile": "index.ts",
+        "rootDir": "src/dev-tools/overlay-border",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -178,33 +178,33 @@
     "elements/button": {
         "files": [
             {
-                "relativePath": "src/elements/button/button.module.scss",
+                "relativePath": "button.module.scss",
                 "test": false,
                 "name": "button.module.scss"
             },
             {
-                "relativePath": "src/elements/button/button.spec.tsx",
+                "relativePath": "button.spec.tsx",
                 "test": false,
                 "name": "button.spec.tsx"
             },
             {
-                "relativePath": "src/elements/button/button.tsx",
+                "relativePath": "button.tsx",
                 "test": false,
                 "name": "button.tsx"
             },
             {
-                "relativePath": "src/elements/button/elevations.module.scss",
+                "relativePath": "elevations.module.scss",
                 "test": false,
                 "name": "elevations.module.scss"
             },
             {
-                "relativePath": "src/elements/button/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/elements/button/index.tsx",
-        "trackDir": "src/elements/button",
+        "mainFile": "index.tsx",
+        "rootDir": "src/elements/button",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -212,62 +212,38 @@
     "elements/heading": {
         "files": [
             {
-                "relativePath": "src/elements/heading/README.md",
+                "relativePath": "README.md",
                 "test": false,
                 "name": "README.md"
             },
             {
-                "relativePath": "src/elements/heading/heading-margins.module.scss",
+                "relativePath": "heading-margins.module.scss",
                 "test": false,
                 "name": "heading-margins.module.scss"
             },
             {
-                "relativePath": "src/elements/heading/heading-sizes.module.scss",
+                "relativePath": "heading-sizes.module.scss",
                 "test": false,
                 "name": "heading-sizes.module.scss"
             },
             {
-                "relativePath": "src/elements/heading/heading.module.scss",
+                "relativePath": "heading.module.scss",
                 "test": false,
                 "name": "heading.module.scss"
             },
             {
-                "relativePath": "src/elements/heading/heading.tsx",
+                "relativePath": "heading.tsx",
                 "test": false,
                 "name": "heading.tsx"
             },
             {
-                "relativePath": "src/elements/heading/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/elements/heading/index.tsx",
-        "trackDir": "src/elements/heading",
-        "origin": "AUTHORED",
-        "exported": false,
-        "lanes": []
-    },
-    "elements/icon-line": {
-        "files": [
-            {
-                "relativePath": "src/elements/icon-line/icon-line.module.scss",
-                "test": false,
-                "name": "icon-line.module.scss"
-            },
-            {
-                "relativePath": "src/elements/icon-line/icon-line.tsx",
-                "test": false,
-                "name": "icon-line.tsx"
-            },
-            {
-                "relativePath": "src/elements/icon-line/index.ts",
-                "test": false,
-                "name": "index.ts"
-            }
-        ],
-        "mainFile": "src/elements/icon-line/index.ts",
-        "trackDir": "src/elements/icon-line",
+        "mainFile": "index.tsx",
+        "rootDir": "src/elements/heading",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -275,18 +251,42 @@
     "elements/icon": {
         "files": [
             {
-                "relativePath": "src/elements/icon/icon.tsx",
+                "relativePath": "icon.tsx",
                 "test": false,
                 "name": "icon.tsx"
             },
             {
-                "relativePath": "src/elements/icon/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/elements/icon/index.tsx",
-        "trackDir": "src/elements/icon",
+        "mainFile": "index.tsx",
+        "rootDir": "src/elements/icon",
+        "origin": "AUTHORED",
+        "exported": false,
+        "lanes": []
+    },
+    "elements/icon-line": {
+        "files": [
+            {
+                "relativePath": "icon-line.module.scss",
+                "test": false,
+                "name": "icon-line.module.scss"
+            },
+            {
+                "relativePath": "icon-line.tsx",
+                "test": false,
+                "name": "icon-line.tsx"
+            },
+            {
+                "relativePath": "index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "index.ts",
+        "rootDir": "src/elements/icon-line",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -294,23 +294,23 @@
     "elements/image": {
         "files": [
             {
-                "relativePath": "src/elements/image/image.spec.tsx",
+                "relativePath": "image.spec.tsx",
                 "test": false,
                 "name": "image.spec.tsx"
             },
             {
-                "relativePath": "src/elements/image/image.tsx",
+                "relativePath": "image.tsx",
                 "test": false,
                 "name": "image.tsx"
             },
             {
-                "relativePath": "src/elements/image/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/elements/image/index.ts",
-        "trackDir": "src/elements/image",
+        "mainFile": "index.ts",
+        "rootDir": "src/elements/image",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -318,23 +318,23 @@
     "elements/link": {
         "files": [
             {
-                "relativePath": "src/elements/link/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/elements/link/link.module.scss",
+                "relativePath": "link.module.scss",
                 "test": false,
                 "name": "link.module.scss"
             },
             {
-                "relativePath": "src/elements/link/link.tsx",
+                "relativePath": "link.tsx",
                 "test": false,
                 "name": "link.tsx"
             }
         ],
-        "mainFile": "src/elements/link/index.ts",
-        "trackDir": "src/elements/link",
+        "mainFile": "index.ts",
+        "rootDir": "src/elements/link",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -342,23 +342,23 @@
     "input/input": {
         "files": [
             {
-                "relativePath": "src/input/input/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/input/input/input.module.scss",
+                "relativePath": "input.module.scss",
                 "test": false,
                 "name": "input.module.scss"
             },
             {
-                "relativePath": "src/input/input/input.tsx",
+                "relativePath": "input.tsx",
                 "test": false,
                 "name": "input.tsx"
             }
         ],
-        "mainFile": "src/input/input/index.ts",
-        "trackDir": "src/input/input",
+        "mainFile": "index.ts",
+        "rootDir": "src/input/input",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -366,18 +366,18 @@
     "layout/experimental/spacing": {
         "files": [
             {
-                "relativePath": "src/layout/spacing/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/layout/spacing/spacing.module.scss",
+                "relativePath": "spacing.module.scss",
                 "test": false,
                 "name": "spacing.module.scss"
             }
         ],
-        "mainFile": "src/layout/spacing/index.ts",
-        "trackDir": "src/layout/spacing",
+        "mainFile": "index.ts",
+        "rootDir": "src/layout/spacing",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -385,28 +385,28 @@
     "marketing/comment-carousel": {
         "files": [
             {
-                "relativePath": "src/marketing/comment-carousel/carousel.module.scss",
+                "relativePath": "carousel.module.scss",
                 "test": false,
                 "name": "carousel.module.scss"
             },
             {
-                "relativePath": "src/marketing/comment-carousel/comment-carousel.tsx",
+                "relativePath": "comment-carousel.tsx",
                 "test": false,
                 "name": "comment-carousel.tsx"
             },
             {
-                "relativePath": "src/marketing/comment-carousel/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/marketing/comment-carousel/slick-slider.module.scss",
+                "relativePath": "slick-slider.module.scss",
                 "test": false,
                 "name": "slick-slider.module.scss"
             }
         ],
-        "mainFile": "src/marketing/comment-carousel/index.ts",
-        "trackDir": "src/marketing/comment-carousel",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/comment-carousel",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -414,23 +414,23 @@
     "marketing/community-links/community-link": {
         "files": [
             {
-                "relativePath": "src/marketing/community-links/community-link/community-link.module.scss",
+                "relativePath": "community-link.module.scss",
                 "test": false,
                 "name": "community-link.module.scss"
             },
             {
-                "relativePath": "src/marketing/community-links/community-link/community-link.tsx",
+                "relativePath": "community-link.tsx",
                 "test": false,
                 "name": "community-link.tsx"
             },
             {
-                "relativePath": "src/marketing/community-links/community-link/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/marketing/community-links/community-link/index.ts",
-        "trackDir": "src/marketing/community-links/community-link",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/community-links/community-link",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -438,23 +438,23 @@
     "marketing/community-links/github-link": {
         "files": [
             {
-                "relativePath": "src/marketing/community-links/github-link/github-link.module.scss",
+                "relativePath": "github-link.module.scss",
                 "test": false,
                 "name": "github-link.module.scss"
             },
             {
-                "relativePath": "src/marketing/community-links/github-link/github-link.tsx",
+                "relativePath": "github-link.tsx",
                 "test": false,
                 "name": "github-link.tsx"
             },
             {
-                "relativePath": "src/marketing/community-links/github-link/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/marketing/community-links/github-link/index.ts",
-        "trackDir": "src/marketing/community-links/github-link",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/community-links/github-link",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -462,23 +462,23 @@
     "marketing/community-links/slack-link": {
         "files": [
             {
-                "relativePath": "src/marketing/community-links/slack-link/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/marketing/community-links/slack-link/slack-link.module.scss",
+                "relativePath": "slack-link.module.scss",
                 "test": false,
                 "name": "slack-link.module.scss"
             },
             {
-                "relativePath": "src/marketing/community-links/slack-link/slack-link.tsx",
+                "relativePath": "slack-link.tsx",
                 "test": false,
                 "name": "slack-link.tsx"
             }
         ],
-        "mainFile": "src/marketing/community-links/slack-link/index.ts",
-        "trackDir": "src/marketing/community-links/slack-link",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/community-links/slack-link",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -486,23 +486,23 @@
     "marketing/community-links/twitter-link": {
         "files": [
             {
-                "relativePath": "src/marketing/community-links/twitter-link/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/marketing/community-links/twitter-link/twitter-link.module.scss",
+                "relativePath": "twitter-link.module.scss",
                 "test": false,
                 "name": "twitter-link.module.scss"
             },
             {
-                "relativePath": "src/marketing/community-links/twitter-link/twitter-link.tsx",
+                "relativePath": "twitter-link.tsx",
                 "test": false,
                 "name": "twitter-link.tsx"
             }
         ],
-        "mainFile": "src/marketing/community-links/twitter-link/index.ts",
-        "trackDir": "src/marketing/community-links/twitter-link",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/community-links/twitter-link",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -510,28 +510,28 @@
     "marketing/testimonial": {
         "files": [
             {
-                "relativePath": "src/marketing/testimonial/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/marketing/testimonial/testimonial-obj.tsx",
+                "relativePath": "testimonial-obj.tsx",
                 "test": false,
                 "name": "testimonial-obj.tsx"
             },
             {
-                "relativePath": "src/marketing/testimonial/testimonial.module.scss",
+                "relativePath": "testimonial.module.scss",
                 "test": false,
                 "name": "testimonial.module.scss"
             },
             {
-                "relativePath": "src/marketing/testimonial/testimonial.tsx",
+                "relativePath": "testimonial.tsx",
                 "test": false,
                 "name": "testimonial.tsx"
             }
         ],
-        "mainFile": "src/marketing/testimonial/index.ts",
-        "trackDir": "src/marketing/testimonial",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/testimonial",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -539,23 +539,23 @@
     "marketing/twitter-card": {
         "files": [
             {
-                "relativePath": "src/marketing/twitter-card/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/marketing/twitter-card/twitter-card.module.scss",
+                "relativePath": "twitter-card.module.scss",
                 "test": false,
                 "name": "twitter-card.module.scss"
             },
             {
-                "relativePath": "src/marketing/twitter-card/twitter-card.tsx",
+                "relativePath": "twitter-card.tsx",
                 "test": false,
                 "name": "twitter-card.tsx"
             }
         ],
-        "mainFile": "src/marketing/twitter-card/index.ts",
-        "trackDir": "src/marketing/twitter-card",
+        "mainFile": "index.ts",
+        "rootDir": "src/marketing/twitter-card",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -563,23 +563,23 @@
     "pages/enterprise-offering": {
         "files": [
             {
-                "relativePath": "src/pages/enterprise-offering/enterprise-offering.module.scss",
+                "relativePath": "enterprise-offering.module.scss",
                 "test": false,
                 "name": "enterprise-offering.module.scss"
             },
             {
-                "relativePath": "src/pages/enterprise-offering/enterprise-offering.tsx",
+                "relativePath": "enterprise-offering.tsx",
                 "test": false,
                 "name": "enterprise-offering.tsx"
             },
             {
-                "relativePath": "src/pages/enterprise-offering/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/pages/enterprise-offering/index.ts",
-        "trackDir": "src/pages/enterprise-offering",
+        "mainFile": "index.ts",
+        "rootDir": "src/pages/enterprise-offering",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -588,22 +588,22 @@
         "files": [
             {
                 "name": "hybrid-homepage.module.scss",
-                "relativePath": "src/pages/hybrid-homepage/hybrid-homepage.module.scss",
+                "relativePath": "hybrid-homepage.module.scss",
                 "test": false
             },
             {
                 "name": "hybrid-homepage.tsx",
-                "relativePath": "src/pages/hybrid-homepage/hybrid-homepage.tsx",
+                "relativePath": "hybrid-homepage.tsx",
                 "test": false
             },
             {
                 "name": "index.ts",
-                "relativePath": "src/pages/hybrid-homepage/index.ts",
+                "relativePath": "index.ts",
                 "test": false
             }
         ],
-        "mainFile": "src/pages/hybrid-homepage/index.ts",
-        "trackDir": "src/pages/hybrid-homepage",
+        "mainFile": "index.ts",
+        "rootDir": "src/pages/hybrid-homepage",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -611,23 +611,23 @@
     "pages/support": {
         "files": [
             {
-                "relativePath": "src/pages/support/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/pages/support/support.module.scss",
+                "relativePath": "support.module.scss",
                 "test": false,
                 "name": "support.module.scss"
             },
             {
-                "relativePath": "src/pages/support/support.tsx",
+                "relativePath": "support.tsx",
                 "test": false,
                 "name": "support.tsx"
             }
         ],
-        "mainFile": "src/pages/support/index.ts",
-        "trackDir": "src/pages/support",
+        "mainFile": "index.ts",
+        "rootDir": "src/pages/support",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -635,23 +635,23 @@
     "sections/build-together": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/build-together/build-together.module.scss",
+                "relativePath": "build-together.module.scss",
                 "test": false,
                 "name": "build-together.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/build-together/build-together.tsx",
+                "relativePath": "build-together.tsx",
                 "test": false,
                 "name": "build-together.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/build-together/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/build-together/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/build-together",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/build-together",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -660,22 +660,22 @@
         "files": [
             {
                 "name": "carouselSection.module.scss",
-                "relativePath": "src/sections/hybrid-homepage/carouselSection/carouselSection.module.scss",
+                "relativePath": "carouselSection.module.scss",
                 "test": false
             },
             {
                 "name": "carouselSection.tsx",
-                "relativePath": "src/sections/hybrid-homepage/carouselSection/carouselSection.tsx",
+                "relativePath": "carouselSection.tsx",
                 "test": false
             },
             {
                 "name": "index.tsx",
-                "relativePath": "src/sections/hybrid-homepage/carouselSection/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/carouselSection/index.tsx",
-        "trackDir": "src/sections/hybrid-homepage/carouselSection",
+        "mainFile": "index.tsx",
+        "rootDir": "src/sections/hybrid-homepage/carouselSection",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -684,22 +684,22 @@
         "files": [
             {
                 "name": "community-section.module.scss",
-                "relativePath": "src/sections/hybrid-homepage/community/community-section.module.scss",
+                "relativePath": "community-section.module.scss",
                 "test": false
             },
             {
                 "name": "community-section.tsx",
-                "relativePath": "src/sections/hybrid-homepage/community/community-section.tsx",
+                "relativePath": "community-section.tsx",
                 "test": false
             },
             {
                 "name": "index.ts",
-                "relativePath": "src/sections/hybrid-homepage/community/index.ts",
+                "relativePath": "index.ts",
                 "test": false
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/community/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/community",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/community",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -707,23 +707,23 @@
     "sections/component-advantages": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/component-advantages/component-advantages.module.scss",
+                "relativePath": "component-advantages.module.scss",
                 "test": false,
                 "name": "component-advantages.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/component-advantages/component-advantages.tsx",
+                "relativePath": "component-advantages.tsx",
                 "test": false,
                 "name": "component-advantages.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/component-advantages/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/component-advantages/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/component-advantages",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/component-advantages",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -732,22 +732,22 @@
         "files": [
             {
                 "name": "cta-section.module.scss",
-                "relativePath": "src/sections/hybrid-homepage/cta/cta-section.module.scss",
+                "relativePath": "cta-section.module.scss",
                 "test": false
             },
             {
                 "name": "cta-section.tsx",
-                "relativePath": "src/sections/hybrid-homepage/cta/cta-section.tsx",
+                "relativePath": "cta-section.tsx",
                 "test": false
             },
             {
                 "name": "index.ts",
-                "relativePath": "src/sections/hybrid-homepage/cta/index.ts",
+                "relativePath": "index.ts",
                 "test": false
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/cta/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/cta",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/cta",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -755,23 +755,23 @@
     "sections/develop-components": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/develop-components/develop-components.module.scss",
+                "relativePath": "develop-components.module.scss",
                 "test": false,
                 "name": "develop-components.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/develop-components/develop-components.tsx",
+                "relativePath": "develop-components.tsx",
                 "test": false,
                 "name": "develop-components.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/develop-components/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/develop-components/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/develop-components",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/develop-components",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -779,23 +779,23 @@
     "sections/discover-components": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/discover-components/discover-components.module.scss",
+                "relativePath": "discover-components.module.scss",
                 "test": false,
                 "name": "discover-components.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/discover-components/discover-components.tsx",
+                "relativePath": "discover-components.tsx",
                 "test": false,
                 "name": "discover-components.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/discover-components/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/discover-components/index.tsx",
-        "trackDir": "src/sections/hybrid-homepage/discover-components",
+        "mainFile": "index.tsx",
+        "rootDir": "src/sections/hybrid-homepage/discover-components",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -803,23 +803,23 @@
     "sections/enterprise-offering/advantage-cards": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/advantage-cards/advantage-cards.module.scss",
+                "relativePath": "advantage-cards.module.scss",
                 "test": false,
                 "name": "advantage-cards.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/advantage-cards/advantage-cards.tsx",
+                "relativePath": "advantage-cards.tsx",
                 "test": false,
                 "name": "advantage-cards.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/advantage-cards/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/advantage-cards/index.ts",
-        "trackDir": "src/sections/enterprise-offering/advantage-cards",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/advantage-cards",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -827,23 +827,23 @@
     "sections/enterprise-offering/component-analytics": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/component-analytics/component-analytics.module.scss",
+                "relativePath": "component-analytics.module.scss",
                 "test": false,
                 "name": "component-analytics.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/component-analytics/component-analytics.tsx",
+                "relativePath": "component-analytics.tsx",
                 "test": false,
                 "name": "component-analytics.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/component-analytics/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/component-analytics/index.ts",
-        "trackDir": "src/sections/enterprise-offering/component-analytics",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/component-analytics",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -851,18 +851,18 @@
     "sections/enterprise-offering/eco-system": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/eco-system/eco-system.tsx",
+                "relativePath": "eco-system.tsx",
                 "test": false,
                 "name": "eco-system.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/eco-system/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/eco-system/index.ts",
-        "trackDir": "src/sections/enterprise-offering/eco-system",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/eco-system",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -870,23 +870,23 @@
     "sections/enterprise-offering/experts-support": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/experts-support/expert-support.module.scss",
+                "relativePath": "expert-support.module.scss",
                 "test": false,
                 "name": "expert-support.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/experts-support/expert-support.tsx",
+                "relativePath": "expert-support.tsx",
                 "test": false,
                 "name": "expert-support.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/experts-support/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/experts-support/index.ts",
-        "trackDir": "src/sections/enterprise-offering/experts-support",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/experts-support",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -894,23 +894,23 @@
     "sections/enterprise-offering/hero": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/hero/hero.module.scss",
+                "relativePath": "hero.module.scss",
                 "test": false,
                 "name": "hero.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/hero/hero.tsx",
+                "relativePath": "hero.tsx",
                 "test": false,
                 "name": "hero.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/hero/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/hero/index.ts",
-        "trackDir": "src/sections/enterprise-offering/hero",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/hero",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -918,23 +918,23 @@
     "sections/enterprise-offering/integrations": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/integrations/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/integrations/integrations.module.scss",
+                "relativePath": "integrations.module.scss",
                 "test": false,
                 "name": "integrations.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/integrations/integrations.tsx",
+                "relativePath": "integrations.tsx",
                 "test": false,
                 "name": "integrations.tsx"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/integrations/index.ts",
-        "trackDir": "src/sections/enterprise-offering/integrations",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/integrations",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -942,23 +942,23 @@
     "sections/enterprise-offering/powering-enterprise": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/powering-enterprise/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/powering-enterprise/powering-enterprise.module.scss",
+                "relativePath": "powering-enterprise.module.scss",
                 "test": false,
                 "name": "powering-enterprise.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/powering-enterprise/powering-enterprise.tsx",
+                "relativePath": "powering-enterprise.tsx",
                 "test": false,
                 "name": "powering-enterprise.tsx"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/powering-enterprise/index.ts",
-        "trackDir": "src/sections/enterprise-offering/powering-enterprise",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/powering-enterprise",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -966,23 +966,23 @@
     "sections/enterprise-offering/reliability": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/reliability/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/reliability/reliability.module.scss",
+                "relativePath": "reliability.module.scss",
                 "test": false,
                 "name": "reliability.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/reliability/reliability.tsx",
+                "relativePath": "reliability.tsx",
                 "test": false,
                 "name": "reliability.tsx"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/reliability/index.ts",
-        "trackDir": "src/sections/enterprise-offering/reliability",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/reliability",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -990,43 +990,43 @@
     "sections/enterprise-offering/sales-cta": {
         "files": [
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/contact-form/contact-form.module.scss",
+                "relativePath": "contact-form/contact-form.module.scss",
                 "test": false,
                 "name": "contact-form.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/contact-form/contact-form.tsx",
+                "relativePath": "contact-form/contact-form.tsx",
                 "test": false,
                 "name": "contact-form.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/contact-form/index.ts",
+                "relativePath": "contact-form/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/contact-values.tsx",
+                "relativePath": "contact-values.tsx",
                 "test": false,
                 "name": "contact-values.tsx"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/sales-cta.module.scss",
+                "relativePath": "sales-cta.module.scss",
                 "test": false,
                 "name": "sales-cta.module.scss"
             },
             {
-                "relativePath": "src/sections/enterprise-offering/sales-cta/sales-cta.tsx",
+                "relativePath": "sales-cta.tsx",
                 "test": false,
                 "name": "sales-cta.tsx"
             }
         ],
-        "mainFile": "src/sections/enterprise-offering/sales-cta/index.ts",
-        "trackDir": "src/sections/enterprise-offering/sales-cta",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/sales-cta",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1034,23 +1034,23 @@
     "sections/enterprise-section": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/enterprise-section/enterprise-section.module.scss",
+                "relativePath": "enterprise-section.module.scss",
                 "test": false,
                 "name": "enterprise-section.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/enterprise-section/enterprise-section.tsx",
+                "relativePath": "enterprise-section.tsx",
                 "test": false,
                 "name": "enterprise-section.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/enterprise-section/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/enterprise-section/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/enterprise-section",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/enterprise-section",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1058,23 +1058,23 @@
     "sections/hero": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/hero/hero.module.scss",
+                "relativePath": "hero.module.scss",
                 "test": false,
                 "name": "hero.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/hero/hero.tsx",
+                "relativePath": "hero.tsx",
                 "test": false,
                 "name": "hero.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/hero/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/hero/index.tsx",
-        "trackDir": "src/sections/hybrid-homepage/hero",
+        "mainFile": "index.tsx",
+        "rootDir": "src/sections/hybrid-homepage/hero",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1082,23 +1082,23 @@
     "sections/independent-teams": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/independent-teams/independent-teams.module.scss",
+                "relativePath": "independent-teams.module.scss",
                 "test": false,
                 "name": "independent-teams.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/independent-teams/independent-teams.tsx",
+                "relativePath": "independent-teams.tsx",
                 "test": false,
                 "name": "independent-teams.tsx"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/independent-teams/index.tsx",
+                "relativePath": "index.tsx",
                 "test": false,
                 "name": "index.tsx"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/independent-teams/index.tsx",
-        "trackDir": "src/sections/hybrid-homepage/independent-teams",
+        "mainFile": "index.tsx",
+        "rootDir": "src/sections/hybrid-homepage/independent-teams",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1106,23 +1106,23 @@
     "sections/reuse-components": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/reuse-components/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/reuse-components/reuse-components.module.scss",
+                "relativePath": "reuse-components.module.scss",
                 "test": false,
                 "name": "reuse-components.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/reuse-components/reuse-components.tsx",
+                "relativePath": "reuse-components.tsx",
                 "test": false,
                 "name": "reuse-components.tsx"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/reuse-components/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/reuse-components",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/reuse-components",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1130,23 +1130,23 @@
     "sections/support-page/global-enterprise": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/global-enterprise/global-enterprise.module.scss",
+                "relativePath": "global-enterprise.module.scss",
                 "test": false,
                 "name": "global-enterprise.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/global-enterprise/global-enterprise.tsx",
+                "relativePath": "global-enterprise.tsx",
                 "test": false,
                 "name": "global-enterprise.tsx"
             },
             {
-                "relativePath": "src/sections/support-page/global-enterprise/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/support-page/global-enterprise/index.ts",
-        "trackDir": "src/sections/support-page/global-enterprise",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/global-enterprise",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1154,23 +1154,23 @@
     "sections/support-page/hero": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/hero/hero.module.scss",
+                "relativePath": "hero.module.scss",
                 "test": false,
                 "name": "hero.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/hero/hero.tsx",
+                "relativePath": "hero.tsx",
                 "test": false,
                 "name": "hero.tsx"
             },
             {
-                "relativePath": "src/sections/support-page/hero/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/sections/support-page/hero/index.ts",
-        "trackDir": "src/sections/support-page/hero",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/hero",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1178,38 +1178,38 @@
     "sections/support-page/support-channels": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/support-channels/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/support-page/support-channels/support-channel-cta/index.ts",
+                "relativePath": "support-channel-cta/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/support-page/support-channels/support-channel-cta/support-channel-cta.module.scss",
+                "relativePath": "support-channel-cta/support-channel-cta.module.scss",
                 "test": false,
                 "name": "support-channel-cta.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/support-channels/support-channel-cta/support-channel-cta.tsx",
+                "relativePath": "support-channel-cta/support-channel-cta.tsx",
                 "test": false,
                 "name": "support-channel-cta.tsx"
             },
             {
-                "relativePath": "src/sections/support-page/support-channels/support-channels.module.scss",
+                "relativePath": "support-channels.module.scss",
                 "test": false,
                 "name": "support-channels.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/support-channels/support-channels.tsx",
+                "relativePath": "support-channels.tsx",
                 "test": false,
                 "name": "support-channels.tsx"
             }
         ],
-        "mainFile": "src/sections/support-page/support-channels/index.ts",
-        "trackDir": "src/sections/support-page/support-channels",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/support-channels",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1217,23 +1217,23 @@
     "sections/support-page/support-cta": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/support-cta/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/support-page/support-cta/support-cta.module.scss",
+                "relativePath": "support-cta.module.scss",
                 "test": false,
                 "name": "support-cta.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/support-cta/support-cta.tsx",
+                "relativePath": "support-cta.tsx",
                 "test": false,
                 "name": "support-cta.tsx"
             }
         ],
-        "mainFile": "src/sections/support-page/support-cta/index.ts",
-        "trackDir": "src/sections/support-page/support-cta",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/support-cta",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1241,23 +1241,23 @@
     "sections/support-page/support-developers": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/support-developers/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/support-page/support-developers/support-developers.module.scss",
+                "relativePath": "support-developers.module.scss",
                 "test": false,
                 "name": "support-developers.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/support-developers/support-developers.tsx",
+                "relativePath": "support-developers.tsx",
                 "test": false,
                 "name": "support-developers.tsx"
             }
         ],
-        "mainFile": "src/sections/support-page/support-developers/index.ts",
-        "trackDir": "src/sections/support-page/support-developers",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/support-developers",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1265,23 +1265,23 @@
     "sections/support-page/support-packages": {
         "files": [
             {
-                "relativePath": "src/sections/support-page/support-packages/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/support-page/support-packages/support-packages.module.scss",
+                "relativePath": "support-packages.module.scss",
                 "test": false,
                 "name": "support-packages.module.scss"
             },
             {
-                "relativePath": "src/sections/support-page/support-packages/support-packages.tsx",
+                "relativePath": "support-packages.tsx",
                 "test": false,
                 "name": "support-packages.tsx"
             }
         ],
-        "mainFile": "src/sections/support-page/support-packages/index.ts",
-        "trackDir": "src/sections/support-page/support-packages",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/support-page/support-packages",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1289,23 +1289,23 @@
     "sections/talk-to-experts": {
         "files": [
             {
-                "relativePath": "src/sections/hybrid-homepage/talk-to-experts/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/talk-to-experts/talk-to-experts.module.scss",
+                "relativePath": "talk-to-experts.module.scss",
                 "test": false,
                 "name": "talk-to-experts.module.scss"
             },
             {
-                "relativePath": "src/sections/hybrid-homepage/talk-to-experts/talk-to-experts.tsx",
+                "relativePath": "talk-to-experts.tsx",
                 "test": false,
                 "name": "talk-to-experts.tsx"
             }
         ],
-        "mainFile": "src/sections/hybrid-homepage/talk-to-experts/index.ts",
-        "trackDir": "src/sections/hybrid-homepage/talk-to-experts",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/hybrid-homepage/talk-to-experts",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1313,23 +1313,23 @@
     "surfaces/dropdown": {
         "files": [
             {
-                "relativePath": "src/surfaces/dropdown/dropdown.module.scss",
+                "relativePath": "dropdown.module.scss",
                 "test": false,
                 "name": "dropdown.module.scss"
             },
             {
-                "relativePath": "src/surfaces/dropdown/dropdown.tsx",
+                "relativePath": "dropdown.tsx",
                 "test": false,
                 "name": "dropdown.tsx"
             },
             {
-                "relativePath": "src/surfaces/dropdown/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/surfaces/dropdown/index.ts",
-        "trackDir": "src/surfaces/dropdown",
+        "mainFile": "index.ts",
+        "rootDir": "src/surfaces/dropdown",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1337,63 +1337,63 @@
     "surfaces/tooltip": {
         "files": [
             {
-                "relativePath": "src/surfaces/tooltip/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-arrow/arrow-position.module.scss",
+                "relativePath": "tooltip-arrow/arrow-position.module.scss",
                 "test": false,
                 "name": "arrow-position.module.scss"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-arrow/arrow-shadow.module.scss",
+                "relativePath": "tooltip-arrow/arrow-shadow.module.scss",
                 "test": false,
                 "name": "arrow-shadow.module.scss"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-arrow/arrow.module.scss",
+                "relativePath": "tooltip-arrow/arrow.module.scss",
                 "test": false,
                 "name": "arrow.module.scss"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-arrow/index.ts",
+                "relativePath": "tooltip-arrow/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-arrow/tooltip-arrow.tsx",
+                "relativePath": "tooltip-arrow/tooltip-arrow.tsx",
                 "test": false,
                 "name": "tooltip-arrow.tsx"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-card/index.ts",
+                "relativePath": "tooltip-card/index.ts",
                 "test": false,
                 "name": "index.ts"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-card/tooltip-card.module.scss",
+                "relativePath": "tooltip-card/tooltip-card.module.scss",
                 "test": false,
                 "name": "tooltip-card.module.scss"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-card/tooltip-card.tsx",
+                "relativePath": "tooltip-card/tooltip-card.tsx",
                 "test": false,
                 "name": "tooltip-card.tsx"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-drawer.module.scss",
+                "relativePath": "tooltip-drawer.module.scss",
                 "test": false,
                 "name": "tooltip-drawer.module.scss"
             },
             {
-                "relativePath": "src/surfaces/tooltip/tooltip-drawer.tsx",
+                "relativePath": "tooltip-drawer.tsx",
                 "test": false,
                 "name": "tooltip-drawer.tsx"
             }
         ],
-        "mainFile": "src/surfaces/tooltip/index.ts",
-        "trackDir": "src/surfaces/tooltip",
+        "mainFile": "index.ts",
+        "rootDir": "src/surfaces/tooltip",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -1401,18 +1401,18 @@
     "theme/icon-font": {
         "files": [
             {
-                "relativePath": "src/theme/icon-font/icon-font.tsx",
+                "relativePath": "icon-font.tsx",
                 "test": false,
                 "name": "icon-font.tsx"
             },
             {
-                "relativePath": "src/theme/icon-font/index.ts",
+                "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
             }
         ],
-        "mainFile": "src/theme/icon-font/index.ts",
-        "trackDir": "src/theme/icon-font",
+        "mainFile": "index.ts",
+        "rootDir": "src/theme/icon-font",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
