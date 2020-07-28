@@ -6,9 +6,9 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { marginCenter } from '@teambit/base-ui.layout.align';
 
-import { CommentCarousel } from '../../../marketing/comment-carousel/comment-carousel';
-import { bitTestimonials } from '../../../content/bit-testimonials';
-import { H2 } from '../../../elements/heading';
+import { CommentCarousel } from '@teambit/evangelist-temp01.marketing.comment-carousel/comment-carousel';
+import { bitTestimonials } from '@teambit/evangelist-temp01.content.bit-testimonials';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
 
 import styles from './carouselSection.module.scss';
 

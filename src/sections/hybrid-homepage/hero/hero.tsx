@@ -10,12 +10,12 @@ import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { links } from '../../../content/links';
-import { H1 } from '../../../elements/heading';
-import { IconLine } from '../../../elements/icon-line';
-import { Link } from '../../../elements/link';
-import { Image } from '../../../elements/image';
-import { Button } from '../../../elements/button';
+import { links } from '@teambit/evangelist-temp01.content.links';
+import { H1 } from '@teambit/evangelist-temp01.elements.heading';
+import { IconLine } from '@teambit/evangelist-temp01.elements.icon-line';
+import { Link } from '@teambit/evangelist-temp01.elements.link';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
+import { Button } from '@teambit/evangelist-temp01.elements.button';
 
 const iconsArray = [
 	'logo-react',

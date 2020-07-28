@@ -6,9 +6,9 @@ import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { alignItems, text } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 
-import { H2 } from '../../../elements/heading';
-import { Link } from '../../../elements/link';
-import { Button } from '../../../elements/button';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
+import { Link } from '@teambit/evangelist-temp01.elements.link';
+import { Button } from '@teambit/evangelist-temp01.elements.button';
 
 import styles from './support-cta.module.scss';
 

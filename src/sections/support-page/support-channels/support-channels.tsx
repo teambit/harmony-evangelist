@@ -7,15 +7,15 @@ import { text } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 
-import { H2 } from '../../../elements/heading';
-import { Image } from '../../../elements/image';
-import { Icon } from '../../../elements/icon';
-import { links } from '../../../content/links';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
+import { Icon } from '@teambit/evangelist-temp01.elements.icon';
+import { links } from '@teambit/evangelist-temp01.content.links';
 
 import styles from './support-channels.module.scss';
-import { SlackLink } from '../../../marketing/community-links/slack-link';
-import { GithubLink } from '../../../marketing/community-links/github-link';
-import { CommunityLink } from '../../../marketing/community-links/community-link';
+import { SlackLink } from '@teambit/evangelist-temp01.marketing.community-links.slack-link';
+import { GithubLink } from '@teambit/evangelist-temp01.marketing.community-links.github-link';
+import { CommunityLink } from '@teambit/evangelist-temp01.marketing.community-links.community-link';
 import {ChannelButtonCta} from './support-channel-cta';
 
 type SupportChannelsProps = {} & HTMLAttributes<HTMLElement>;

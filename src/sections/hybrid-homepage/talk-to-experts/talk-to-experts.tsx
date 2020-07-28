@@ -7,9 +7,9 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { justifyItems, alignItems, text, marginCenter } from '@teambit/base-ui.layout.align';
 
-import { H2 } from '../../../elements/heading';
-import { Link } from '../../../elements/link';
-import { Button } from '../../../elements/button';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
+import { Link } from '@teambit/evangelist-temp01.elements.link';
+import { Button } from '@teambit/evangelist-temp01.elements.button';
 
 /**
  * @name TalkToExperts

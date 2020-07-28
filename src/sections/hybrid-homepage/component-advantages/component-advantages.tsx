@@ -9,8 +9,8 @@ import { text, alignItems } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { fourWayGrid } from '@teambit/base-ui.layout.grid-presets.four-way-grid';
 
-import { Image } from '../../../elements/image';
-import { H3 } from '../../../elements/heading';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
+import { H3 } from '@teambit/evangelist-temp01.elements.heading';
 
 
 

@@ -1,7 +1,7 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { Image } from '../image';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
 
 import styles from './icon-line.module.scss';
 

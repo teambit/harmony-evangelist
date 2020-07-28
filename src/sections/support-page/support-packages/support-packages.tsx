@@ -6,7 +6,7 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
 // import { centerColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { H2 } from '../../../elements/heading';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
 
 import styles from './support-packages.module.scss';
 

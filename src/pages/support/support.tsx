@@ -4,14 +4,14 @@ import classNames from 'classnames';
 import { centerColumn } from '@teambit/base-ui.layout.page-frame';
 import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
-import { Hero } from '../../sections/support-page/hero';
+import { Hero } from '@teambit/evangelist-temp01.sections.support-page.hero';
 
 import styles from './support.module.scss';
-import { SupportDevelopers } from '../../sections/support-page/support-developers';
-import { SupportChannels } from '../../sections/support-page/support-channels';
-import { GlobalEnterprise } from '../../sections/support-page/global-enterprise';
-import { SupportCta } from '../../sections/support-page/support-cta';
-import { SupportPackages } from '../../sections/support-page/support-packages';
+import { SupportDevelopers } from '@teambit/evangelist-temp01.sections.support-page.support-developers';
+import { SupportChannels } from '@teambit/evangelist-temp01.sections.support-page.support-channels';
+import { GlobalEnterprise } from '@teambit/evangelist-temp01.sections.support-page.global-enterprise';
+import { SupportCta } from '@teambit/evangelist-temp01.sections.support-page.support-cta';
+import { SupportPackages } from '@teambit/evangelist-temp01.sections.support-page.support-packages';
 
 export type SupportPageProps = {
 	table?: ReactNode;

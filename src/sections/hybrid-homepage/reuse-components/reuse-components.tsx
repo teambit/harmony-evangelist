@@ -11,8 +11,8 @@ import { text, alignItems, marginCenter } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { Image } from '../../../elements/image';
-import { H2, H3 } from '../../../elements/heading';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
+import { H2, H3 } from '@teambit/evangelist-temp01.elements.heading';
 
 /**
  * @name ReuseComponents

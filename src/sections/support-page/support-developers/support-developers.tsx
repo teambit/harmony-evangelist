@@ -7,12 +7,12 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 
-import { H3, H2 } from '../../../elements/heading';
-import { Image } from '../../../elements/image';
+import { H3, H2 } from '@teambit/evangelist-temp01.elements.heading';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
 
 import styles from './support-developers.module.scss';
-import { Link } from '../../../elements/link';
-import { links } from '../../../content/links';
+import { Link } from '@teambit/evangelist-temp01.elements.link';
+import { links } from '@teambit/evangelist-temp01.content.links';
 
 type SupportDevelopersProps = {} & HTMLAttributes<HTMLElement>;
 

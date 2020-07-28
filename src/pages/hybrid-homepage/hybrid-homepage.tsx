@@ -6,18 +6,18 @@ import styles from './hybrid-homepage.module.scss';
 import { backgrounds } from '@teambit/base-ui.surfaces.background';
 import { centerColumn, wideColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { CarouselSection } from '../../sections/hybrid-homepage/carouselSection';
-import { CtaSection } from '../../sections/hybrid-homepage/cta';
-import { EnterpriseSection } from '../../sections/hybrid-homepage/enterprise-section';
-import { CommunitySection } from '../../sections/hybrid-homepage/community';
-import { ComponentsAdvantages } from '../../sections/hybrid-homepage/component-advantages';
-import { IndependentTeams } from '../../sections/hybrid-homepage/independent-teams';
-import { TalkToExperts } from '../../sections/hybrid-homepage/talk-to-experts';
-import { Hero } from '../../sections/hybrid-homepage/hero';
-import { DevelopComponents } from '../../sections/hybrid-homepage/develop-components';
-import { ReuseComponents } from '../../sections/hybrid-homepage/reuse-components';
-import { BuildTogether } from '../../sections/hybrid-homepage/build-together';
-import { DiscoverComponents } from '../../sections/hybrid-homepage/discover-components';
+import { CarouselSection } from '@teambit/evangelist-temp01.sections.carousel-section';
+import { CtaSection } from '@teambit/evangelist-temp01.sections.cta';
+import { EnterpriseSection } from '@teambit/evangelist-temp01.sections.enterprise-section';
+import { CommunitySection } from '@teambit/evangelist-temp01.sections.community';
+import { ComponentsAdvantages } from '@teambit/evangelist-temp01.sections.component-advantages';
+import { IndependentTeams } from '@teambit/evangelist-temp01.sections.independent-teams';
+import { TalkToExperts } from '@teambit/evangelist-temp01.sections.talk-to-experts';
+import { Hero } from '@teambit/evangelist-temp01.sections.hero';
+import { DevelopComponents } from '@teambit/evangelist-temp01.sections.develop-components';
+import { ReuseComponents } from '@teambit/evangelist-temp01.sections.reuse-components';
+import { BuildTogether } from '@teambit/evangelist-temp01.sections.build-together';
+import { DiscoverComponents } from '@teambit/evangelist-temp01.sections.discover-components';
 
 export type HybridHomepageProps = {
 	/** placeholder for content, after the first purple background fold. */

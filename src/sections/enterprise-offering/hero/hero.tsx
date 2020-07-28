@@ -7,9 +7,9 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 
-import { Button } from '../../../elements/button';
-import { H1 } from '../../../elements/heading';
-import { Image } from '../../../elements/image';
+import { Button } from '@teambit/evangelist-temp01.elements.button';
+import { H1 } from '@teambit/evangelist-temp01.elements.heading';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
 
 import styles from './hero.module.scss';
 

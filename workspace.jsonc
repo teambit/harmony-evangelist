@@ -14,11 +14,11 @@
     /**
      * set the default scope when there is no matching for the component in the components array.
      **/
-    "defaultScope": "my-scope",
+    "defaultScope": "teambit.evangelist-temp01",
     /**
      * set the default directory when there is no matching for the component in the components array.
      **/
-    "defaultDirectory": "components",
+    "defaultDirectory": "src/components",
     "vendorDirectory": "vendor"
   },
   /**
@@ -65,56 +65,6 @@
      * wildcards can be used to configure components under a specific namespace.
      * this configuration applies the react extensions on all components the `ui` namespace.
     **/
-    "base/*": {
-      /**
-      * apply the react environment on all ui components.
-        **/
-      "@teambit/react": {
-        /**
-        * turn on typescript compiler.
-        **/
-        "typescript": true,
-        /**
-        * root component is the one to be deployed and served.
-        **/
-        "root": "ui/homepage",
-        /**
-        * sets react version to be bigger or equal to 16.0.0.
-        * this will add react and @types/react (in case typescript is turned on) as peer dependencies
-        * with this SemVer.
-        **/
-        "version": ">=16.0.0"
-      },
-      "base/fragments/*": {
-        /**
-        * main configuration file for handling the build process of components.
-        */
-        "@teambit/flows": {
-          /**
-          * configure build tasks. configuration of build tasks is basically a map of `task name`
-          * pointed to an array of tasks. each task can be either a bash command or an extension
-          * which exposes a task. reserved task names: build, test, runs on pre-tag.
-          */
-          "tasks": {
-            "build": [
-              "@teambit/react:build",
-              "mv dist dist-copy"
-            ],
-            "test": [
-              "mocha ."
-            ],
-            "deploy": [
-              "firebase deploy"
-            ]
-          }
-        }
-      },
-      /**
-       * configure storybook extension on all ui components. :TODO: @gilad please define config for
-       * storybook extension
-      */
-      "@teambit/storybook": {}
-    },
     /**
      * variants can be applied to a component in any namespace level.
      * the configuration below sets all components under `base` to be compatible with all versions of

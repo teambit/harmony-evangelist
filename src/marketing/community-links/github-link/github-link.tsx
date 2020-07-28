@@ -5,9 +5,9 @@ import numberAbbreviate from 'number-abbreviate';
 
 import styles from './github-link.module.scss';
 
-import { CommunityLink, PrimaryLinkProps } from '../community-link';
-import { Icon } from '../../../elements/icon';
-import { Image } from '../../../elements/image';
+import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist-temp01.marketing.community-links.community-link';
+import { Icon } from '@teambit/evangelist-temp01.elements.icon';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
 
 export type GithubLinkProps = {
 	/**

@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
-import { H6 } from '../../../../elements/heading';
+import { H6 } from '@teambit/evangelist-temp01.elements.heading';
 
 import styles from './support-channel-cta.module.scss';
 import { mutedText } from '@teambit/base-ui.text.muted-text';

@@ -8,13 +8,13 @@ import { themedText } from '@teambit/base-ui.text.themed-text';
 import { colorPalette } from '@teambit/base-ui.theme.color-palette';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { H2 } from '../../../elements/heading';
-import { Icon } from '../../../elements/icon';
-import { Image } from '../../../elements/image';
+import { H2 } from '@teambit/evangelist-temp01.elements.heading';
+import { Icon } from '@teambit/evangelist-temp01.elements.icon';
+import { Image } from '@teambit/evangelist-temp01.elements.image';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
 import styles from './component-analytics.module.scss';
-import { margin } from '../../../layout/spacing';
+import { margin } from '@teambit/evangelist-temp01.layout.experimental.spacing';
 
 /**
  * A section showing Bit's analytical abilities.<br/>

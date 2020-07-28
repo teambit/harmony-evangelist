@@ -6,8 +6,8 @@ import * as Yup from 'yup';
 import { fullWidth } from '@teambit/base-ui.layout.align';
 import { Error } from '@teambit/base-ui.input.error';
 
-import { Button } from '../../../../elements/button';
-import { Input, TextArea } from '../../../../input/input';
+import { Button } from '@teambit/evangelist-temp01.elements.button';
+import { Input, TextArea } from '@teambit/evangelist-temp01.input.input';
 
 import styles from './contact-form.module.scss';
 import { ContactValues } from '../contact-values';
