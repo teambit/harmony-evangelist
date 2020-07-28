@@ -1,11 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Drawer, DrawerProps } from '@bit/bit.base-ui.surfaces.drawer';
+import { Drawer, DrawerProps } from '@teambit/base-ui.surfaces.drawer';
 
-import { Position, ContaineeProps, Containee } from '@bit/bit.base-ui.surfaces.abs-container';
-import { elevationClass, ElevationHeight } from '@bit/bit.base-ui.css-components.elevation';
-import { roundnessClass, Roundness } from '@bit/bit.base-ui.css-components.roundness';
-import { backgrounds } from '@bit/bit.base-ui.surfaces.background';
+import { Position, ContaineeProps, Containee } from '@teambit/base-ui.surfaces.abs-container';
+import { elevationClass, ElevationHeight } from '@teambit/base-ui.css-components.elevation';
+import { roundnessClass, Roundness } from '@teambit/base-ui.css-components.roundness';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 import styles from './dropdown.module.scss';
 import { fadeInOutClass } from '../../css-components/fade-in-out';
 

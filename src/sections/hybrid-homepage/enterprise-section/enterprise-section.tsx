@@ -3,12 +3,12 @@ import classNames from 'classnames';
 
 import styles from './enterprise-section.module.scss';
 
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
-import { text, alignItems } from '@bit/bit.base-ui.layout.align';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { colSpanMd } from '@bit/bit.base-ui.layout.col-span';
+import { text, alignItems } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { colSpanMd } from '@teambit/base-ui.layout.col-span';
 
 import { Image } from '../../../elements/image';
 import { H2, H4 } from '../../../elements/heading';

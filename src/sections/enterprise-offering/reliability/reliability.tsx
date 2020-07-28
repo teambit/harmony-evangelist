@@ -1,16 +1,16 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { mutedText } from '@bit/bit.base-ui.text.muted-text';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
 
 import { H2, H3 } from '../../../elements/heading';
 import { Image } from '../../../elements/image';
 
 import styles from './reliability.module.scss';
-import { marginCenter, text } from '@bit/bit.base-ui.layout.align';
+import { marginCenter, text } from '@teambit/base-ui.layout.align';
 import { Link } from '../../../elements/link';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
 /**
  * A section showing a security details for the Bit Enterprise solution.<br/>

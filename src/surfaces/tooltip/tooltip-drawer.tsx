@@ -1,11 +1,11 @@
 import React from 'react';
-import { Drawer, DrawerProps } from '@bit/bit.base-ui.surfaces.drawer';
+import { Drawer, DrawerProps } from '@teambit/base-ui.surfaces.drawer';
 import classNames from 'classnames';
 
 import { fadeInOutClass } from '../../css-components/fade-in-out';
 import { TooltipMenu } from './tooltip-card';
-import { Position } from '@bit/bit.base-ui.surfaces.abs-container';
-import { ElevationHeight } from '@bit/bit.base-ui.css-components.elevation';
+import { Position } from '@teambit/base-ui.surfaces.abs-container';
+import { ElevationHeight } from '@teambit/base-ui.css-components.elevation';
 import { Arrow } from './tooltip-arrow';
 import styles from './tooltip-drawer.module.scss';
 

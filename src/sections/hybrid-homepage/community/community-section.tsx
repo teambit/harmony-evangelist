@@ -3,11 +3,11 @@ import classnames from 'classnames';
 
 import styles from './community-section.module.scss';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { alignItems, marginCenter } from '@bit/bit.base-ui.layout.align';
-import { textColumn } from '@bit/bit.base-ui.layout.page-frame';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { alignItems, marginCenter } from '@teambit/base-ui.layout.align';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import { GithubLink } from '../../../marketing/community-links/github-link';
 import { links } from '../../../content/links';

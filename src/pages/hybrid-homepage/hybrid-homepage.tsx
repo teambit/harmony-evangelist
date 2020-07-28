@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 import styles from './hybrid-homepage.module.scss';
 
-import { backgrounds } from '@bit/bit.base-ui.surfaces.background';
-import { centerColumn, wideColumn } from '@bit/bit.base-ui.layout.page-frame';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
+import { centerColumn, wideColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { CarouselSection } from '../../sections/hybrid-homepage/carouselSection';
 import { CtaSection } from '../../sections/hybrid-homepage/cta';

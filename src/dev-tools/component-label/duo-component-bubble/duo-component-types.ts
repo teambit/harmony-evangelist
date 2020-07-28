@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardProps } from '@bit/bit.base-ui.surfaces.card';
+import { CardProps } from '@teambit/base-ui.surfaces.card';
 //@ts-ignore
 import BitNameId from '@bit/bit.javascript.component.id';
 

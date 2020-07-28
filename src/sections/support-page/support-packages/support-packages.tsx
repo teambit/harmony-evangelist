@@ -1,10 +1,10 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { text, marginCenter } from '@bit/bit.base-ui.layout.align';
-// import { centerColumn } from '@bit/bit.base-ui.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
+// import { centerColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { H2 } from '../../../elements/heading';
 

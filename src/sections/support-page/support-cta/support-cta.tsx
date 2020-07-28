@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { alignItems, text } from '@bit/bit.base-ui.layout.align';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { alignItems, text } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
 
 import { H2 } from '../../../elements/heading';
 import { Link } from '../../../elements/link';

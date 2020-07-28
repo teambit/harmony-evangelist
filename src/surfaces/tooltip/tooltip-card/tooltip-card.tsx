@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Containee, Position } from '@bit/bit.base-ui.surfaces.abs-container';
-import { elevationClass, ElevationHeight } from '@bit/bit.base-ui.css-components.elevation';
-import { roundnessClass, Roundness } from '@bit/bit.base-ui.css-components.roundness';
+import { Containee, Position } from '@teambit/base-ui.surfaces.abs-container';
+import { elevationClass, ElevationHeight } from '@teambit/base-ui.css-components.elevation';
+import { roundnessClass, Roundness } from '@teambit/base-ui.css-components.roundness';
 
 import styles from './tooltip-card.module.scss';
 

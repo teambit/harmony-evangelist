@@ -1,9 +1,9 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { centerColumn, textColumn } from '@bit/bit.base-ui.layout.page-frame';
-import { marginCenter, text } from '@bit/bit.base-ui.layout.align';
-import { backgrounds } from '@bit/bit.base-ui.surfaces.background';
+import { centerColumn, textColumn } from '@teambit/base-ui.layout.page-frame';
+import { marginCenter, text } from '@teambit/base-ui.layout.align';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
 import { Hero } from '../../sections/enterprise-offering/hero/hero';
 import { PoweringEnterprise } from '../../sections/enterprise-offering/powering-enterprise/powering-enterprise';

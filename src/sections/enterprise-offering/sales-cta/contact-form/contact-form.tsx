@@ -3,8 +3,8 @@ import classNames from 'classnames';
 import { Formik, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
 
-import { fullWidth } from '@bit/bit.base-ui.layout.align';
-import { Error } from '@bit/bit.base-ui.input.error';
+import { fullWidth } from '@teambit/base-ui.layout.align';
+import { Error } from '@teambit/base-ui.input.error';
 
 import { Button } from '../../../../elements/button';
 import { Input, TextArea } from '../../../../input/input';

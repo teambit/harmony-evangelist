@@ -1,8 +1,8 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { centerColumn } from '@bit/bit.base-ui.layout.page-frame';
-import { backgrounds } from '@bit/bit.base-ui.surfaces.background';
+import { centerColumn } from '@teambit/base-ui.layout.page-frame';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
 import { Hero } from '../../sections/support-page/hero';
 

@@ -1,17 +1,17 @@
 import classNames from 'classnames';
 import React, { HTMLAttributes } from 'react';
 
-import { alignItems } from '@bit/bit.base-ui.layout.align';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { mutedText } from '@bit/bit.base-ui.text.muted-text';
-import { themedText } from '@bit/bit.base-ui.text.themed-text';
-import { colorPalette } from '@bit/bit.base-ui.theme.color-palette';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
+import { alignItems } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
+import { themedText } from '@teambit/base-ui.text.themed-text';
+import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import { H2 } from '../../../elements/heading';
 import { Icon } from '../../../elements/icon';
 import { Image } from '../../../elements/image';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
 import styles from './component-analytics.module.scss';
 import { margin } from '../../../layout/spacing';

@@ -1,13 +1,13 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { textColumn } from '@bit/bit.base-ui.layout.page-frame';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { colorPalette } from '@bit/bit.base-ui.theme.color-palette';
-import { themedText } from '@bit/bit.base-ui.text.themed-text';
-import { text } from '@bit/bit.base-ui.layout.align';
-import { MutedText, mutedText } from '@bit/bit.base-ui.text.muted-text';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { themedText } from '@teambit/base-ui.text.themed-text';
+import { text } from '@teambit/base-ui.layout.align';
+import { MutedText, mutedText } from '@teambit/base-ui.text.muted-text';
 
 import { H2 } from '../../../elements/heading';
 

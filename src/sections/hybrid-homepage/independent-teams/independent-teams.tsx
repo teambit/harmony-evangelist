@@ -1,13 +1,13 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import styles from './independent-teams.module.scss';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { text, marginCenter } from '@bit/bit.base-ui.layout.align';
-import { textColumn } from '@bit/bit.base-ui.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { H2, H5 } from '../../../elements/heading';
 import { Image } from '../../../elements/image';

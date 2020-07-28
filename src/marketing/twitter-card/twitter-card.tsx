@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { Card, CardProps } from '@bit/bit.base-ui.surfaces.card';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Card, CardProps } from '@teambit/base-ui.surfaces.card';
 
 import { H3 } from '../../elements/heading';
 import { Image } from '../../elements/image';

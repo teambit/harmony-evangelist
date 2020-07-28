@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { text } from '@bit/bit.base-ui.layout.align';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { mutedText } from '@bit/bit.base-ui.text.muted-text';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
 
 import { H2 } from '../../../elements/heading';
 import { Image } from '../../../elements/image';

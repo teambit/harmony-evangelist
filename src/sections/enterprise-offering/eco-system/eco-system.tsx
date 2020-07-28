@@ -1,13 +1,13 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { mutedText } from '@bit/bit.base-ui.text.muted-text';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
 
 import { H2 } from '../../../elements/heading';
-import { textColumn } from '@bit/bit.base-ui.layout.page-frame';
-import { marginCenter } from '@bit/bit.base-ui.layout.align';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { marginCenter } from '@teambit/base-ui.layout.align';
 
 /**
  * Title and description to the Bit integrations ecosystem.

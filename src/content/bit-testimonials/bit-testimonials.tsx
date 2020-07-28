@@ -1,5 +1,5 @@
 import React from 'react';
-import { staticStorageUrl } from '@bit/bit.base-ui.constants.storage';
+import { staticStorageUrl } from '@teambit/base-ui.constants.storage';
 import { TestimonialObj } from '../../marketing/testimonial';
 
 const desc0 = () => (

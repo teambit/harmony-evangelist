@@ -3,12 +3,12 @@ import classNames from 'classnames';
 
 import styles from './hero.module.scss'; 
 
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { text, marginCenter } from '@bit/bit.base-ui.layout.align';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
-import { textColumn } from '@bit/bit.base-ui.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { links } from '../../../content/links';
 import { H1 } from '../../../elements/heading';

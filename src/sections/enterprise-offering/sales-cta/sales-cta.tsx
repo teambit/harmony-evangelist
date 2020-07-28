@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Card } from '@bit/bit.base-ui.surfaces.card';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { mutedText } from '@bit/bit.base-ui.text.muted-text';
-import { TextSeparator } from '@bit/bit.base-ui.text.text-separator';
-import { fullWidth, marginCenter } from '@bit/bit.base-ui.layout.align';
+import { Card } from '@teambit/base-ui.surfaces.card';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
+import { TextSeparator } from '@teambit/base-ui.text.text-separator';
+import { fullWidth, marginCenter } from '@teambit/base-ui.layout.align';
 
 import { Button } from '../../../elements/button';
 import { H4 } from '../../../elements/heading';
@@ -14,8 +14,8 @@ import styles from './sales-cta.module.scss';
 import { margin } from '../../../layout/spacing';
 import { ContactForm } from './contact-form';
 import { ContactValues } from './contact-values';
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { colorPalette } from '@bit/bit.base-ui.theme.color-palette';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { colorPalette } from '@teambit/base-ui.theme.color-palette';
 
 export type EnterpriseCtaProps = {
 	/** handles form submission, with user input as a single object parameter. Return a promise to show loader */

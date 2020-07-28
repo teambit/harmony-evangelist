@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@bit/bit.base-ui.text.paragraph';
-import { PossibleSizes } from '@bit/bit.base-ui.theme.sizes';
-import { text, marginCenter } from '@bit/bit.base-ui.layout.align';
-import { Card, CardProps } from '@bit/bit.base-ui.surfaces.card';
-import { Grid } from '@bit/bit.base-ui.layout.grid-component';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
+import { Card, CardProps } from '@teambit/base-ui.surfaces.card';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
 
 import { Button } from '../../../elements/button';
 import { H3, H2 } from '../../../elements/heading';
