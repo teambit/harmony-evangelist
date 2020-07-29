@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://docs.bit.dev/configuration
-**/{
+**/ {
   "$schema": "",
   /**
    * main configuration of the Bit workspace.
@@ -61,36 +61,26 @@
    * new set of dependencies.
   **/
   "@teambit/variants": {
-    /**
-     * wildcards can be used to configure components under a specific namespace.
-     * this configuration applies the react extensions on all components the `ui` namespace.
-    **/
-    /**
-     * variants can be applied to a component in any namespace level.
-     * the configuration below sets all components under `base` to be compatible with all versions of
-     * react 15 as well.
-    **/
-    "ui/base/*": {
-      "@teambit/component": {
-        "peerDependencies": {
-          "react": ">15.0.1"
+    "*": {
+      "@teambit/dependency-resolver": {
+        "policy": {
+          "devDependencies": {
+            "@types/mocha": "8.0.0",
+            "react": "-"
+          },
+          "peerDependencies": {
+            "react": "^15.0.0 || ^16.0.0"
+          }
         }
-      }
-    },
-    "extensions/*": {
-      // "@teambit/extension": {
-      // need to decide configuration for extension environment.
-      // },
-      /**
-      * configure the creation of new components in your workspace through the `bit create` command.
-      * this is helpful for setting component structure standards.
-      **/
-      "@teambit/create": {
-        /**
-        * default component template for Bit to use for creation of components upon `bit create`.
-        * default template is:
-        */
-        "defaultTemplate": "@teambit/extension-template"
+      },
+      "@teambit/pkg": {
+        "packageJson": {
+          "name": "@teambit/evangelist-temp01.{name}"
+        }
+      },
+      "@teambit/envs": {
+        "env": "@teambit/react",
+        "config": {}
       }
     }
   }
