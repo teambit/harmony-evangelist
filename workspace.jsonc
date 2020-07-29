@@ -14,12 +14,34 @@
     /**
      * set the default scope when there is no matching for the component in the components array.
      **/
-    "defaultScope": "teambit.evangelist-temp",
+    "defaultScope": "teambit2.evangelist-temp",
     /**
      * set the default directory when there is no matching for the component in the components array.
      **/
     "defaultDirectory": "src/components",
-    "vendorDirectory": "vendor"
+    "vendorDirectory": "vendor",
+    "extensions": {
+      "@teambit/dependency-resolver": {
+        "policy": {
+          "devDependencies": {
+            "@types/mocha": "8.0.0",
+            "react": "-"
+          },
+          "peerDependencies": {
+            "react": "^15.0.0 || ^16.0.0"
+          }
+        }
+      },
+      "@teambit/pkg": {
+        "packageJson": {
+          "name": "@teambit/evangelist-temp.{name}"
+        }
+      },
+      "@teambit/envs": {
+        "env": "@teambit/react",
+        "config": {}
+      }
+    }
   },
   /**
    * main configuration for component dependency resolution.
@@ -61,27 +83,5 @@
    * new set of dependencies.
   **/
   "@teambit/variants": {
-    "*": {
-      "@teambit/dependency-resolver": {
-        "policy": {
-          "devDependencies": {
-            "@types/mocha": "8.0.0",
-            "react": "-"
-          },
-          "peerDependencies": {
-            "react": "^15.0.0 || ^16.0.0"
-          }
-        }
-      },
-      "@teambit/pkg": {
-        "packageJson": {
-          "name": "@teambit/evangelist-temp.{name}"
-        }
-      },
-      "@teambit/envs": {
-        "env": "@teambit/react",
-        "config": {}
-      }
-    }
   }
 }
