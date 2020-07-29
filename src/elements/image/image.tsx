@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { BaseImage, BaseImageProps } from '@teambit/base-ui.elements.image';
-import { staticStorageUrl } from '@teambit/base-ui.constants.storage';
+import { BaseImage, BaseImageProps } from '@teambit/base-ui-temp.elements.image';
+import { staticStorageUrl } from '@teambit/base-ui-temp.constants.storage';
 
 export type ImageProps = BaseImageProps;
 

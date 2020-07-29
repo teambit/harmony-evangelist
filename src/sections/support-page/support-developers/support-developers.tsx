@@ -1,18 +1,18 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
 
-import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
-import { text } from '@teambit/base-ui.layout.align';
-import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { text } from '@teambit/base-ui-temp.layout.align';
+import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
 
-import { H3, H2 } from '@teambit/evangelist-temp01.elements.heading';
-import { Image } from '@teambit/evangelist-temp01.elements.image';
+import { H3, H2 } from '@teambit/evangelist-temp.elements.heading';
+import { Image } from '@teambit/evangelist-temp.elements.image';
 
 import styles from './support-developers.module.scss';
-import { Link } from '@teambit/evangelist-temp01.elements.link';
-import { links } from '@teambit/evangelist-temp01.content.links';
+import { Link } from '@teambit/evangelist-temp.elements.link';
+import { links } from '@teambit/evangelist-temp.content.links';
 
 type SupportDevelopersProps = {} & HTMLAttributes<HTMLElement>;
 

@@ -3,14 +3,14 @@ import classNames from 'classnames';
 
 import styles from './component-advantages.module.scss';
 
-import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
-import { Paragraph } from '@teambit/base-ui.text.paragraph';
-import { text, alignItems } from '@teambit/base-ui.layout.align';
-import { Grid } from '@teambit/base-ui.layout.grid-component';
-import { fourWayGrid } from '@teambit/base-ui.layout.grid-presets.four-way-grid';
+import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
+import { text, alignItems } from '@teambit/base-ui-temp.layout.align';
+import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
+import { fourWayGrid } from '@teambit/base-ui-temp.layout.grid-presets.four-way-grid';
 
-import { Image } from '@teambit/evangelist-temp01.elements.image';
-import { H3 } from '@teambit/evangelist-temp01.elements.heading';
+import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H3 } from '@teambit/evangelist-temp.elements.heading';
 
 
 

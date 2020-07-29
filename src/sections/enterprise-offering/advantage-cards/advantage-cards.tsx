@@ -1,20 +1,20 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { marginCenter, text, fullWidth } from '@teambit/base-ui.layout.align';
-import { Grid } from '@teambit/base-ui.layout.grid-component';
-import { textColumn } from '@teambit/base-ui.layout.page-frame';
-import { Card } from '@teambit/base-ui.surfaces.card';
-import { mutedText } from '@teambit/base-ui.text.muted-text';
-import { Paragraph } from '@teambit/base-ui.text.paragraph';
-import { themedText } from '@teambit/base-ui.text.themed-text';
-import { colorPalette } from '@teambit/base-ui.theme.color-palette';
-import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { marginCenter, text, fullWidth } from '@teambit/base-ui-temp.layout.align';
+import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
+import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { Card } from '@teambit/base-ui-temp.surfaces.card';
+import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
+import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
+import { themedText } from '@teambit/base-ui-temp.text.themed-text';
+import { colorPalette } from '@teambit/base-ui-temp.theme.color-palette';
+import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
 
-import { Button } from '@teambit/evangelist-temp01.elements.button';
-import { H2, H4 } from '@teambit/evangelist-temp01.elements.heading';
-import { Icon } from '@teambit/evangelist-temp01.elements.icon';
-import { Link } from '@teambit/evangelist-temp01.elements.link';
+import { Button } from '@teambit/evangelist-temp.elements.button';
+import { H2, H4 } from '@teambit/evangelist-temp.elements.heading';
+import { Icon } from '@teambit/evangelist-temp.elements.icon';
+import { Link } from '@teambit/evangelist-temp.elements.link';
 
 import styles from './advantage-cards.module.scss';
 

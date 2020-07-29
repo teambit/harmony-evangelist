@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 import styles from './twitter-link.module.scss';
 
-import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist-temp01.marketing.community-links.community-link';
-import { Icon } from '@teambit/evangelist-temp01.elements.icon';
+import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist-temp.marketing.community-links.community-link';
+import { Icon } from '@teambit/evangelist-temp.elements.icon';
 
 /**
  * Concrete link to a Twitter account. Styled as a 'pill' button, with the Twitter logo

@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Containee, ContaineeProps } from '@teambit/base-ui.surfaces.abs-container';
+import { Containee, ContaineeProps } from '@teambit/base-ui-temp.surfaces.abs-container';
 
 import styles from './arrow.module.scss';
 import positionStyles from './arrow-position.module.scss';

@@ -1,20 +1,20 @@
 import classNames from 'classnames';
 import React, { HTMLAttributes } from 'react';
 
-import { alignItems } from '@teambit/base-ui.layout.align';
-import { Grid } from '@teambit/base-ui.layout.grid-component';
-import { mutedText } from '@teambit/base-ui.text.muted-text';
-import { themedText } from '@teambit/base-ui.text.themed-text';
-import { colorPalette } from '@teambit/base-ui.theme.color-palette';
-import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { alignItems } from '@teambit/base-ui-temp.layout.align';
+import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
+import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
+import { themedText } from '@teambit/base-ui-temp.text.themed-text';
+import { colorPalette } from '@teambit/base-ui-temp.theme.color-palette';
+import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
 
-import { H2 } from '@teambit/evangelist-temp01.elements.heading';
-import { Icon } from '@teambit/evangelist-temp01.elements.icon';
-import { Image } from '@teambit/evangelist-temp01.elements.image';
-import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { Icon } from '@teambit/evangelist-temp.elements.icon';
+import { Image } from '@teambit/evangelist-temp.elements.image';
+import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
 
 import styles from './component-analytics.module.scss';
-import { margin } from '@teambit/evangelist-temp01.layout.experimental.spacing';
+import { margin } from '@teambit/evangelist-temp.layout.experimental.spacing';
 
 /**
  * A section showing Bit's analytical abilities.<br/>

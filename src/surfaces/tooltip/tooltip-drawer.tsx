@@ -1,11 +1,11 @@
 import React from 'react';
-import { Drawer, DrawerProps } from '@teambit/base-ui.surfaces.drawer';
+import { Drawer, DrawerProps } from '@teambit/base-ui-temp.surfaces.drawer';
 import classNames from 'classnames';
 
-import { fadeInOutClass } from '@teambit/evangelist-temp01.css-components.fade-in-out';
+import { fadeInOutClass } from '@teambit/evangelist-temp.css-components.fade-in-out';
 import { TooltipMenu } from './tooltip-card';
-import { Position } from '@teambit/base-ui.surfaces.abs-container';
-import { ElevationHeight } from '@teambit/base-ui.css-components.elevation';
+import { Position } from '@teambit/base-ui-temp.surfaces.abs-container';
+import { ElevationHeight } from '@teambit/base-ui-temp.css-components.elevation';
 import { Arrow } from './tooltip-arrow';
 import styles from './tooltip-drawer.module.scss';
 

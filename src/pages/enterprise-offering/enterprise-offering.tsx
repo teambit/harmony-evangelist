@@ -1,20 +1,20 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { centerColumn, textColumn } from '@teambit/base-ui.layout.page-frame';
-import { marginCenter, text } from '@teambit/base-ui.layout.align';
-import { backgrounds } from '@teambit/base-ui.surfaces.background';
+import { centerColumn, textColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { marginCenter, text } from '@teambit/base-ui-temp.layout.align';
+import { backgrounds } from '@teambit/base-ui-temp.surfaces.background';
 
-import { Hero } from '@teambit/evangelist-temp01.sections.enterprise-offering.hero/hero';
-import { PoweringEnterprise } from '@teambit/evangelist-temp01.sections.enterprise-offering.powering-enterprise/powering-enterprise';
-import { AdvantageCards } from '@teambit/evangelist-temp01.sections.enterprise-offering.advantage-cards';
-import { Reliability } from '@teambit/evangelist-temp01.sections.enterprise-offering.reliability/reliability';
-import { EcoSystem } from '@teambit/evangelist-temp01.sections.enterprise-offering.eco-system/eco-system';
-import { Integrations } from '@teambit/evangelist-temp01.sections.enterprise-offering.integrations/integrations';
-import { ComponentAnalytics } from '@teambit/evangelist-temp01.sections.enterprise-offering.component-analytics/component-analytics';
-import { ExpertSupport } from '@teambit/evangelist-temp01.sections.enterprise-offering.experts-support/expert-support';
-import { SalesCta, ContactValues } from '@teambit/evangelist-temp01.sections.enterprise-offering.sales-cta';
-import { margin } from '@teambit/evangelist-temp01.layout.experimental.spacing';
+import { Hero } from '@teambit/evangelist-temp.sections.enterprise-offering.hero/hero';
+import { PoweringEnterprise } from '@teambit/evangelist-temp.sections.enterprise-offering.powering-enterprise/powering-enterprise';
+import { AdvantageCards } from '@teambit/evangelist-temp.sections.enterprise-offering.advantage-cards';
+import { Reliability } from '@teambit/evangelist-temp.sections.enterprise-offering.reliability/reliability';
+import { EcoSystem } from '@teambit/evangelist-temp.sections.enterprise-offering.eco-system/eco-system';
+import { Integrations } from '@teambit/evangelist-temp.sections.enterprise-offering.integrations/integrations';
+import { ComponentAnalytics } from '@teambit/evangelist-temp.sections.enterprise-offering.component-analytics/component-analytics';
+import { ExpertSupport } from '@teambit/evangelist-temp.sections.enterprise-offering.experts-support/expert-support';
+import { SalesCta, ContactValues } from '@teambit/evangelist-temp.sections.enterprise-offering.sales-cta';
+import { margin } from '@teambit/evangelist-temp.layout.experimental.spacing';
 
 import styles from './enterprise-offering.module.scss';
 

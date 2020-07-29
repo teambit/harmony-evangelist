@@ -14,7 +14,7 @@
     /**
      * set the default scope when there is no matching for the component in the components array.
      **/
-    "defaultScope": "teambit.evangelist-temp01",
+    "defaultScope": "teambit.evangelist-temp",
     /**
      * set the default directory when there is no matching for the component in the components array.
      **/
@@ -75,7 +75,7 @@
       },
       "@teambit/pkg": {
         "packageJson": {
-          "name": "@teambit/evangelist-temp01.{name}"
+          "name": "@teambit/evangelist-temp.{name}"
         }
       },
       "@teambit/envs": {

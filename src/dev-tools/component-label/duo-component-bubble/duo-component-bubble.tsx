@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Card } from '@teambit/base-ui.surfaces.card';
+import { Card } from '@teambit/base-ui-temp.surfaces.card';
 
 import scopeStyles from './scope-colors.module.scss';
 import { BASE_URL } from '../base-url';

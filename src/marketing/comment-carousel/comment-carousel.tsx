@@ -7,7 +7,7 @@ import ResizeObserver from 'resize-observer-polyfill';
 //@ts-ignore
 import createRef from 'react-create-ref';
 
-import { Testimonial, TestimonialObj } from '@teambit/evangelist-temp01.marketing.testimonial';
+import { Testimonial, TestimonialObj } from '@teambit/evangelist-temp.marketing.testimonial';
 import './slick-slider.module.scss';
 
 import styles from './carousel.module.scss';

@@ -1,13 +1,13 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@teambit/base-ui.text.paragraph';
-import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
-import { mutedText } from '@teambit/base-ui.text.muted-text';
+import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
 
-import { H2 } from '@teambit/evangelist-temp01.elements.heading';
-import { textColumn } from '@teambit/base-ui.layout.page-frame';
-import { marginCenter } from '@teambit/base-ui.layout.align';
+import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { marginCenter } from '@teambit/base-ui-temp.layout.align';
 
 /**
  * Title and description to the Bit integrations ecosystem.

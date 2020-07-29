@@ -1,6 +1,6 @@
 import React from 'react';
-import { staticStorageUrl } from '@teambit/base-ui.constants.storage';
-import { TestimonialObj } from '@teambit/evangelist-temp01.marketing.testimonial';
+import { staticStorageUrl } from '@teambit/base-ui-temp.constants.storage';
+import { TestimonialObj } from '@teambit/evangelist-temp.marketing.testimonial';
 
 const desc0 = () => (
 	<div>
