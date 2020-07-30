@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://docs.bit.dev/configuration
-**/ {
+**/{
   "$schema": "",
   /**
    * main configuration of the Bit workspace.
@@ -50,7 +50,7 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'npm', 'yarn', 'pnpm'
     */
-    "packageManager": "npm",
+    "packageManager": "yarn",
     /**
     * If true, then Bit will add the "--strict-peer-dependencies" option when invoking package managers.
     * This causes "bit install" to fail if there are unsatisfied peer dependencies, which is
@@ -82,6 +82,5 @@
    * this is extremely useful for upgrading, aligning and building components with a
    * new set of dependencies.
   **/
-  "@teambit/variants": {
-  }
+  "@teambit/variants": {}
 }
