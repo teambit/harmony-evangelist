@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { alignItems, text } from '@teambit/base-ui-temp.layout.align';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { alignItems, text } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
 
 import { H2 } from '@teambit/evangelist-temp.elements.heading';
 import { Link } from '@teambit/evangelist-temp.elements.link';

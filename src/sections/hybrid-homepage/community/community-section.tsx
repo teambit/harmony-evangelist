@@ -3,11 +3,11 @@ import classnames from 'classnames';
 
 import styles from './community-section.module.scss';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { alignItems, marginCenter } from '@teambit/base-ui-temp.layout.align';
-import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { alignItems, marginCenter } from '@teambit/base-ui.layout.align';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import { GithubLink } from '@teambit/evangelist-temp.marketing.community-links.github-link';
 import { links } from '@teambit/evangelist-temp.content.links';

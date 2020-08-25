@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import debounce from 'lodash.debounce';
 
 import styles from './component-highlighter.module.scss';
-import { RefTooltip } from '@teambit/base-ui-temp.placement.ref-tooltip';
+import { RefTooltip } from '@teambit/base-ui.placement.ref-tooltip';
 import { OverlayBorder } from '@teambit/evangelist-temp.dev-tools.overlay-border';
 import { VersionMap } from './content-type';
 

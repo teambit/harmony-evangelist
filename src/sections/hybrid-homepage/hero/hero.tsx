@@ -3,12 +3,12 @@ import classNames from 'classnames';
 
 import styles from './hero.module.scss'; 
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { text, marginCenter } from '@teambit/base-ui-temp.layout.align';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { links } from '@teambit/evangelist-temp.content.links';
 import { H1 } from '@teambit/evangelist-temp.elements.heading';

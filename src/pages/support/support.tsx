@@ -1,8 +1,8 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { centerColumn } from '@teambit/base-ui-temp.layout.page-frame';
-import { backgrounds } from '@teambit/base-ui-temp.surfaces.background';
+import { centerColumn } from '@teambit/base-ui.layout.page-frame';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
 import { Hero } from '@teambit/evangelist-temp.sections.support-page.hero';
 

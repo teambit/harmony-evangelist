@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { text, marginCenter } from '@teambit/base-ui-temp.layout.align';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
 import { Link } from '@teambit/evangelist-temp.elements.link';
 
 import { Button } from '@teambit/evangelist-temp.elements.button';

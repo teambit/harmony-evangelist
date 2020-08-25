@@ -1,11 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Drawer, DrawerProps } from '@teambit/base-ui-temp.surfaces.drawer';
+import { Drawer, DrawerProps } from '@teambit/base-ui.surfaces.drawer';
 
-import { Position, ContaineeProps, Containee } from '@teambit/base-ui-temp.surfaces.abs-container';
-import { elevationClass, ElevationHeight } from '@teambit/base-ui-temp.css-components.elevation';
-import { roundnessClass, Roundness } from '@teambit/base-ui-temp.css-components.roundness';
-import { backgrounds } from '@teambit/base-ui-temp.surfaces.background';
+import { Position, ContaineeProps, Containee } from '@teambit/base-ui.surfaces.abs-container';
+import { elevationClass, ElevationHeight } from '@teambit/base-ui.css-components.elevation';
+import { roundnessClass, Roundness } from '@teambit/base-ui.css-components.roundness';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 import styles from './dropdown.module.scss';
 import { fadeInOutClass } from '@teambit/evangelist-temp.css-components.fade-in-out';
 

@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Card } from '@teambit/base-ui-temp.surfaces.card';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
-import { TextSeparator } from '@teambit/base-ui-temp.text.text-separator';
-import { fullWidth, marginCenter } from '@teambit/base-ui-temp.layout.align';
+import { Card } from '@teambit/base-ui.surfaces.card';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
+import { TextSeparator } from '@teambit/base-ui.text.text-separator';
+import { fullWidth, marginCenter } from '@teambit/base-ui.layout.align';
 
 import { Button } from '@teambit/evangelist-temp.elements.button';
 import { H4 } from '@teambit/evangelist-temp.elements.heading';
@@ -14,8 +14,8 @@ import styles from './sales-cta.module.scss';
 import { margin } from '@teambit/evangelist-temp.layout.experimental.spacing';
 import { ContactForm } from './contact-form';
 import { ContactValues } from './contact-values';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { colorPalette } from '@teambit/base-ui-temp.theme.color-palette';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { colorPalette } from '@teambit/base-ui.theme.color-palette';
 
 export type EnterpriseCtaProps = {
 	/** handles form submission, with user input as a single object parameter. Return a promise to show loader */

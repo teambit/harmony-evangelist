@@ -1,10 +1,10 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
-import { marginCenter } from '@teambit/base-ui-temp.layout.align';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { marginCenter } from '@teambit/base-ui.layout.align';
 
 import { CommentCarousel } from '@teambit/evangelist-temp.marketing.comment-carousel/comment-carousel';
 import { bitTestimonials } from '@teambit/evangelist-temp.content.bit-testimonials';

@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { Card, CardProps } from '@teambit/base-ui-temp.surfaces.card';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Card, CardProps } from '@teambit/base-ui.surfaces.card';
 
 import { H3 } from '@teambit/evangelist-temp.elements.heading';
 import { Image } from '@teambit/evangelist-temp.elements.image';

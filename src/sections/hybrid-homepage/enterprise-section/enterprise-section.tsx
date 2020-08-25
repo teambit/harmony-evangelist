@@ -3,12 +3,12 @@ import classNames from 'classnames';
 
 import styles from './enterprise-section.module.scss';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
-import { text, alignItems } from '@teambit/base-ui-temp.layout.align';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { colSpanMd } from '@teambit/base-ui-temp.layout.col-span';
+import { text, alignItems } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { colSpanMd } from '@teambit/base-ui.layout.col-span';
 
 import { Image } from '@teambit/evangelist-temp.elements.image';
 import { H2, H4 } from '@teambit/evangelist-temp.elements.heading';

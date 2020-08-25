@@ -3,9 +3,9 @@ import classNames from 'classnames';
 
 import styles from './talk-to-experts.module.scss';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { justifyItems, alignItems, text, marginCenter } from '@teambit/base-ui-temp.layout.align';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { justifyItems, alignItems, text, marginCenter } from '@teambit/base-ui.layout.align';
 
 import { H2 } from '@teambit/evangelist-temp.elements.heading';
 import { Link } from '@teambit/evangelist-temp.elements.link';

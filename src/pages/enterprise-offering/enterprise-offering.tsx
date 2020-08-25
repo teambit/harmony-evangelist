@@ -1,9 +1,9 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { centerColumn, textColumn } from '@teambit/base-ui-temp.layout.page-frame';
-import { marginCenter, text } from '@teambit/base-ui-temp.layout.align';
-import { backgrounds } from '@teambit/base-ui-temp.surfaces.background';
+import { centerColumn, textColumn } from '@teambit/base-ui.layout.page-frame';
+import { marginCenter, text } from '@teambit/base-ui.layout.align';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
 import { Hero } from '@teambit/evangelist-temp.sections.enterprise-offering.hero/hero';
 import { PoweringEnterprise } from '@teambit/evangelist-temp.sections.enterprise-offering.powering-enterprise/powering-enterprise';

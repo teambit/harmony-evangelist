@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 import styles from './hybrid-homepage.module.scss';
 
-import { backgrounds } from '@teambit/base-ui-temp.surfaces.background';
-import { centerColumn, wideColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { backgrounds } from '@teambit/base-ui.surfaces.background';
+import { centerColumn, wideColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { CarouselSection } from '@teambit/evangelist-temp.sections.carousel-section';
 import { CtaSection } from '@teambit/evangelist-temp.sections.cta';

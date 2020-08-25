@@ -3,14 +3,14 @@ import classNames from 'classnames';
 
 import styles from './build-together.module.scss'; 
 
-import { fourWayGrid } from '@teambit/base-ui-temp.layout.grid-presets.four-way-grid';
+import { fourWayGrid } from '@teambit/base-ui.layout.grid-presets.four-way-grid';
 
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
-import { text, alignItems, marginCenter } from '@teambit/base-ui-temp.layout.align';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { text, alignItems, marginCenter } from '@teambit/base-ui.layout.align';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { Image } from '@teambit/evangelist-temp.elements.image';
 import { H2, H3 } from '@teambit/evangelist-temp.elements.heading';
