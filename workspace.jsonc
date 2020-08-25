@@ -6,7 +6,7 @@
   /**
    * main configuration of the Bit workspace.
   **/
-  "@teambit/workspace": {
+  "teambit.bit/workspace": {
     /**
      * applies only on bit.dev. configure the main owner of your workspace.
     **/
@@ -14,14 +14,14 @@
     /**
      * set the default scope when there is no matching for the component in the components array.
      **/
-    "defaultScope": "teambit2.evangelist-temp",
+    "defaultScope": "teambit2.evangelist",
     /**
      * set the default directory when there is no matching for the component in the components array.
      **/
     "defaultDirectory": "src/components",
     "vendorDirectory": "vendor",
     "extensions": {
-      "@teambit/dependency-resolver": {
+      "teambit.bit/dependency-resolver": {
         "policy": {
           "devDependencies": {
             "@types/mocha": "8.0.0",
@@ -32,25 +32,23 @@
           }
         }
       },
-      "@teambit/pkg": {
+      "teambit.bit/pkg": {
         "packageJson": {
-          "name": "@teambit/evangelist-temp.{name}"
+          "name": "@teambit/evangelist.{name}",
+          "private": false
         }
       },
-      "@teambit/envs": {
-        "env": "@teambit/react",
-        "config": {}
-      }
+      "teambit.bit/react": {}
     }
   },
   /**
    * main configuration for component dependency resolution.
   **/
-  "@teambit/dependency-resolver": {
+  "teambit.bit/dependency-resolver": {
     /**
      * choose the package manager for Bit to use. you can choose between 'npm', 'yarn', 'pnpm'
     */
-    "packageManager": "yarn",
+    "packageManager": "teambit.bit/pnpm",
     /**
     * If true, then Bit will add the "--strict-peer-dependencies" option when invoking package managers.
     * This causes "bit install" to fail if there are unsatisfied peer dependencies, which is
@@ -82,5 +80,5 @@
    * this is extremely useful for upgrading, aligning and building components with a
    * new set of dependencies.
   **/
-  "@teambit/variants": {}
+  "teambit.bit/variants": {}
 }
