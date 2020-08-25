@@ -1,4 +1,4 @@
-@import "~@teambit/base-ui.layout.breakpoints";
+@import "~@teambit/base-ui.layout.breakpoints/_breakpoints.scss";
 
 .text {
 	@media screen and (min-width: $br-l) {
