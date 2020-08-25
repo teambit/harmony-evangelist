@@ -6,11 +6,11 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
-import { Link } from '@teambit/evangelist-temp.elements.link';
+import { Link } from '@teambit/evangelist.elements.link';
 
-import { Button } from '@teambit/evangelist-temp.elements.button';
-import { H1 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { Button } from '@teambit/evangelist.elements.button';
+import { H1 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './hero.module.scss';
 

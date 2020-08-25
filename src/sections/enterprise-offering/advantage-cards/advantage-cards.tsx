@@ -11,10 +11,10 @@ import { themedText } from '@teambit/base-ui.text.themed-text';
 import { colorPalette } from '@teambit/base-ui.theme.color-palette';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { Button } from '@teambit/evangelist-temp.elements.button';
-import { H2, H4 } from '@teambit/evangelist-temp.elements.heading';
-import { Icon } from '@teambit/evangelist-temp.elements.icon';
-import { Link } from '@teambit/evangelist-temp.elements.link';
+import { Button } from '@teambit/evangelist.elements.button';
+import { H2, H4 } from '@teambit/evangelist.elements.heading';
+import { Icon } from '@teambit/evangelist.elements.icon';
+import { Link } from '@teambit/evangelist.elements.link';
 
 import styles from './advantage-cards.module.scss';
 

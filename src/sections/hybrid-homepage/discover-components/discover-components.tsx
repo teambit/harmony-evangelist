@@ -11,8 +11,8 @@ import { text, alignItems, marginCenter } from '@teambit/base-ui.layout.align';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
-import { H2, H3 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H2, H3 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 /**
  * @name DiscoverComponents

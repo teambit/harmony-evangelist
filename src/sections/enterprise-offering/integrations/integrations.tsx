@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './integrations.module.scss';
 

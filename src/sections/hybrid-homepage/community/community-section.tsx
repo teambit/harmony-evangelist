@@ -9,12 +9,12 @@ import { alignItems, marginCenter } from '@teambit/base-ui.layout.align';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
-import { GithubLink } from '@teambit/evangelist-temp.marketing.community-links.github-link';
-import { links } from '@teambit/evangelist-temp.content.links';
-import { SlackLink } from '@teambit/evangelist-temp.marketing.community-links.slack-link';
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
-import { TwitterLink } from '@teambit/evangelist-temp.marketing.community-links.twitter-link';
-import { TwitterCard } from '@teambit/evangelist-temp.marketing.twitter-card';
+import { GithubLink } from '@teambit/evangelist.marketing.community-links.github-link';
+import { links } from '@teambit/evangelist.content.links';
+import { SlackLink } from '@teambit/evangelist.marketing.community-links.slack-link';
+import { H2 } from '@teambit/evangelist.elements.heading';
+import { TwitterLink } from '@teambit/evangelist.marketing.community-links.twitter-link';
+import { TwitterCard } from '@teambit/evangelist.marketing.twitter-card';
 
 export type CommunitySectionProps = {
 	/**

@@ -7,11 +7,11 @@ import { mutedText } from '@teambit/base-ui.text.muted-text';
 import { TextSeparator } from '@teambit/base-ui.text.text-separator';
 import { fullWidth, marginCenter } from '@teambit/base-ui.layout.align';
 
-import { Button } from '@teambit/evangelist-temp.elements.button';
-import { H4 } from '@teambit/evangelist-temp.elements.heading';
+import { Button } from '@teambit/evangelist.elements.button';
+import { H4 } from '@teambit/evangelist.elements.heading';
 
 import styles from './sales-cta.module.scss';
-import { margin } from '@teambit/evangelist-temp.layout.experimental.spacing';
+import { margin } from '@teambit/evangelist.layout.experimental.spacing';
 import { ContactForm } from './contact-form';
 import { ContactValues } from './contact-values';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';

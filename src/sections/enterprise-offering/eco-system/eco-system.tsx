@@ -5,7 +5,7 @@ import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { H2 } from '@teambit/evangelist.elements.heading';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { marginCenter } from '@teambit/base-ui.layout.align';
 

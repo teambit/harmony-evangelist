@@ -7,8 +7,8 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
 
-import { H2, H4 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H2, H4 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './expert-support.module.scss';
 

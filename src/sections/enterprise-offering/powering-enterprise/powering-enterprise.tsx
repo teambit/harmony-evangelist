@@ -9,7 +9,7 @@ import { themedText } from '@teambit/base-ui.text.themed-text';
 import { text } from '@teambit/base-ui.layout.align';
 import { MutedText, mutedText } from '@teambit/base-ui.text.muted-text';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { H2 } from '@teambit/evangelist.elements.heading';
 
 import styles from './powering-enterprise.module.scss';
 

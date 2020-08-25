@@ -4,12 +4,12 @@ import classNames from 'classnames';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 
-import { H2, H3 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H2, H3 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './reliability.module.scss';
 import { marginCenter, text } from '@teambit/base-ui.layout.align';
-import { Link } from '@teambit/evangelist-temp.elements.link';
+import { Link } from '@teambit/evangelist.elements.link';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
 /**

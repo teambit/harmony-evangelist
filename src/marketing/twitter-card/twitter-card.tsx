@@ -6,8 +6,8 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { Card, CardProps } from '@teambit/base-ui.surfaces.card';
 
-import { H3 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H3 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './twitter-card.module.scss';
 

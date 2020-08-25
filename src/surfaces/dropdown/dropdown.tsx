@@ -7,7 +7,7 @@ import { elevationClass, ElevationHeight } from '@teambit/base-ui.css-components
 import { roundnessClass, Roundness } from '@teambit/base-ui.css-components.roundness';
 import { backgrounds } from '@teambit/base-ui.surfaces.background';
 import styles from './dropdown.module.scss';
-import { fadeInOutClass } from '@teambit/evangelist-temp.css-components.fade-in-out';
+import { fadeInOutClass } from '@teambit/evangelist.css-components.fade-in-out';
 
 export type DropdownProps = { position: Position; dropClass?: string } & DrawerProps;
 

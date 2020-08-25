@@ -10,10 +10,10 @@ import { text, alignItems } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { colSpanMd } from '@teambit/base-ui.layout.col-span';
 
-import { Image } from '@teambit/evangelist-temp.elements.image';
-import { H2, H4 } from '@teambit/evangelist-temp.elements.heading';
-import { Icon } from '@teambit/evangelist-temp.elements.icon';
-import { Link } from '@teambit/evangelist-temp.elements.link';
+import { Image } from '@teambit/evangelist.elements.image';
+import { H2, H4 } from '@teambit/evangelist.elements.heading';
+import { Icon } from '@teambit/evangelist.elements.icon';
+import { Link } from '@teambit/evangelist.elements.link';
 
 /**
  * @name EnterpriseSection

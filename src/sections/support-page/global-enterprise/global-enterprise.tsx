@@ -7,12 +7,12 @@ import { text, marginCenter } from '@teambit/base-ui.layout.align';
 import { Card, CardProps } from '@teambit/base-ui.surfaces.card';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 
-import { Button } from '@teambit/evangelist-temp.elements.button';
-import { H3, H2 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { Button } from '@teambit/evangelist.elements.button';
+import { H3, H2 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './global-enterprise.module.scss';
-import { Link } from '@teambit/evangelist-temp.elements.link';
+import { Link } from '@teambit/evangelist.elements.link';
 
 type GlobalEnterpriseProps = {} & HTMLAttributes<HTMLElement>;
 

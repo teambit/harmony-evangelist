@@ -7,8 +7,8 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { marginCenter } from '@teambit/base-ui.layout.align';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
-import { Image } from '@teambit/evangelist-temp.elements.image';
+import { H2 } from '@teambit/evangelist.elements.heading';
+import { Image } from '@teambit/evangelist.elements.image';
 
 import styles from './develop-components.module.scss';
 
