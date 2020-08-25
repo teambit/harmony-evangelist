@@ -61,23 +61,25 @@
    * new set of dependencies.
   **/
   "teambit.bit/variants": {
-    "teambit.bit/dependency-resolver": {
-      "policy": {
-        "devDependencies": {
-          "@types/mocha": "8.0.0",
-          "react": "-"
-        },
-        "peerDependencies": {
-          "react": "^15.0.0 || ^16.0.0"
+    "*": {
+      "teambit.bit/dependency-resolver": {
+        "policy": {
+          "devDependencies": {
+            "@types/mocha": "8.0.0",
+            "react": "-"
+          },
+          "peerDependencies": {
+            "react": "^15.0.0 || ^16.0.0"
+          }
         }
-      }
-    },
-    "teambit.bit/pkg": {
-      "packageJson": {
-        "name": "@teambit/evangelist.{name}",
-        "private": false
-      }
-    },
-    "teambit.bit/react": {}
+      },
+      "teambit.bit/pkg": {
+        "packageJson": {
+          "name": "@teambit/evangelist.{name}",
+          "private": false
+        }
+      },
+      "teambit.bit/react": {}
+    }
   }
 }
