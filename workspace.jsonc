@@ -74,6 +74,7 @@
         }
       },
       "teambit.bit/pkg": {
+        "packageManagerPublishArgs": ["--access public"],
         "packageJson": {
           "name": "@teambit/evangelist.{name}",
           "private": false
