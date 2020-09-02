@@ -1,25 +1,28 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "es2019", "DOM", "ES6" ,"DOM.Iterable", "ScriptHost"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noEmit": true,
+    "target": "es2015",
+    "module": "commonjs",
     "jsx": "react",
-    "isolatedModules": true
+    "declaration": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "noEmit": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true
   },
-  "include": [
-    "src"
+  "exclude": [
+    "dist"
   ]
 }

@@ -67,8 +67,8 @@ export class CommentCarousel extends PureComponent<CommentCarouselProps> {
 
 		this.setState({ slidesToShow });
 	};
-
-	handleResize = debounce(this._handleResize, 180, {
+	// TODO - fix types
+	handleResize: any = debounce(this._handleResize, 180, {
 		leading: true,
 	});
 
