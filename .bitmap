@@ -222,6 +222,30 @@
         "exported": true,
         "lanes": []
     },
+    "teambit.evangelist/elements/x-button@0.0.1": {
+        "files": [
+            {
+                "relativePath": "index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "x-button.module.scss",
+                "test": false,
+                "name": "x-button.module.scss"
+            },
+            {
+                "relativePath": "x-button.tsx",
+                "test": false,
+                "name": "x-button.tsx"
+            }
+        ],
+        "mainFile": "index.ts",
+        "rootDir": "src/elements/x-button",
+        "origin": "AUTHORED",
+        "exported": true,
+        "lanes": []
+    },
     "teambit.evangelist/input/input@0.0.3": {
         "files": [
             {
@@ -1300,5 +1324,5 @@
         "exported": true,
         "lanes": []
     },
-    "version": "14.8.9-dev.9"
+    "version": "14.8.9-local-dev"
 }
