@@ -1,0 +1,12 @@
+.xButton {
+  display: inline-flex; //fix height to be a 1:1 square
+
+  padding: 0;
+  border: none;
+  background: inherit;
+
+  color: var(--text-inactive, var(--text-muted));
+  &:hover {
+    color: var(--text-muted-highlight, var(--muted-highlight));
+  }
+}
