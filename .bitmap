@@ -222,12 +222,17 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/x-button@0.0.1": {
+    "teambit.evangelist/elements/x-button@0.0.3": {
         "files": [
             {
                 "relativePath": "index.ts",
                 "test": false,
                 "name": "index.ts"
+            },
+            {
+                "relativePath": "x-button.composition.tsx",
+                "test": false,
+                "name": "x-button.composition.tsx"
             },
             {
                 "relativePath": "x-button.module.scss",
@@ -1217,8 +1222,13 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/surfaces/dropdown@0.0.3": {
+    "teambit.evangelist/surfaces/dropdown@0.0.4": {
         "files": [
+            {
+                "relativePath": "dropdown.composition.tsx",
+                "test": false,
+                "name": "dropdown.composition.tsx"
+            },
             {
                 "relativePath": "dropdown.module.scss",
                 "test": false,
@@ -1241,7 +1251,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/surfaces/tooltip@0.0.3": {
+    "teambit.evangelist/surfaces/tooltip@0.0.4": {
         "files": [
             {
                 "relativePath": "index.ts",
@@ -1297,6 +1307,11 @@
                 "relativePath": "tooltip-drawer.tsx",
                 "test": false,
                 "name": "tooltip-drawer.tsx"
+            },
+            {
+                "relativePath": "tooltip.composition.tsx",
+                "test": false,
+                "name": "tooltip.composition.tsx"
             }
         ],
         "mainFile": "index.ts",
