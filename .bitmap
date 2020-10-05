@@ -1222,7 +1222,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/surfaces/dropdown@0.0.4": {
+    "teambit.evangelist/surfaces/dropdown@0.1.0": {
         "files": [
             {
                 "relativePath": "dropdown.composition.tsx",
@@ -1251,7 +1251,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/surfaces/tooltip@0.0.4": {
+    "teambit.evangelist/surfaces/tooltip@0.1.0": {
         "files": [
             {
                 "relativePath": "index.ts",
