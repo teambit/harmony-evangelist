@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import styles from './community-link.module.scss';
 
-import { Link, LinkProps } from '@teambit/base-ui-temp.elements.link';
+import { Link, LinkProps } from '@teambit/base-ui.elements.link';
 
 export type PrimaryLinkProps = LinkProps;
 

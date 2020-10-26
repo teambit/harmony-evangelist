@@ -7,7 +7,7 @@ import ResizeObserver from 'resize-observer-polyfill';
 //@ts-ignore
 import createRef from 'react-create-ref';
 
-import { Testimonial, TestimonialObj } from '@teambit/evangelist-temp.marketing.testimonial';
+import { Testimonial, TestimonialObj } from '@teambit/evangelist.marketing.testimonial';
 import './slick-slider.module.scss';
 
 import styles from './carousel.module.scss';
@@ -67,8 +67,8 @@ export class CommentCarousel extends PureComponent<CommentCarouselProps> {
 
 		this.setState({ slidesToShow });
 	};
-
-	handleResize = debounce(this._handleResize, 180, {
+	// TODO - fix types
+	handleResize: any = debounce(this._handleResize, 180, {
 		leading: true,
 	});
 

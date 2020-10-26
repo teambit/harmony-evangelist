@@ -1,12 +1,12 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { text, marginCenter } from '@teambit/base-ui-temp.layout.align';
-// import { centerColumn } from '@teambit/base-ui-temp.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { text, marginCenter } from '@teambit/base-ui.layout.align';
+// import { centerColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { H2 } from '@teambit/evangelist.elements.heading';
 
 import styles from './support-packages.module.scss';
 

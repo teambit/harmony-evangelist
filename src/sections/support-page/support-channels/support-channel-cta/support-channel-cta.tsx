@@ -1,12 +1,12 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { H6 } from '@teambit/evangelist-temp.elements.heading';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { H6 } from '@teambit/evangelist.elements.heading';
 
 import styles from './support-channel-cta.module.scss';
-import { mutedText } from '@teambit/base-ui-temp.text.muted-text';
+import { mutedText } from '@teambit/base-ui.text.muted-text';
 
 type ChannelButtonCtaProps = {
 	title?: string;

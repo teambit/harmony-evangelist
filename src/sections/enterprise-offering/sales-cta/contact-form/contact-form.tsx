@@ -3,11 +3,11 @@ import classNames from 'classnames';
 import { Formik, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
 
-import { fullWidth } from '@teambit/base-ui-temp.layout.align';
-import { Error } from '@teambit/base-ui-temp.input.error';
+import { fullWidth } from '@teambit/base-ui.layout.align';
+import { Error } from '@teambit/base-ui.input.error';
 
-import { Button } from '@teambit/evangelist-temp.elements.button';
-import { Input, TextArea } from '@teambit/evangelist-temp.input.input';
+import { Button } from '@teambit/evangelist.elements.button';
+import { Input, TextArea } from '@teambit/evangelist.input.input';
 
 import styles from './contact-form.module.scss';
 import { ContactValues } from '../contact-values';

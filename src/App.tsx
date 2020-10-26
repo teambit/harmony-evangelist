@@ -2,7 +2,7 @@ import React, { PureComponent /* CSSProperties */ } from 'react';
 import 'reset-css';
 import './App.css';
 
-import { Theme } from '@teambit/base-ui-temp.theme.theme-provider';
+import { Theme } from '@teambit/base-ui.theme.theme-provider';
 
 import { EvaIconFont } from './theme/icon-font';
 

@@ -3,13 +3,13 @@ import classNames from 'classnames';
 
 import styles from './cta-section.module.scss';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { Grid } from '@teambit/base-ui-temp.layout.grid-component';
-import { justifyItems, alignItems, text } from '@teambit/base-ui-temp.layout.align';
-import { Link } from '@teambit/evangelist-temp.elements.link';
-import { Button } from '@teambit/evangelist-temp.elements.button';
+import { H2 } from '@teambit/evangelist.elements.heading';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { Grid } from '@teambit/base-ui.layout.grid-component';
+import { justifyItems, alignItems, text } from '@teambit/base-ui.layout.align';
+import { Link } from '@teambit/evangelist.elements.link';
+import { Button } from '@teambit/evangelist.elements.button';
 
 type CtaProps = React.HTMLAttributes<HTMLDivElement>;
 

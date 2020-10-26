@@ -1,15 +1,15 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import { textColumn } from '@teambit/base-ui-temp.layout.page-frame';
-import { Paragraph } from '@teambit/base-ui-temp.text.paragraph';
-import { PossibleSizes } from '@teambit/base-ui-temp.theme.sizes';
-import { colorPalette } from '@teambit/base-ui-temp.theme.color-palette';
-import { themedText } from '@teambit/base-ui-temp.text.themed-text';
-import { text } from '@teambit/base-ui-temp.layout.align';
-import { MutedText, mutedText } from '@teambit/base-ui-temp.text.muted-text';
+import { textColumn } from '@teambit/base-ui.layout.page-frame';
+import { Paragraph } from '@teambit/base-ui.text.paragraph';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { themedText } from '@teambit/base-ui.text.themed-text';
+import { text } from '@teambit/base-ui.layout.align';
+import { MutedText, mutedText } from '@teambit/base-ui.text.muted-text';
 
-import { H2 } from '@teambit/evangelist-temp.elements.heading';
+import { H2 } from '@teambit/evangelist.elements.heading';
 
 import styles from './powering-enterprise.module.scss';
 

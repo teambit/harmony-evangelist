@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 import styles from './slack-link.module.scss';
 
-import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist-temp.marketing.community-links.community-link';
-import { Icon } from '@teambit/evangelist-temp.elements.icon';
+import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist.marketing.community-links.community-link';
+import { Icon } from '@teambit/evangelist.elements.icon';
 
 export type SlackLinkProps = PrimaryLinkProps;
 
