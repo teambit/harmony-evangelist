@@ -6,7 +6,7 @@
   /**
    * main configuration of the Bit workspace.
   **/
-  "teambit.bit/workspace": {
+  "teambit.workspace/workspace": {
     /**
      * applies only on bit.dev. configure the main owner of your workspace.
     **/
@@ -24,46 +24,46 @@
   /**
    * main configuration for component dependency resolution.
   **/
-  "teambit.bit/dependency-resolver": {
+  "teambit.dependencies/dependency-resolver": {
     "policy": {
       "dependencies": {
-        "@teambit/base-ui.constants.storage": "^0.4.0",
-        "@teambit/base-ui.css-components.elevation": "^0.4.0",
-        "@teambit/base-ui.css-components.pill": "^0.4.0",
-        "@teambit/base-ui.css-components.roundness": "^0.4.0",
-        "@teambit/base-ui.elements.icon": "^0.4.0",
-        "@teambit/base-ui.elements.image": "^0.4.0",
-        "@teambit/base-ui.elements.label": "^0.4.0",
-        "@teambit/base-ui.elements.link": "^0.4.0",
-        "@teambit/base-ui.elements.separator": "^0.4.0",
-        "@teambit/base-ui.geometry.curve-peek": "^0.4.0",
-        "@teambit/base-ui.input.button": "^0.4.0",
-        "@teambit/base-ui.input.error": "^0.4.0",
-        "@teambit/base-ui.layout.align": "^0.4.0",
-        "@teambit/base-ui.layout.breakpoints": "^0.4.0",
-        "@teambit/base-ui.layout.col-span": "^0.4.0",
-        "@teambit/base-ui.layout.grid-component": "^0.4.0",
-        "@teambit/base-ui.layout.grid-presets.four-way-grid": "^0.4.0",
-        "@teambit/base-ui.layout.grid-presets.z-grid": "^0.4.0",
-        "@teambit/base-ui.layout.page-frame": "^0.4.0",
-        "@teambit/base-ui.placement.ref-tooltip": "^0.4.0",
-        "@teambit/base-ui.surfaces.abs-container": "^0.4.0",
-        "@teambit/base-ui.surfaces.background": "^0.4.0",
-        "@teambit/base-ui.surfaces.bedrock": "^0.4.0",
-        "@teambit/base-ui.surfaces.card": "^0.4.0",
-        "@teambit/base-ui.surfaces.drawer": "^0.4.0",
-        "@teambit/base-ui.text.heading": "^0.4.0",
-        "@teambit/base-ui.text.muted-text": "^0.4.0",
-        "@teambit/base-ui.text.paragraph": "^0.4.0",
-        "@teambit/base-ui.text.text-separator": "^0.4.0",
-        "@teambit/base-ui.text.themed-text": "^0.4.0",
-        "@teambit/base-ui.theme.color-palette": "^0.4.0",
-        "@teambit/base-ui.theme.colors": "^0.4.0",
-        "@teambit/base-ui.theme.fonts.book": "^0.4.0",
-        "@teambit/base-ui.theme.sizes": "^0.4.0",
-        "@teambit/base-ui.theme.theme-provider": "^0.4.0",
-        "@teambit/base-ui.utils.popper-js.ignore-popper-size": "^0.4.0",
-        "@teambit/base-ui.utils.popper-js.resize-to-match-reference": "^0.4.0",
+        "@teambit/base-ui.constants.storage": "^0.5.2",
+        "@teambit/base-ui.css-components.elevation": "^0.5.2",
+        "@teambit/base-ui.css-components.pill": "^0.5.2",
+        "@teambit/base-ui.css-components.roundness": "^0.5.2",
+        "@teambit/base-ui.elements.icon": "^0.5.2",
+        "@teambit/base-ui.elements.image": "^0.5.2",
+        "@teambit/base-ui.elements.label": "^0.5.2",
+        "@teambit/base-ui.elements.link": "^0.5.2",
+        "@teambit/base-ui.elements.separator": "^0.5.2",
+        "@teambit/base-ui.geometry.curve-peek": "^0.5.2",
+        "@teambit/base-ui.input.button": "^0.5.2",
+        "@teambit/base-ui.input.error": "^0.5.2",
+        "@teambit/base-ui.layout.align": "^0.5.2",
+        "@teambit/base-ui.layout.breakpoints": "^0.5.2",
+        "@teambit/base-ui.layout.col-span": "^0.5.2",
+        "@teambit/base-ui.layout.grid-component": "^0.5.2",
+        "@teambit/base-ui.layout.grid-presets.four-way-grid": "^0.5.2",
+        "@teambit/base-ui.layout.grid-presets.z-grid": "^0.5.2",
+        "@teambit/base-ui.layout.page-frame": "^0.5.2",
+        "@teambit/base-ui.placement.ref-tooltip": "^0.5.2",
+        "@teambit/base-ui.surfaces.abs-container": "^0.5.2",
+        "@teambit/base-ui.surfaces.background": "^0.5.2",
+        "@teambit/base-ui.surfaces.bedrock": "^0.5.2",
+        "@teambit/base-ui.surfaces.card": "^0.5.2",
+        "@teambit/base-ui.surfaces.drawer": "^0.5.2",
+        "@teambit/base-ui.text.heading": "^0.5.2",
+        "@teambit/base-ui.text.muted-text": "^0.5.2",
+        "@teambit/base-ui.text.paragraph": "^0.5.2",
+        "@teambit/base-ui.text.text-separator": "^0.5.2",
+        "@teambit/base-ui.text.themed-text": "^0.5.2",
+        "@teambit/base-ui.theme.color-palette": "^0.5.2",
+        "@teambit/base-ui.theme.colors": "^0.5.2",
+        "@teambit/base-ui.theme.fonts.book": "^0.5.2",
+        "@teambit/base-ui.theme.sizes": "^0.5.2",
+        "@teambit/base-ui.theme.theme-provider": "^0.5.2",
+        "@teambit/base-ui.utils.popper-js.ignore-popper-size": "^0.5.2",
+        "@teambit/base-ui.utils.popper-js.resize-to-match-reference": "^0.5.2",
         "@bit/bit.javascript.component.id": "^1.1.5",
         "@popperjs/core": "~2.4.4",
         "@testing-library/jest-dom": "^5.11.1",
@@ -102,7 +102,7 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'npm', 'yarn', 'pnpm'
     */
-    "packageManager": "teambit.bit/pnpm",
+    "packageManager": "teambit.dependencies/pnpm",
     /**
     * If true, then Bit will add the "--strict-peer-dependencies" option when invoking package managers.
     * This causes "bit install" to fail if there are unsatisfied peer dependencies, which is
@@ -134,18 +134,16 @@
    * this is extremely useful for upgrading, aligning and building components with a
    * new set of dependencies.
   **/
-  "teambit.bit/variants": {
+  "teambit.workspace/variants": {
     "*": {
-      "teambit.bit/pkg": {
-        "packageManagerPublishArgs": [
-          "--access public"
-        ],
+      "teambit.pkg/pkg": {
+        "packageManagerPublishArgs": ["--access public"],
         "packageJson": {
           "name": "@teambit/evangelist.{name}",
           "private": false
         }
       },
-      "teambit.bit/react": {}
+      "teambit.react/react": {}
     }
   }
 }
