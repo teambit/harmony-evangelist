@@ -472,7 +472,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/enterprise-offering@0.5.4": {
+    "teambit.evangelist/pages/enterprise-offering@0.5.5": {
         "files": [
             {
                 "name": "enterprise-offering.module.scss",
@@ -520,7 +520,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/support@0.5.4": {
+    "teambit.evangelist/pages/support@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -712,7 +712,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.5": {
         "files": [
             {
                 "name": "advantage-cards.module.scss",
@@ -736,7 +736,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.5": {
         "files": [
             {
                 "name": "component-analytics.module.scss",
@@ -760,7 +760,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.5": {
         "files": [
             {
                 "name": "eco-system.tsx",
@@ -779,7 +779,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.5": {
         "files": [
             {
                 "name": "expert-support.module.scss",
@@ -851,7 +851,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -875,7 +875,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/reliability@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/reliability@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -899,7 +899,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/sales-cta@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/sales-cta@0.5.5": {
         "files": [
             {
                 "name": "contact-form.module.scss",
@@ -1063,7 +1063,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/hero@0.5.4": {
+    "teambit.evangelist/sections/support-page/hero@0.5.5": {
         "files": [
             {
                 "name": "hero.module.scss",
@@ -1087,7 +1087,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-channels@0.5.4": {
+    "teambit.evangelist/sections/support-page/support-channels@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
