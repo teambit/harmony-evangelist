@@ -41,14 +41,9 @@ importers:
       '@teambit/base-ui.utils.popper-js.resize-to-match-reference': registry.npmjs.org/@teambit/base-ui.utils.popper-js.resize-to-match-reference/0.5.9_react-dom@16.14.0+react@16.14.0
       '@testing-library/jest-dom': registry.npmjs.org/@testing-library/jest-dom/5.11.6
       '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/12.6.0
-      '@types/chai': registry.npmjs.org/@types/chai/4.2.14
-      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
-      '@types/lodash.debounce': registry.npmjs.org/@types/lodash.debounce/4.0.6
       '@types/mocha': registry.npmjs.org/@types/mocha/8.2.0
       '@types/react-dom': registry.npmjs.org/@types/react-dom/16.9.10
-      '@types/react-slick': registry.npmjs.org/@types/react-slick/0.23.4
       '@types/sinon': registry.npmjs.org/@types/sinon/9.0.9
-      '@types/yup': registry.npmjs.org/@types/yup/0.29.11
       classnames: registry.npmjs.org/classnames/2.2.6
       eslint-plugin-chai-friendly: registry.npmjs.org/eslint-plugin-chai-friendly/0.6.0
       formik: registry.npmjs.org/formik/2.2.6_react@16.14.0
@@ -70,10 +65,15 @@ importers:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.5
       '@teambit/base-ui.theme.theme-provider': registry.npmjs.org/@teambit/base-ui.theme.theme-provider/0.5.9_react-dom@16.14.0+react@16.14.0
       '@testing-library/react': registry.npmjs.org/@testing-library/react/10.4.9_react-dom@16.14.0+react@16.14.0
+      '@types/chai': registry.npmjs.org/@types/chai/4.2.14
+      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       '@types/jest': registry.npmjs.org/@types/jest/26.0.19
+      '@types/lodash.debounce': registry.npmjs.org/@types/lodash.debounce/4.0.6
       '@types/node': registry.npmjs.org/@types/node/12.19.9
       '@types/react': registry.npmjs.org/@types/react/16.9.43
       '@types/react-router-dom': registry.npmjs.org/@types/react-router-dom/5.1.6
+      '@types/react-slick': registry.npmjs.org/@types/react-slick/0.23.4
+      '@types/yup': registry.npmjs.org/@types/yup/0.29.11
       chai: registry.npmjs.org/chai/4.2.0
       core-js: registry.npmjs.org/core-js/3.8.1
     specifiers:
@@ -3482,7 +3482,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.11.0.tgz'
     version: 7.11.0
   registry.npmjs.org/@types/chai/4.2.14:
-    dev: false
+    dev: true
     name: '@types/chai'
     resolution:
       integrity: sha512-G+ITQPXkwTrslfG5L/BksmbLUA0M1iybEsmCWPqzSxsRRhJZimBKJkoMi8fr/CPygPTj4zO5pJH7I2/cm9M7SQ==
@@ -3490,7 +3490,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/chai/-/chai-4.2.14.tgz'
     version: 4.2.14
   registry.npmjs.org/@types/classnames/2.2.11:
-    dev: false
+    dev: true
     name: '@types/classnames'
     resolution:
       integrity: sha512-2koNhpWm3DgWRp5tpkiJ8JGc1xTn2q0l+jUNUE7oMKXUf5NpI9AIdC4kbjGNFBdHtcxBD18LAksoudAVhFKCjw==
@@ -3581,7 +3581,7 @@ packages:
   registry.npmjs.org/@types/lodash.debounce/4.0.6:
     dependencies:
       '@types/lodash': registry.npmjs.org/@types/lodash/4.14.165
-    dev: false
+    dev: true
     name: '@types/lodash.debounce'
     resolution:
       integrity: sha512-4WTmnnhCfDvvuLMaF3KV4Qfki93KebocUF45msxhYyjMttZDQYzHkO639ohhk8+oco2cluAFL3t5+Jn4mleylQ==
@@ -3589,7 +3589,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/lodash.debounce/-/lodash.debounce-4.0.6.tgz'
     version: 4.0.6
   registry.npmjs.org/@types/lodash/4.14.165:
-    dev: false
+    dev: true
     name: '@types/lodash'
     resolution:
       integrity: sha512-tjSSOTHhI5mCHTy/OOXYIhi2Wt1qcbHmuXD1Ha7q70CgI/I71afO4XtLb/cVexki1oVYchpul/TOuu3Arcdxrg==
@@ -3678,7 +3678,7 @@ packages:
   registry.npmjs.org/@types/react-slick/0.23.4:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/16.9.43
-    dev: false
+    dev: true
     name: '@types/react-slick'
     resolution:
       integrity: sha512-vXoIy4GUfB7/YgqubR4H7RALo+pRdMYCeLgWwV3MPwl5pggTlEkFBTF19R7u+LJc85uMqC7RfsbkqPLMQ4ab+A==
@@ -3758,7 +3758,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/yargs/-/yargs-15.0.12.tgz'
     version: 15.0.12
   registry.npmjs.org/@types/yup/0.29.11:
-    dev: false
+    dev: true
     name: '@types/yup'
     resolution:
       integrity: sha512-9cwk3c87qQKZrT251EDoibiYRILjCmxBvvcb4meofCmx1vdnNcR9gyildy5vOHASpOKMsn42CugxUvcwK5eu1g==

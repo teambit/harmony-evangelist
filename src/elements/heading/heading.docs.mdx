@@ -1,0 +1,45 @@
+---
+labels: ['react', 'typescript', 'heading']
+description: 'heading component'
+---
+
+import { H1, H2, H3, H4, H5, H6 } from './heading';
+import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
+export const examples = [
+    {
+      scope: {
+        H1
+      },
+      title: 'H1 example:',
+      description: '',
+      code:`<H1>Title</H1>`
+    },
+    {
+      scope: {
+        H2
+      },
+      title: 'H2 example:',
+      description: '',
+      code:`<H2>Title</H2>`
+    },
+    {
+      scope: {
+        H2, PossibleSizes
+      },
+      title: 'H2 with size prop example:',
+      description: 'smaller H2 overridden with the size prop',
+      code:`<H2 size={PossibleSizes.md}>Title</H2>`
+    },
+]
+
+## Heading
+
+A set of concrete heading for the Evangelist homepage.
+H1, H2, H3, H4, H5, H6.  
+Each header is equivalent to its html element (e.g. `<H1/>` is `<h1/>`, etc).
+
+## Size
+
+To keep a consistent look to the site, headers come in a limited set of sizes.  
+While each header corresponds to a default font-size, it can be overridden using the size prop.  
+`import { PossibleSizes } from '@teambit/base-ui.theme.sizes';`

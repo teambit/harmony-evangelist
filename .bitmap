@@ -58,8 +58,18 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/button@0.5.4": {
+    "teambit.evangelist/elements/button@0.5.5": {
         "files": [
+            {
+                "name": "button.composition.tsx",
+                "relativePath": "button.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "button.docs.mdx",
+                "relativePath": "button.docs.mdx",
+                "test": false
+            },
             {
                 "name": "button.module.scss",
                 "relativePath": "button.module.scss",
@@ -92,13 +102,8 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/heading@0.5.4": {
+    "teambit.evangelist/elements/heading@0.5.5": {
         "files": [
-            {
-                "name": "README.md",
-                "relativePath": "README.md",
-                "test": false
-            },
             {
                 "name": "heading-margins.module.scss",
                 "relativePath": "heading-margins.module.scss",
@@ -110,8 +115,23 @@
                 "test": false
             },
             {
+                "name": "heading.composition.tsx",
+                "relativePath": "heading.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "heading.docs.mdx",
+                "relativePath": "heading.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "heading.module.scss",
                 "relativePath": "heading.module.scss",
+                "test": false
+            },
+            {
+                "name": "heading.spec.tsx",
+                "relativePath": "heading.spec.tsx",
                 "test": false
             },
             {
@@ -448,7 +468,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/marketing/twitter-card@0.5.4": {
+    "teambit.evangelist/marketing/twitter-card@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -472,7 +492,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/enterprise-offering@0.5.5": {
+    "teambit.evangelist/pages/enterprise-offering@0.5.6": {
         "files": [
             {
                 "name": "enterprise-offering.module.scss",
@@ -496,7 +516,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/hybrid-homepage@0.5.4": {
+    "teambit.evangelist/pages/hybrid-homepage@0.5.5": {
         "files": [
             {
                 "name": "hybrid-homepage.module.scss",
@@ -520,7 +540,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/support@0.5.5": {
+    "teambit.evangelist/pages/support@0.5.6": {
         "files": [
             {
                 "name": "index.ts",
@@ -544,7 +564,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/build-together@0.5.4": {
+    "teambit.evangelist/sections/build-together@0.5.5": {
         "files": [
             {
                 "name": "build-together.module.scss",
@@ -568,7 +588,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/carousel-section@0.5.4": {
+    "teambit.evangelist/sections/carousel-section@0.5.5": {
         "files": [
             {
                 "name": "carouselSection.module.scss",
@@ -592,7 +612,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/community@0.5.4": {
+    "teambit.evangelist/sections/community@0.5.5": {
         "files": [
             {
                 "name": "community-section.module.scss",
@@ -616,7 +636,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/component-advantages@0.5.4": {
+    "teambit.evangelist/sections/component-advantages@0.5.5": {
         "files": [
             {
                 "name": "component-advantages.module.scss",
@@ -640,7 +660,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/cta@0.5.4": {
+    "teambit.evangelist/sections/cta@0.5.5": {
         "files": [
             {
                 "name": "cta-section.module.scss",
@@ -664,7 +684,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/develop-components@0.5.4": {
+    "teambit.evangelist/sections/develop-components@0.5.5": {
         "files": [
             {
                 "name": "develop-components.module.scss",
@@ -688,7 +708,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/discover-components@0.5.4": {
+    "teambit.evangelist/sections/discover-components@0.5.5": {
         "files": [
             {
                 "name": "discover-components.module.scss",
@@ -712,7 +732,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.6": {
         "files": [
             {
                 "name": "advantage-cards.module.scss",
@@ -736,7 +756,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.6": {
         "files": [
             {
                 "name": "component-analytics.module.scss",
@@ -760,7 +780,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.6": {
         "files": [
             {
                 "name": "eco-system.tsx",
@@ -779,7 +799,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.6": {
         "files": [
             {
                 "name": "expert-support.module.scss",
@@ -803,7 +823,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/hero@0.5.4": {
+    "teambit.evangelist/sections/enterprise-offering/hero@0.5.5": {
         "files": [
             {
                 "name": "hero.module.scss",
@@ -851,7 +871,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.6": {
         "files": [
             {
                 "name": "index.ts",
@@ -875,7 +895,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/reliability@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/reliability@0.5.6": {
         "files": [
             {
                 "name": "index.ts",
@@ -899,7 +919,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/sales-cta@0.5.5": {
+    "teambit.evangelist/sections/enterprise-offering/sales-cta@0.5.6": {
         "files": [
             {
                 "name": "contact-form.module.scss",
@@ -943,7 +963,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-section@0.5.4": {
+    "teambit.evangelist/sections/enterprise-section@0.5.5": {
         "files": [
             {
                 "name": "enterprise-section.module.scss",
@@ -967,7 +987,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/hero@0.5.4": {
+    "teambit.evangelist/sections/hero@0.5.5": {
         "files": [
             {
                 "name": "hero.module.scss",
@@ -991,7 +1011,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/independent-teams@0.5.4": {
+    "teambit.evangelist/sections/independent-teams@0.5.5": {
         "files": [
             {
                 "name": "independent-teams.module.scss",
@@ -1015,7 +1035,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/reuse-components@0.5.4": {
+    "teambit.evangelist/sections/reuse-components@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -1039,7 +1059,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/global-enterprise@0.5.4": {
+    "teambit.evangelist/sections/support-page/global-enterprise@0.5.5": {
         "files": [
             {
                 "name": "global-enterprise.module.scss",
@@ -1063,7 +1083,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/hero@0.5.5": {
+    "teambit.evangelist/sections/support-page/hero@0.5.6": {
         "files": [
             {
                 "name": "hero.module.scss",
@@ -1087,7 +1107,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-channels@0.5.5": {
+    "teambit.evangelist/sections/support-page/support-channels@0.5.6": {
         "files": [
             {
                 "name": "index.ts",
@@ -1126,7 +1146,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-cta@0.5.4": {
+    "teambit.evangelist/sections/support-page/support-cta@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -1150,7 +1170,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-developers@0.5.4": {
+    "teambit.evangelist/sections/support-page/support-developers@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -1174,7 +1194,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-packages@0.5.4": {
+    "teambit.evangelist/sections/support-page/support-packages@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -1198,7 +1218,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/talk-to-experts@0.5.4": {
+    "teambit.evangelist/sections/talk-to-experts@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
