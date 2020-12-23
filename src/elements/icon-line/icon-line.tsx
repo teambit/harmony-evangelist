@@ -9,7 +9,7 @@ const staticPrefix = 'brands';
 
 type IconLineProps = {
 	/**
-	 * Array of icon urls to display.  
+	 * Array of icon urls to display.
 	 * Icons are expected to load from our Static Storage CDN, and not have full URL.
 	 */
 	icons?: string[];
@@ -18,13 +18,6 @@ type IconLineProps = {
 	 */
 	pre?: ReactNode;
 } & HTMLAttributes<HTMLDivElement>;
-
-/**
- * A concrete line of icons, used by the landing section.
- * @name IconLine
- * @example
- * <IconLine icons=['logo-react', 'logo-vue', 'logo-angular'] />
- */
 
 export function IconLine({ icons, className, pre }: IconLineProps) {
 	if (!icons) return null;

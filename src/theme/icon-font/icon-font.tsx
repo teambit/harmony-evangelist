@@ -4,7 +4,7 @@ const EMBED_LINK = 'https://s3.amazonaws.com/icomoon.io/158286/Bit/style.css';
 
 export type EvaIconFontProps = {
 	/** query id for cache busting (copy this from Icomoon's _production_ link) */
-	query: string;
+	query?: string;
 } & React.LinkHTMLAttributes<HTMLLinkElement>;
 
 /**
