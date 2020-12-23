@@ -1,0 +1,25 @@
+---
+labels: ['react', 'typescript', 'link']
+description: 'concrete link component'
+---
+
+import { Link } from './link';
+export const examples = [
+    {
+      scope: {
+        Link
+      },
+      title: 'Link with external prop example:',
+      description: 'Link with target blank',
+      code:`<Link href="https://google.com" external>look it up!</Link>`
+    },
+]
+
+### Overview
+
+A concrete link, styled for Evangelist, extending [base link](https://bit.dev/teambit/base-ui/elements/link).  
+Accepts all props as html Anchor Element.  
+
+The link will use these css variables, when available:  
+`--primary-link-color`, or `--base-color`, for text color.  
+`--primary-link-highlight`, or `--base-highlight`, for text color on hover.
