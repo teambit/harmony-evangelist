@@ -7,9 +7,9 @@ import styles from './x-button.module.scss';
 export type XButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function XButton(props: XButtonProps) {
-  return (
-    <button {...props} className={classnames(styles.xButton, props.className)}>
-      <Icon of="x-close" />
-    </button>
-  );
+	return (
+		<button {...props} className={classnames(styles.xButton, props.className)}>
+			<Icon of="x-close" />
+		</button>
+	);
 }

@@ -1,0 +1,26 @@
+---
+labels: ['react', 'typescript', 'image']
+description: 'concrete image component'
+---
+
+import { Image } from './image';
+export const examples = [
+    {
+      scope: {
+        Image
+      },
+      title: 'Image example:',
+      description: '',
+      code:`<Image
+        src="homepage-bit/map.png"
+        data-testid="test-img"
+        alt="alt world"
+        style={{ width: 500 }}
+      />`
+    },
+]
+
+### Overview
+
+Concrete image, using our Static Storage CDN.  
+Treats src as relative paths on top of our image storage, and supports all other properties an html `<img>` would.

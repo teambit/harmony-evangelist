@@ -227,6 +227,16 @@
     "teambit.evangelist/elements/image@0.5.4": {
         "files": [
             {
+                "name": "image.composition.tsx",
+                "relativePath": "image.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "image.docs.mdx",
+                "relativePath": "image.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "image.spec.tsx",
                 "relativePath": "image.spec.tsx",
                 "test": false
@@ -256,8 +266,23 @@
                 "test": false
             },
             {
+                "name": "link.composition.tsx",
+                "relativePath": "link.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "link.docs.mdx",
+                "relativePath": "link.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "link.module.scss",
                 "relativePath": "link.module.scss",
+                "test": false
+            },
+            {
+                "name": "link.spec.tsx",
+                "relativePath": "link.spec.tsx",
                 "test": false
             },
             {
@@ -285,8 +310,18 @@
                 "test": false
             },
             {
+                "name": "x-button.docs.mdx",
+                "relativePath": "x-button.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "x-button.module.scss",
                 "relativePath": "x-button.module.scss",
+                "test": false
+            },
+            {
+                "name": "x-button.spec.tsx",
+                "relativePath": "x-button.spec.tsx",
                 "test": false
             },
             {
