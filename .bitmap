@@ -151,7 +151,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/icon-line@0.5.4": {
+    "teambit.evangelist/elements/icon-line@0.5.5": {
         "files": [
             {
                 "name": "icon-line.composition.tsx",
@@ -190,7 +190,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/icon@0.5.4": {
+    "teambit.evangelist/elements/icon@0.5.5": {
         "files": [
             {
                 "name": "icon.composition.tsx",
@@ -272,7 +272,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/elements/x-button@0.5.4": {
+    "teambit.evangelist/elements/x-button@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -397,7 +397,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/marketing/community-links/github-link@0.5.4": {
+    "teambit.evangelist/marketing/community-links/github-link@0.5.5": {
         "files": [
             {
                 "name": "github-link.module.scss",
@@ -421,7 +421,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/marketing/community-links/slack-link@0.5.4": {
+    "teambit.evangelist/marketing/community-links/slack-link@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -445,7 +445,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/marketing/community-links/twitter-link@0.5.4": {
+    "teambit.evangelist/marketing/community-links/twitter-link@0.5.5": {
         "files": [
             {
                 "name": "index.ts",
@@ -522,7 +522,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/enterprise-offering@0.5.6": {
+    "teambit.evangelist/pages/enterprise-offering@0.5.7": {
         "files": [
             {
                 "name": "enterprise-offering.module.scss",
@@ -546,7 +546,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/hybrid-homepage@0.5.5": {
+    "teambit.evangelist/pages/hybrid-homepage@0.5.6": {
         "files": [
             {
                 "name": "hybrid-homepage.module.scss",
@@ -570,7 +570,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/pages/support@0.5.6": {
+    "teambit.evangelist/pages/support@0.5.7": {
         "files": [
             {
                 "name": "index.ts",
@@ -642,7 +642,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/community@0.5.5": {
+    "teambit.evangelist/sections/community@0.5.6": {
         "files": [
             {
                 "name": "community-section.module.scss",
@@ -762,7 +762,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.6": {
+    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.7": {
         "files": [
             {
                 "name": "advantage-cards.module.scss",
@@ -786,7 +786,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.6": {
+    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.7": {
         "files": [
             {
                 "name": "component-analytics.module.scss",
@@ -993,7 +993,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/enterprise-section@0.5.5": {
+    "teambit.evangelist/sections/enterprise-section@0.5.6": {
         "files": [
             {
                 "name": "enterprise-section.module.scss",
@@ -1017,7 +1017,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/hero@0.5.5": {
+    "teambit.evangelist/sections/hero@0.5.6": {
         "files": [
             {
                 "name": "hero.module.scss",
@@ -1137,7 +1137,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/sections/support-page/support-channels@0.5.6": {
+    "teambit.evangelist/sections/support-page/support-channels@0.5.7": {
         "files": [
             {
                 "name": "index.ts",
@@ -1370,7 +1370,7 @@
         "exported": true,
         "lanes": []
     },
-    "teambit.evangelist/theme/icon-font@0.5.4": {
+    "teambit.evangelist/theme/icon-font@0.5.5": {
         "files": [
             {
                 "name": "icon-font.tsx",
