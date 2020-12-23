@@ -154,8 +154,23 @@
     "teambit.evangelist/elements/icon-line@0.5.4": {
         "files": [
             {
+                "name": "icon-line.composition.tsx",
+                "relativePath": "icon-line.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "icon-line.docs.mdx",
+                "relativePath": "icon-line.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "icon-line.module.scss",
                 "relativePath": "icon-line.module.scss",
+                "test": false
+            },
+            {
+                "name": "icon-line.spec.tsx",
+                "relativePath": "icon-line.spec.tsx",
                 "test": false
             },
             {
@@ -177,6 +192,21 @@
     },
     "teambit.evangelist/elements/icon@0.5.4": {
         "files": [
+            {
+                "name": "icon.composition.tsx",
+                "relativePath": "icon.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "icon.docs.mdx",
+                "relativePath": "icon.docs.mdx",
+                "test": false
+            },
+            {
+                "name": "icon.spec.tsx",
+                "relativePath": "icon.spec.tsx",
+                "test": false
+            },
             {
                 "name": "icon.tsx",
                 "relativePath": "icon.tsx",
