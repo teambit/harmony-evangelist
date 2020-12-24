@@ -575,8 +575,23 @@
     "teambit.evangelist/pages/enterprise-offering@0.5.8": {
         "files": [
             {
+                "name": "enterprise-offering.composition.tsx",
+                "relativePath": "enterprise-offering.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "enterprise-offering.docs.mdx",
+                "relativePath": "enterprise-offering.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "enterprise-offering.module.scss",
                 "relativePath": "enterprise-offering.module.scss",
+                "test": false
+            },
+            {
+                "name": "enterprise-offering.spec.tsx",
+                "relativePath": "enterprise-offering.spec.tsx",
                 "test": false
             },
             {
@@ -598,6 +613,16 @@
     },
     "teambit.evangelist/pages/hybrid-homepage@0.5.7": {
         "files": [
+            {
+                "name": "hybrid-homepage.composition.tsx",
+                "relativePath": "hybrid-homepage.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "hybrid-homepage.docs.mdx",
+                "relativePath": "hybrid-homepage.docs.mdx",
+                "test": false
+            },
             {
                 "name": "hybrid-homepage.module.scss",
                 "relativePath": "hybrid-homepage.module.scss",
@@ -628,8 +653,23 @@
                 "test": false
             },
             {
+                "name": "support.composition.tsx",
+                "relativePath": "support.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "support.docs.mdx",
+                "relativePath": "support.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "support.module.scss",
                 "relativePath": "support.module.scss",
+                "test": false
+            },
+            {
+                "name": "support.spec.tsx",
+                "relativePath": "support.spec.tsx",
                 "test": false
             },
             {

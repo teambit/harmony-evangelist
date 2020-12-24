@@ -4,7 +4,7 @@ import { Input, TextArea } from './input';
 
 export const InputExample = () => (
 	<Theme>
-		<Input error={false} data-testid="test-input" />
+		<Input error={false} placeholder="enter text..." data-testid="test-input" />
 	</Theme>
 );
 
@@ -16,7 +16,7 @@ export const InputWithError = () => (
 
 export const TextAreaExample = () => (
 	<Theme>
-		<TextArea error={false} data-testid="test-textarea" />
+		<TextArea error={false} placeholder="multiline text..." data-testid="test-textarea" />
 	</Theme>
 );
 
