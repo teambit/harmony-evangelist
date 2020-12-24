@@ -17,10 +17,6 @@ export type SupportPageProps = {
 	table?: ReactNode;
 } & HTMLAttributes<HTMLDivElement>;
 
-/**
- * A full, responsive page, detailing Bit's offering for support.
- * @name SupportPage
- */
 export function SupportPage({ table, className, ...rest }: SupportPageProps) {
 	return (
 		<div

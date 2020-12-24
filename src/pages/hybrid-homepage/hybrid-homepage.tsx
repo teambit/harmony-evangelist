@@ -28,14 +28,6 @@ export type HybridHomepageProps = {
 	githubStars?: number;
 } & HTMLAttributes<HTMLDivElement>;
 
-/**
- * Full, responsive page, showing the many benefits of bit, in a simple application.
- *
- * Developing this component in isolation allowed us to use new technology not available in the consuming project,
- * namely TypeScript and @testing-library/react.
- * @name HybridHomepage
- */
-
 export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 	render() {
 		const {

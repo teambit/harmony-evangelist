@@ -13,7 +13,10 @@ import { EcoSystem } from '@teambit/evangelist.sections.enterprise-offering.eco-
 import { Integrations } from '@teambit/evangelist.sections.enterprise-offering.integrations/integrations';
 import { ComponentAnalytics } from '@teambit/evangelist.sections.enterprise-offering.component-analytics/component-analytics';
 import { ExpertSupport } from '@teambit/evangelist.sections.enterprise-offering.experts-support/expert-support';
-import { SalesCta, ContactValues } from '@teambit/evangelist.sections.enterprise-offering.sales-cta';
+import {
+	SalesCta,
+	ContactValues,
+} from '@teambit/evangelist.sections.enterprise-offering.sales-cta';
 import { margin } from '@teambit/evangelist.layout.experimental.spacing';
 
 import styles from './enterprise-offering.module.scss';
@@ -25,10 +28,6 @@ export type EnterpriseOfferingProps = {
 	onBookMeeting?: () => any | Promise<any>;
 } & HTMLAttributes<HTMLDivElement>;
 
-/**
- * A full, responsive page, detailing Bit's offering for enterprises.
- * @name EnterpriseOffering
- */
 export function EnterpriseOffering(props: EnterpriseOfferingProps) {
 	const { onBookMeeting, onSubmitCta, className, ...rest } = props;
 
