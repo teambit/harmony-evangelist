@@ -344,8 +344,23 @@
                 "test": false
             },
             {
+                "name": "input.composition.tsx",
+                "relativePath": "input.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "input.docs.mdx",
+                "relativePath": "input.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "input.module.scss",
                 "relativePath": "input.module.scss",
+                "test": false
+            },
+            {
+                "name": "input.spec.tsx",
+                "relativePath": "input.spec.tsx",
                 "test": false
             },
             {
