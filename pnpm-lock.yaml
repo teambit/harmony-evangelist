@@ -41,9 +41,14 @@ importers:
       '@teambit/base-ui.utils.popper-js.resize-to-match-reference': registry.npmjs.org/@teambit/base-ui.utils.popper-js.resize-to-match-reference/0.5.9_react-dom@16.14.0+react@16.14.0
       '@testing-library/jest-dom': registry.npmjs.org/@testing-library/jest-dom/5.11.6
       '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/12.6.0
+      '@types/chai': registry.npmjs.org/@types/chai/4.2.14
+      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
+      '@types/lodash.debounce': registry.npmjs.org/@types/lodash.debounce/4.0.6
       '@types/mocha': registry.npmjs.org/@types/mocha/8.2.0
       '@types/react-dom': registry.npmjs.org/@types/react-dom/16.9.10
-      '@types/sinon': registry.npmjs.org/@types/sinon/9.0.9
+      '@types/react-slick': registry.npmjs.org/@types/react-slick/0.23.4
+      '@types/sinon': registry.npmjs.org/@types/sinon/9.0.10
+      '@types/yup': registry.npmjs.org/@types/yup/0.29.11
       classnames: registry.npmjs.org/classnames/2.2.6
       eslint-plugin-chai-friendly: registry.npmjs.org/eslint-plugin-chai-friendly/0.6.0
       formik: registry.npmjs.org/formik/2.2.6_react@16.14.0
@@ -65,15 +70,10 @@ importers:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.5
       '@teambit/base-ui.theme.theme-provider': registry.npmjs.org/@teambit/base-ui.theme.theme-provider/0.5.9_react-dom@16.14.0+react@16.14.0
       '@testing-library/react': registry.npmjs.org/@testing-library/react/10.4.9_react-dom@16.14.0+react@16.14.0
-      '@types/chai': registry.npmjs.org/@types/chai/4.2.14
-      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       '@types/jest': registry.npmjs.org/@types/jest/26.0.19
-      '@types/lodash.debounce': registry.npmjs.org/@types/lodash.debounce/4.0.6
-      '@types/node': registry.npmjs.org/@types/node/12.19.9
+      '@types/node': registry.npmjs.org/@types/node/12.19.11
       '@types/react': registry.npmjs.org/@types/react/16.9.43
       '@types/react-router-dom': registry.npmjs.org/@types/react-router-dom/5.1.6
-      '@types/react-slick': registry.npmjs.org/@types/react-slick/0.23.4
-      '@types/yup': registry.npmjs.org/@types/yup/0.29.11
       chai: registry.npmjs.org/chai/4.2.0
       core-js: registry.npmjs.org/core-js/3.8.1
     specifiers:
@@ -125,12 +125,12 @@ importers:
       '@types/jest': ~26.0.19
       '@types/lodash.debounce': ^4.0.6
       '@types/mocha': ^8.2.0
-      '@types/node': ^12.19.9
+      '@types/node': ^12.19.11
       '@types/react': 16.9.43
       '@types/react-dom': ^16.9.10
       '@types/react-router-dom': ^5.1.6
       '@types/react-slick': ^0.23.4
-      '@types/sinon': ^9.0.9
+      '@types/sinon': ^9.0.10
       '@types/yup': ^0.29.11
       chai: ^4.2.0
       classnames: ^2.2.6
@@ -259,24 +259,24 @@ lockfileVersion: 5.1
 packages:
   /@bit/bit.javascript.component.id/1.1.5:
     dependencies:
-      '@bit/bit.javascript.component.npm-id': 0.4.3
-      '@bit/bit.utils.string.optional': 0.0.4
+      '@bit/bit.javascript.component.npm-id': /@bit/bit.javascript.component.npm-id/0.4.3
+      '@bit/bit.utils.string.optional': /@bit/bit.utils.string.optional/0.0.4
     dev: false
     resolution:
       integrity: sha1-ajxcdAz2kL5q+iUOSwg3gSGNVEw=
       tarball: bit.javascript.component.id/-/bit.javascript.component.id-1.1.5.tgz
   /@bit/bit.javascript.component.npm-id/0.4.3:
     dependencies:
-      '@bit/bit.utils.string.optional': 0.0.4
+      '@bit/bit.utils.string.optional': /@bit/bit.utils.string.optional/0.0.4
     dev: false
     resolution:
       integrity: sha1-pnbuDs813mUClJue8GmYQYyguEE=
-      tarball: bit.javascript.component.npm-id/-/bit.javascript.component.npm-id-0.4.3.tgz
+      tarball: '@bit/bit.javascript.component.npm-id/-/bit.javascript.component.npm-id-0.4.3.tgz'
   /@bit/bit.utils.string.optional/0.0.4:
     dev: false
     resolution:
       integrity: sha1-Hk6S9FxQH0wxICItovqjsziUvyg=
-      tarball: bit.utils.string.optional/-/bit.utils.string.optional-0.0.4.tgz
+      tarball: '@bit/bit.utils.string.optional/-/bit.utils.string.optional-0.0.4.tgz'
   registry.npmjs.org/@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': registry.npmjs.org/@babel/highlight/7.10.4
@@ -2382,7 +2382,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3
       '@types/istanbul-reports': registry.npmjs.org/@types/istanbul-reports/3.0.0
-      '@types/node': registry.npmjs.org/@types/node/12.19.9
+      '@types/node': registry.npmjs.org/@types/node/12.19.11
       '@types/yargs': registry.npmjs.org/@types/yargs/15.0.12
       chalk: registry.npmjs.org/chalk/4.1.0
     engines:
@@ -3482,7 +3482,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.11.0.tgz'
     version: 7.11.0
   registry.npmjs.org/@types/chai/4.2.14:
-    dev: true
+    dev: false
     name: '@types/chai'
     resolution:
       integrity: sha512-G+ITQPXkwTrslfG5L/BksmbLUA0M1iybEsmCWPqzSxsRRhJZimBKJkoMi8fr/CPygPTj4zO5pJH7I2/cm9M7SQ==
@@ -3490,7 +3490,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/chai/-/chai-4.2.14.tgz'
     version: 4.2.14
   registry.npmjs.org/@types/classnames/2.2.11:
-    dev: true
+    dev: false
     name: '@types/classnames'
     resolution:
       integrity: sha512-2koNhpWm3DgWRp5tpkiJ8JGc1xTn2q0l+jUNUE7oMKXUf5NpI9AIdC4kbjGNFBdHtcxBD18LAksoudAVhFKCjw==
@@ -3581,7 +3581,7 @@ packages:
   registry.npmjs.org/@types/lodash.debounce/4.0.6:
     dependencies:
       '@types/lodash': registry.npmjs.org/@types/lodash/4.14.165
-    dev: true
+    dev: false
     name: '@types/lodash.debounce'
     resolution:
       integrity: sha512-4WTmnnhCfDvvuLMaF3KV4Qfki93KebocUF45msxhYyjMttZDQYzHkO639ohhk8+oco2cluAFL3t5+Jn4mleylQ==
@@ -3589,7 +3589,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/lodash.debounce/-/lodash.debounce-4.0.6.tgz'
     version: 4.0.6
   registry.npmjs.org/@types/lodash/4.14.165:
-    dev: true
+    dev: false
     name: '@types/lodash'
     resolution:
       integrity: sha512-tjSSOTHhI5mCHTy/OOXYIhi2Wt1qcbHmuXD1Ha7q70CgI/I71afO4XtLb/cVexki1oVYchpul/TOuu3Arcdxrg==
@@ -3612,7 +3612,15 @@ packages:
       registry: 'https://node.bit.dev/'
       tarball: 'https://registry.npmjs.org/@types/mocha/-/mocha-8.2.0.tgz'
     version: 8.2.0
+  registry.npmjs.org/@types/node/12.19.11:
+    name: '@types/node'
+    resolution:
+      integrity: sha512-bwVfNTFZOrGXyiQ6t4B9sZerMSShWNsGRw8tC5DY1qImUNczS9SjT4G6PnzjCnxsu5Ubj6xjL2lgwddkxtQl5w==
+      registry: 'https://node.bit.dev/'
+      tarball: 'https://registry.npmjs.org/@types/node/-/node-12.19.11.tgz'
+    version: 12.19.11
   registry.npmjs.org/@types/node/12.19.9:
+    dev: false
     name: '@types/node'
     resolution:
       integrity: sha512-yj0DOaQeUrk3nJ0bd3Y5PeDRJ6W0r+kilosLA+dzF3dola/o9hxhMSg2sFvVcA2UHS5JSOsZp4S0c1OEXc4m1Q==
@@ -3678,7 +3686,7 @@ packages:
   registry.npmjs.org/@types/react-slick/0.23.4:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/16.9.43
-    dev: true
+    dev: false
     name: '@types/react-slick'
     resolution:
       integrity: sha512-vXoIy4GUfB7/YgqubR4H7RALo+pRdMYCeLgWwV3MPwl5pggTlEkFBTF19R7u+LJc85uMqC7RfsbkqPLMQ4ab+A==
@@ -3695,16 +3703,16 @@ packages:
       registry: 'https://node.bit.dev/'
       tarball: 'https://registry.npmjs.org/@types/react/-/react-16.9.43.tgz'
     version: 16.9.43
-  registry.npmjs.org/@types/sinon/9.0.9:
+  registry.npmjs.org/@types/sinon/9.0.10:
     dependencies:
       '@types/sinonjs__fake-timers': registry.npmjs.org/@types/sinonjs__fake-timers/6.0.2
     dev: false
     name: '@types/sinon'
     resolution:
-      integrity: sha512-z/y8maYOQyYLyqaOB+dYQ6i0pxKLOsfwCmHmn4T7jS/SDHicIslr37oE3Dg8SCqKrKeBy6Lemu7do2yy+unLrw==
+      integrity: sha512-/faDC0erR06wMdybwI/uR8wEKV/E83T0k4sepIpB7gXuy2gzx2xiOjmztq6a2Y6rIGJ04D+6UU0VBmWy+4HEMA==
       registry: 'https://node.bit.dev/'
-      tarball: 'https://registry.npmjs.org/@types/sinon/-/sinon-9.0.9.tgz'
-    version: 9.0.9
+      tarball: 'https://registry.npmjs.org/@types/sinon/-/sinon-9.0.10.tgz'
+    version: 9.0.10
   registry.npmjs.org/@types/sinonjs__fake-timers/6.0.2:
     dev: false
     name: '@types/sinonjs__fake-timers'
@@ -3732,12 +3740,20 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.9.5.tgz'
     version: 5.9.5
   registry.npmjs.org/@types/yargs-parser/15.0.0:
+    dev: false
     name: '@types/yargs-parser'
     resolution:
       integrity: sha512-FA/BWv8t8ZWJ+gEOnLLd8ygxH/2UFbAvgEonyfN6yWGLKc7zVjbpl2Y4CTjid9h2RfgPP6SEt6uHwEOply00yw==
       registry: 'https://node.bit.dev/'
       tarball: 'https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-15.0.0.tgz'
     version: 15.0.0
+  registry.npmjs.org/@types/yargs-parser/20.2.0:
+    name: '@types/yargs-parser'
+    resolution:
+      integrity: sha512-37RSHht+gzzgYeobbG+KWryeAW8J33Nhr69cjTqSYymXVZEN9NbRYWoYlRtDhHKPVT1FyNKwaTPC1NynKZpzRA==
+      registry: 'https://node.bit.dev/'
+      tarball: 'https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-20.2.0.tgz'
+    version: 20.2.0
   registry.npmjs.org/@types/yargs/13.0.11:
     dependencies:
       '@types/yargs-parser': registry.npmjs.org/@types/yargs-parser/15.0.0
@@ -3750,7 +3766,7 @@ packages:
     version: 13.0.11
   registry.npmjs.org/@types/yargs/15.0.12:
     dependencies:
-      '@types/yargs-parser': registry.npmjs.org/@types/yargs-parser/15.0.0
+      '@types/yargs-parser': registry.npmjs.org/@types/yargs-parser/20.2.0
     name: '@types/yargs'
     resolution:
       integrity: sha512-f+fD/fQAo3BCbCDlrUpznF1A5Zp9rB0noS5vnoormHSIPFKL0Z2DcUJ3Gxp5ytH4uLRNxy7AwYUC9exZzqGMAw==
@@ -3758,7 +3774,7 @@ packages:
       tarball: 'https://registry.npmjs.org/@types/yargs/-/yargs-15.0.12.tgz'
     version: 15.0.12
   registry.npmjs.org/@types/yup/0.29.11:
-    dev: true
+    dev: false
     name: '@types/yup'
     resolution:
       integrity: sha512-9cwk3c87qQKZrT251EDoibiYRILjCmxBvvcb4meofCmx1vdnNcR9gyildy5vOHASpOKMsn42CugxUvcwK5eu1g==
