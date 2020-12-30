@@ -3,7 +3,10 @@ import classNames from 'classnames';
 
 import styles from './slack-link.module.scss';
 
-import { CommunityLink, PrimaryLinkProps } from '@teambit/evangelist.marketing.community-links.community-link';
+import {
+	CommunityLink,
+	PrimaryLinkProps,
+} from '@teambit/evangelist.marketing.community-links.community-link';
 import { Icon } from '@teambit/evangelist.elements.icon';
 
 export type SlackLinkProps = PrimaryLinkProps;
@@ -29,5 +32,5 @@ export function SlackLink({ className, children, ...rest }: SlackLinkProps) {
 }
 
 SlackLink.defaultProps = {
-	children: <span>bit-dev-community</span>
-}
+	children: <span>bit-dev-community</span>,
+};

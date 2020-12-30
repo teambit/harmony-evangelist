@@ -34,7 +34,7 @@ export type CommentCarouselProps = {
  * 	{ name: 'Barbra', description: 'Quality assurance', content: 'Better than 4/5 of the market', avatar: '...', }
  * 	{ name: 'Roberto', description: 'Upper middle management', content: 'Easy to carry, nice for meetings', avatar: '...', }
  * ];
- * 
+ *
  * <CommentCarousel content={bitTestimonials} />
  */
 export class CommentCarousel extends PureComponent<CommentCarouselProps> {
