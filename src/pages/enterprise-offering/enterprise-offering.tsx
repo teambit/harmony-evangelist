@@ -5,14 +5,14 @@ import { centerColumn, textColumn } from '@teambit/base-ui.layout.page-frame';
 import { marginCenter, text } from '@teambit/base-ui.layout.align';
 import { backgrounds } from '@teambit/base-ui.surfaces.background';
 
-import { Hero } from '@teambit/evangelist.sections.enterprise-offering.hero/hero';
-import { PoweringEnterprise } from '@teambit/evangelist.sections.enterprise-offering.powering-enterprise/powering-enterprise';
+import { Hero } from '@teambit/evangelist.sections.enterprise-offering.hero';
+import { PoweringEnterprise } from '@teambit/evangelist.sections.enterprise-offering.powering-enterprise';
 import { AdvantageCards } from '@teambit/evangelist.sections.enterprise-offering.advantage-cards';
-import { Reliability } from '@teambit/evangelist.sections.enterprise-offering.reliability/reliability';
-import { EcoSystem } from '@teambit/evangelist.sections.enterprise-offering.eco-system/eco-system';
-import { Integrations } from '@teambit/evangelist.sections.enterprise-offering.integrations/integrations';
-import { ComponentAnalytics } from '@teambit/evangelist.sections.enterprise-offering.component-analytics/component-analytics';
-import { ExpertSupport } from '@teambit/evangelist.sections.enterprise-offering.experts-support/expert-support';
+import { Reliability } from '@teambit/evangelist.sections.enterprise-offering.reliability';
+import { EcoSystem } from '@teambit/evangelist.sections.enterprise-offering.eco-system';
+import { Integrations } from '@teambit/evangelist.sections.enterprise-offering.integrations';
+import { ComponentAnalytics } from '@teambit/evangelist.sections.enterprise-offering.component-analytics';
+import { ExpertSupport } from '@teambit/evangelist.sections.enterprise-offering.experts-support';
 import {
 	SalesCta,
 	ContactValues,
@@ -28,6 +28,10 @@ export type EnterpriseOfferingProps = {
 	onBookMeeting?: () => any | Promise<any>;
 } & HTMLAttributes<HTMLDivElement>;
 
+/**
+ * A full, responsive page, detailing Bit's offering for enterprises.
+ * @name EnterpriseOffering
+ */
 export function EnterpriseOffering(props: EnterpriseOfferingProps) {
 	const { onBookMeeting, onSubmitCta, className, ...rest } = props;
 

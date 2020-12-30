@@ -426,8 +426,23 @@
     "teambit.evangelist/marketing/community-links/community-link@0.5.4": {
         "files": [
             {
+                "name": "community-link.composition.tsx",
+                "relativePath": "community-link.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "community-link.docs.mdx",
+                "relativePath": "community-link.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "community-link.module.scss",
                 "relativePath": "community-link.module.scss",
+                "test": false
+            },
+            {
+                "name": "community-link.spec.tsx",
+                "relativePath": "community-link.spec.tsx",
                 "test": false
             },
             {
@@ -450,8 +465,23 @@
     "teambit.evangelist/marketing/community-links/github-link@0.5.6": {
         "files": [
             {
+                "name": "github-link.composition.tsx",
+                "relativePath": "github-link.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "github-link.docs.mdx",
+                "relativePath": "github-link.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "github-link.module.scss",
                 "relativePath": "github-link.module.scss",
+                "test": false
+            },
+            {
+                "name": "github-link.spec.tsx",
+                "relativePath": "github-link.spec.tsx",
                 "test": false
             },
             {
@@ -479,8 +509,23 @@
                 "test": false
             },
             {
+                "name": "slack-link.composition.tsx",
+                "relativePath": "slack-link.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "slack-link.docs.mdx",
+                "relativePath": "slack-link.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "slack-link.module.scss",
                 "relativePath": "slack-link.module.scss",
+                "test": false
+            },
+            {
+                "name": "slack-link.spec.tsx",
+                "relativePath": "slack-link.spec.tsx",
                 "test": false
             },
             {
@@ -503,8 +548,23 @@
                 "test": false
             },
             {
+                "name": "twitter-link.composition.tsx",
+                "relativePath": "twitter-link.composition.tsx",
+                "test": false
+            },
+            {
+                "name": "twitter-link.docs.mdx",
+                "relativePath": "twitter-link.docs.mdx",
+                "test": false
+            },
+            {
                 "name": "twitter-link.module.scss",
                 "relativePath": "twitter-link.module.scss",
+                "test": false
+            },
+            {
+                "name": "twitter-link.spec.tsx",
+                "relativePath": "twitter-link.spec.tsx",
                 "test": false
             },
             {

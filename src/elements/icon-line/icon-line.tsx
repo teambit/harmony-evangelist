@@ -19,6 +19,12 @@ type IconLineProps = {
 	pre?: ReactNode;
 } & HTMLAttributes<HTMLDivElement>;
 
+/**
+ * A concrete line of icons, used by the landing section.
+ * @name IconLine
+ * @example
+ * <IconLine icons=['logo-react', 'logo-vue', 'logo-angular'] />
+ */
 export function IconLine({ icons, className, pre }: IconLineProps) {
 	if (!icons) return null;
 	return (

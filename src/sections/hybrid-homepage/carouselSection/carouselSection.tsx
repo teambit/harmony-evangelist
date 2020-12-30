@@ -6,7 +6,7 @@ import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { marginCenter } from '@teambit/base-ui.layout.align';
 
-import { CommentCarousel } from '@teambit/evangelist.marketing.comment-carousel/comment-carousel';
+import { CommentCarousel } from '@teambit/evangelist.marketing.comment-carousel';
 import { bitTestimonials } from '@teambit/evangelist.content.bit-testimonials';
 import { H2 } from '@teambit/evangelist.elements.heading';
 
