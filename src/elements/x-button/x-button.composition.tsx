@@ -1,12 +1,13 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
-import { EvaIconFont } from '@teambit/evangelist.theme.icon-font';
-
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { XButton } from './x-button';
 
 export const CloseButton = () => (
-	<Theme>
-		<EvaIconFont query="av92bs" />
+	<ThemeCompositions>
 		<XButton onClick={() => alert('on click')} data-testid="test-x" />
-	</Theme>
+	</ThemeCompositions>
 );
+
+CloseButton.canvas = {
+	height: 90,
+};

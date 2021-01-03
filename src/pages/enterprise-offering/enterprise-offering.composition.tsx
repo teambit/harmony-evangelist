@@ -1,11 +1,11 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { EnterpriseOffering } from './enterprise-offering';
 
 export const EnterpriseOfferingPage = () => (
-	<Theme>
+	<ThemeCompositions>
 		<EnterpriseOffering data-testid="test-page" />
-	</Theme>
+	</ThemeCompositions>
 );
 
 EnterpriseOfferingPage.canvas = {

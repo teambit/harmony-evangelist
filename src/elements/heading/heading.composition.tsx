@@ -1,39 +1,43 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { H1, H2, H3, H4, H5, H6 } from './heading';
 
 export const HeadingH1 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H1>Title</H1>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const HeadingH2 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H2>Title</H2>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const HeadingH3 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H3>Title</H3>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const HeadingH4 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H4>Title</H4>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const HeadingH5 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H5>Title</H5>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const HeadingH6 = () => (
-	<Theme>
+	<ThemeCompositions>
 		<H6>Title</H6>
-	</Theme>
+	</ThemeCompositions>
 );
+
+const compositions = [HeadingH1, HeadingH2, HeadingH3, HeadingH4, HeadingH5, HeadingH6];
+// @ts-ignore
+compositions.map((comp) => (comp.canvas = { height: 90 }));

@@ -1,11 +1,15 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { CommunityLink } from './community-link';
 
 export const BaseCommunityLink = () => (
-	<Theme>
+	<ThemeCompositions>
 		<CommunityLink href="https://bit.dev" data-testid="test-link" external>
 			bit.dev
 		</CommunityLink>
-	</Theme>
+	</ThemeCompositions>
 );
+
+BaseCommunityLink.canvas = {
+	height: 90,
+};

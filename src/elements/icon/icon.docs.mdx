@@ -4,27 +4,18 @@ description: 'placeholder for an icon'
 ---
 
 import { Icon } from './icon';
-import { EvaIconFont } from '@teambit/evangelist.theme.icon-font';
-export const examples = [
-    {
-      scope: {
-        Icon, EvaIconFont
-      },
-      title: 'Spinner icon example:',
-      description: '',
-      code:`
-      <div>
-        <EvaIconFont query="aqq93z" />
-        <Icon of="spinner" />
-      </div>
-      `
-    },
-]
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 
 ### Overview
 
 Placeholder for an icon, from Bit.dev's icon font.  
-Make sure [IconFont](https://bit.dev/teambit/evangelist/theme/icon-font) is present in the page, for the icons to load.
+Make sure [IconFont](https://bit.dev/teambit/evangelist/theme/icon-font) is present in the page, for the icons to load.  
+Spinner icon example:  
+```js live
+<ThemeCompositions style={{ minHeight: 90 }}>
+	<Icon of="spinner" />
+</ThemeCompositions>
+```
 
 ### Icon list
 

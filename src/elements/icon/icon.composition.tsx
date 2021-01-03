@@ -1,5 +1,5 @@
 import React from 'react';
-import { EvaIconFont } from '@teambit/evangelist.theme.icon-font';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { Icon } from './icon';
 
 const iconList = [
@@ -87,13 +87,18 @@ const iconList = [
 ];
 
 export const IconExamples = () => (
-	<div style={{ maxWidth: '300px', lineHeight: '1.61' }}>
-		<EvaIconFont query="aqq93z" />
-		{iconList.map((x) => (
-			<span key={x}>
-				{' '}
-				<Icon of={x} />{' '}
-			</span>
-		))}
-	</div>
+	<ThemeCompositions>
+		<div style={{ maxWidth: '300px', lineHeight: '1.61' }}>
+			{iconList.map((x) => (
+				<span key={x}>
+					{' '}
+					<Icon of={x} />{' '}
+				</span>
+			))}
+		</div>
+	</ThemeCompositions>
 );
+
+IconExamples.canvas = {
+	height: 200,
+};

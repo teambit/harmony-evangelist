@@ -1,19 +1,23 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { Link } from './link';
 
 export const LinkExample = () => (
-	<Theme>
+	<ThemeCompositions>
 		<Link href="https://google.com" data-testid="test-link">
 			look it up!
 		</Link>
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const LinkWithExternal = () => (
-	<Theme>
+	<ThemeCompositions>
 		<Link href="https://google.com" external data-testid="test-link">
 			look it up!
 		</Link>
-	</Theme>
+	</ThemeCompositions>
 );
+
+const compositions = [LinkExample, LinkWithExternal];
+// @ts-ignore
+compositions.map((comp) => (comp.canvas = { height: 90 }));

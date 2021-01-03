@@ -4,26 +4,14 @@ description: 'input and text-area components'
 ---
 
 import { Input, TextArea } from './input';
-export const examples = [
-    {
-      scope: {
-        Input
-      },
-      title: 'Input example:',
-      description: '',
-      code:`<Input error={false} />`
-    },
-    {
-      scope: {
-        TextArea
-      },
-      title: 'TextArea example:',
-      description: '',
-      code:`<TextArea error={false} />`
-    },
-]
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 
 ### Overview
 
 Input and TextArea components with error prop.  
 Supports all props from native html button.  
+
+Input example:
+```js live
+<Input error={false} />
+```

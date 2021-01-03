@@ -1,27 +1,31 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { Input, TextArea } from './input';
 
 export const InputExample = () => (
-	<Theme>
+	<ThemeCompositions>
 		<Input error={false} placeholder="enter text..." data-testid="test-input" />
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const InputWithError = () => (
-	<Theme>
+	<ThemeCompositions>
 		<Input error={true} data-testid="test-input" />
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const TextAreaExample = () => (
-	<Theme>
+	<ThemeCompositions>
 		<TextArea error={false} placeholder="multiline text..." data-testid="test-textarea" />
-	</Theme>
+	</ThemeCompositions>
 );
 
 export const TextAreaWithError = () => (
-	<Theme>
+	<ThemeCompositions>
 		<TextArea error={true} data-testid="test-textarea" />
-	</Theme>
+	</ThemeCompositions>
 );
+
+const compositions = [InputExample, InputWithError, TextAreaExample, TextAreaWithError];
+// @ts-ignore
+compositions.map((comp) => (comp.canvas = { height: 90 }));

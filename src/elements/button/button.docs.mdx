@@ -4,34 +4,30 @@ description: 'button component'
 ---
 
 import { Button } from './button';
-export const examples = [
-    {
-      scope: {
-        Button
-      },
-      title: 'Primary button example:',
-      description: '',
-      code:`<Button importance="cta" style={{ width: 120 }}>Primary</Button>`
-    },
-    {
-      scope: {
-        Button
-      },
-      title: 'Secondary button example:',
-      description: '',
-      code:`<Button importance="ghost" style={{ width: 120 }}>Secondary</Button>`
-    },
-    {
-      scope: {
-        Button
-      },
-      title: 'Normal button example:',
-      description: '',
-      code:`<Button style={{ width: 120 }}>Normal</Button>`
-    }
-]
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 
 ### Overview
 
 Button component with click effect and built in loader.  
-Supports all props from native html button.
+Supports all props from native html button.  
+
+Primary button example:
+```js live
+<ThemeCompositions style={{ minHeight: 90 }}>
+  <Button importance="cta" style={{ width: 120 }}>Primary</Button>
+</ThemeCompositions>
+```
+
+Secondary button example:
+```js live
+<ThemeCompositions style={{ minHeight: 90 }}>
+  <Button importance="ghost" style={{ width: 120 }}>Secondary</Button>
+</ThemeCompositions>
+```
+
+Normal button example:
+```js live
+<ThemeCompositions style={{ minHeight: 90 }}>
+  <Button style={{ width: 120 }}>Normal</Button>
+</ThemeCompositions>
+```

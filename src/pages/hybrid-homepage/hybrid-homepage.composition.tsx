@@ -1,11 +1,11 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { HybridHomepage } from './hybrid-homepage';
 
 export const HybridHomePageComposition = () => (
-	<Theme>
+	<ThemeCompositions>
 		<HybridHomepage githubStars={12600} />
-	</Theme>
+	</ThemeCompositions>
 );
 
 HybridHomePageComposition.canvas = {

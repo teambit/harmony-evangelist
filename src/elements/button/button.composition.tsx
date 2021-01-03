@@ -1,63 +1,74 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { Button } from './button';
 
 export const PrimaryButton = ({ ...rest }) => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button importance="cta" style={{ width: 120 }} {...rest}>
 				Primary
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
 
 export const SecondaryButton = () => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button importance="ghost" style={{ width: 120 }}>
 				Secondary
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
 
 export const NormalButton = ({ ...rest }) => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button style={{ width: 120 }} {...rest}>
 				Normal
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
 
 export const PrimaryLoadingButton = () => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button importance="cta" loading style={{ width: 120 }}>
 				Primary
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
 
 export const SecondaryLoadingButton = () => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button importance="ghost" loading style={{ width: 120 }}>
 				Secondary
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
 
 export const NormalLoadingButton = () => {
 	return (
-		<Theme style={{ padding: 10 }}>
+		<ThemeCompositions>
 			<Button loading style={{ width: 120 }}>
 				Normal
 			</Button>
-		</Theme>
+		</ThemeCompositions>
 	);
 };
+
+const compositions = [
+	PrimaryButton,
+	SecondaryButton,
+	NormalButton,
+	PrimaryLoadingButton,
+	SecondaryLoadingButton,
+	NormalLoadingButton,
+];
+// @ts-ignore
+compositions.map((comp) => (comp.canvas = { height: 90 }));

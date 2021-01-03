@@ -1,9 +1,13 @@
 import React from 'react';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
 import { TwitterLink } from './twitter-link';
 
 export const TwitterLinkExample = () => (
-	<Theme>
+	<ThemeCompositions>
 		<TwitterLink href="https://twitter.com/bitdev_" data-testid="test-link" />
-	</Theme>
+	</ThemeCompositions>
 );
+
+TwitterLinkExample.canvas = {
+	height: 90,
+};

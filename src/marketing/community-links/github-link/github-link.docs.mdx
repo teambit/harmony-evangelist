@@ -4,18 +4,12 @@ description: 'link to a Github repository'
 ---
 
 import { GithubLink } from './github-link';
-export const examples = [
-    {
-      scope: {
-        GithubLink
-      },
-      title: 'Github link example:',
-      description: '',
-      code:`<GithubLink	href="https://github.com/teambit/bit"	starCount={500000} />`
-    },
-]
 
 ### Overview
 
 Concrete link to a Github repository, with logo and star count.  
-Star count automatically shortens into metric prefix, using [number-abbreviate](https://www.npmjs.com/package/number-abbreviate).
+Star count automatically shortens into metric prefix, using [number-abbreviate](https://www.npmjs.com/package/number-abbreviate).  
+Github link example:
+```js live
+<GithubLink	href="https://github.com/teambit/bit"	starCount={500000} />
+```
