@@ -2,1542 +2,212 @@
 
 {
     "teambit.evangelist/content/bit-testimonials@0.5.4": {
-        "files": [
-            {
-                "name": "bit-testimonials.tsx",
-                "relativePath": "bit-testimonials.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "bit-testimonials.tsx",
-        "rootDir": "src/content/bit-testimonials",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/content/bit-testimonials"
     },
     "teambit.evangelist/content/links@0.5.4": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "links.ts",
-                "relativePath": "links.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/content/links",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/content/links"
     },
     "teambit.evangelist/css-components/fade-in-out@0.5.4": {
-        "files": [
-            {
-                "name": "fade-in-out.module.scss",
-                "relativePath": "fade-in-out.module.scss",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/css-components/fade-in-out",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/css-components/fade-in-out"
     },
     "teambit.evangelist/elements/button@0.5.7": {
-        "files": [
-            {
-                "name": "button.composition.tsx",
-                "relativePath": "button.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "button.docs.mdx",
-                "relativePath": "button.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "button.module.scss",
-                "relativePath": "button.module.scss",
-                "test": false
-            },
-            {
-                "name": "button.spec.tsx",
-                "relativePath": "button.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "button.tsx",
-                "relativePath": "button.tsx",
-                "test": false
-            },
-            {
-                "name": "elevations.module.scss",
-                "relativePath": "elevations.module.scss",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/elements/button",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/button"
     },
     "teambit.evangelist/elements/heading@0.5.7": {
-        "files": [
-            {
-                "name": "heading-margins.module.scss",
-                "relativePath": "heading-margins.module.scss",
-                "test": false
-            },
-            {
-                "name": "heading-sizes.module.scss",
-                "relativePath": "heading-sizes.module.scss",
-                "test": false
-            },
-            {
-                "name": "heading.composition.tsx",
-                "relativePath": "heading.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "heading.docs.mdx",
-                "relativePath": "heading.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "heading.module.scss",
-                "relativePath": "heading.module.scss",
-                "test": false
-            },
-            {
-                "name": "heading.spec.tsx",
-                "relativePath": "heading.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "heading.tsx",
-                "relativePath": "heading.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/elements/heading",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/heading"
     },
     "teambit.evangelist/elements/icon-line@0.5.8": {
-        "files": [
-            {
-                "name": "icon-line.composition.tsx",
-                "relativePath": "icon-line.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "icon-line.docs.mdx",
-                "relativePath": "icon-line.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "icon-line.module.scss",
-                "relativePath": "icon-line.module.scss",
-                "test": false
-            },
-            {
-                "name": "icon-line.spec.tsx",
-                "relativePath": "icon-line.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "icon-line.tsx",
-                "relativePath": "icon-line.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/elements/icon-line",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/icon-line"
     },
     "teambit.evangelist/elements/icon@0.5.7": {
-        "files": [
-            {
-                "name": "icon.composition.tsx",
-                "relativePath": "icon.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "icon.docs.mdx",
-                "relativePath": "icon.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "icon.spec.tsx",
-                "relativePath": "icon.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "icon.tsx",
-                "relativePath": "icon.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/elements/icon",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/icon"
     },
     "teambit.evangelist/elements/image@0.5.6": {
-        "files": [
-            {
-                "name": "image.composition.tsx",
-                "relativePath": "image.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "image.docs.mdx",
-                "relativePath": "image.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "image.spec.tsx",
-                "relativePath": "image.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "image.tsx",
-                "relativePath": "image.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/elements/image",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/image"
     },
     "teambit.evangelist/elements/link@0.5.6": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "link.composition.tsx",
-                "relativePath": "link.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "link.docs.mdx",
-                "relativePath": "link.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "link.module.scss",
-                "relativePath": "link.module.scss",
-                "test": false
-            },
-            {
-                "name": "link.spec.tsx",
-                "relativePath": "link.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "link.tsx",
-                "relativePath": "link.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/elements/link",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/link"
     },
     "teambit.evangelist/elements/x-button@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "x-button.composition.tsx",
-                "relativePath": "x-button.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "x-button.docs.mdx",
-                "relativePath": "x-button.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "x-button.module.scss",
-                "relativePath": "x-button.module.scss",
-                "test": false
-            },
-            {
-                "name": "x-button.spec.tsx",
-                "relativePath": "x-button.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "x-button.tsx",
-                "relativePath": "x-button.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/elements/x-button",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/elements/x-button"
     },
     "teambit.evangelist/input/input@0.5.5": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "input.composition.tsx",
-                "relativePath": "input.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "input.docs.mdx",
-                "relativePath": "input.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "input.module.scss",
-                "relativePath": "input.module.scss",
-                "test": false
-            },
-            {
-                "name": "input.spec.tsx",
-                "relativePath": "input.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "input.tsx",
-                "relativePath": "input.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/input/input",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/input/input"
     },
     "teambit.evangelist/layout/experimental/spacing@0.5.4": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "spacing.module.scss",
-                "relativePath": "spacing.module.scss",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/layout/spacing",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/layout/spacing"
     },
     "teambit.evangelist/marketing/comment-carousel@0.5.5": {
-        "files": [
-            {
-                "name": "carousel.module.scss",
-                "relativePath": "carousel.module.scss",
-                "test": false
-            },
-            {
-                "name": "comment-carousel.tsx",
-                "relativePath": "comment-carousel.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "slick-slider.module.scss",
-                "relativePath": "slick-slider.module.scss",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/comment-carousel",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/comment-carousel"
     },
     "teambit.evangelist/marketing/community-links/community-link@0.5.5": {
-        "files": [
-            {
-                "name": "community-link.composition.tsx",
-                "relativePath": "community-link.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "community-link.docs.mdx",
-                "relativePath": "community-link.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "community-link.module.scss",
-                "relativePath": "community-link.module.scss",
-                "test": false
-            },
-            {
-                "name": "community-link.spec.tsx",
-                "relativePath": "community-link.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "community-link.tsx",
-                "relativePath": "community-link.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/community-links/community-link",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/community-links/community-link"
     },
     "teambit.evangelist/marketing/community-links/github-link@0.5.7": {
-        "files": [
-            {
-                "name": "github-link.composition.tsx",
-                "relativePath": "github-link.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "github-link.docs.mdx",
-                "relativePath": "github-link.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "github-link.module.scss",
-                "relativePath": "github-link.module.scss",
-                "test": false
-            },
-            {
-                "name": "github-link.spec.tsx",
-                "relativePath": "github-link.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "github-link.tsx",
-                "relativePath": "github-link.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/community-links/github-link",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/community-links/github-link"
     },
     "teambit.evangelist/marketing/community-links/slack-link@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "slack-link.composition.tsx",
-                "relativePath": "slack-link.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "slack-link.docs.mdx",
-                "relativePath": "slack-link.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "slack-link.module.scss",
-                "relativePath": "slack-link.module.scss",
-                "test": false
-            },
-            {
-                "name": "slack-link.spec.tsx",
-                "relativePath": "slack-link.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "slack-link.tsx",
-                "relativePath": "slack-link.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/community-links/slack-link",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/community-links/slack-link"
     },
     "teambit.evangelist/marketing/community-links/twitter-link@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "twitter-link.composition.tsx",
-                "relativePath": "twitter-link.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "twitter-link.docs.mdx",
-                "relativePath": "twitter-link.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "twitter-link.module.scss",
-                "relativePath": "twitter-link.module.scss",
-                "test": false
-            },
-            {
-                "name": "twitter-link.spec.tsx",
-                "relativePath": "twitter-link.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "twitter-link.tsx",
-                "relativePath": "twitter-link.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/community-links/twitter-link",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/community-links/twitter-link"
     },
     "teambit.evangelist/marketing/testimonial@0.5.4": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "testimonial-obj.tsx",
-                "relativePath": "testimonial-obj.tsx",
-                "test": false
-            },
-            {
-                "name": "testimonial.module.scss",
-                "relativePath": "testimonial.module.scss",
-                "test": false
-            },
-            {
-                "name": "testimonial.tsx",
-                "relativePath": "testimonial.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/testimonial",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/testimonial"
     },
     "teambit.evangelist/marketing/twitter-card@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "twitter-card.module.scss",
-                "relativePath": "twitter-card.module.scss",
-                "test": false
-            },
-            {
-                "name": "twitter-card.tsx",
-                "relativePath": "twitter-card.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/marketing/twitter-card",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/marketing/twitter-card"
     },
     "teambit.evangelist/pages/enterprise-offering@0.5.10": {
-        "files": [
-            {
-                "name": "enterprise-offering.composition.tsx",
-                "relativePath": "enterprise-offering.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "enterprise-offering.docs.mdx",
-                "relativePath": "enterprise-offering.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "enterprise-offering.module.scss",
-                "relativePath": "enterprise-offering.module.scss",
-                "test": false
-            },
-            {
-                "name": "enterprise-offering.spec.tsx",
-                "relativePath": "enterprise-offering.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "enterprise-offering.tsx",
-                "relativePath": "enterprise-offering.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/pages/enterprise-offering",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/pages/enterprise-offering"
     },
     "teambit.evangelist/pages/hybrid-homepage@0.5.9": {
-        "files": [
-            {
-                "name": "hybrid-homepage.composition.tsx",
-                "relativePath": "hybrid-homepage.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "hybrid-homepage.docs.mdx",
-                "relativePath": "hybrid-homepage.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "hybrid-homepage.module.scss",
-                "relativePath": "hybrid-homepage.module.scss",
-                "test": false
-            },
-            {
-                "name": "hybrid-homepage.tsx",
-                "relativePath": "hybrid-homepage.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/pages/hybrid-homepage",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/pages/hybrid-homepage"
     },
     "teambit.evangelist/pages/support@0.5.10": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "support.composition.tsx",
-                "relativePath": "support.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "support.docs.mdx",
-                "relativePath": "support.docs.mdx",
-                "test": false
-            },
-            {
-                "name": "support.module.scss",
-                "relativePath": "support.module.scss",
-                "test": false
-            },
-            {
-                "name": "support.spec.tsx",
-                "relativePath": "support.spec.tsx",
-                "test": false
-            },
-            {
-                "name": "support.tsx",
-                "relativePath": "support.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/pages/support",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/pages/support"
     },
     "teambit.evangelist/sections/build-together@0.5.7": {
-        "files": [
-            {
-                "name": "build-together.module.scss",
-                "relativePath": "build-together.module.scss",
-                "test": false
-            },
-            {
-                "name": "build-together.tsx",
-                "relativePath": "build-together.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/build-together",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/build-together"
     },
     "teambit.evangelist/sections/carousel-section@0.5.7": {
-        "files": [
-            {
-                "name": "carouselSection.module.scss",
-                "relativePath": "carouselSection.module.scss",
-                "test": false
-            },
-            {
-                "name": "carouselSection.tsx",
-                "relativePath": "carouselSection.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/sections/hybrid-homepage/carouselSection",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
     "teambit.evangelist/sections/community@0.5.8": {
-        "files": [
-            {
-                "name": "community-section.module.scss",
-                "relativePath": "community-section.module.scss",
-                "test": false
-            },
-            {
-                "name": "community-section.tsx",
-                "relativePath": "community-section.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/community",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/community"
     },
     "teambit.evangelist/sections/component-advantages@0.5.7": {
-        "files": [
-            {
-                "name": "component-advantages.module.scss",
-                "relativePath": "component-advantages.module.scss",
-                "test": false
-            },
-            {
-                "name": "component-advantages.tsx",
-                "relativePath": "component-advantages.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/component-advantages",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/component-advantages"
     },
     "teambit.evangelist/sections/cta@0.5.7": {
-        "files": [
-            {
-                "name": "cta-section.module.scss",
-                "relativePath": "cta-section.module.scss",
-                "test": false
-            },
-            {
-                "name": "cta-section.tsx",
-                "relativePath": "cta-section.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/cta",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/cta"
     },
     "teambit.evangelist/sections/develop-components@0.5.7": {
-        "files": [
-            {
-                "name": "develop-components.module.scss",
-                "relativePath": "develop-components.module.scss",
-                "test": false
-            },
-            {
-                "name": "develop-components.tsx",
-                "relativePath": "develop-components.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/develop-components",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/develop-components"
     },
     "teambit.evangelist/sections/discover-components@0.5.7": {
-        "files": [
-            {
-                "name": "discover-components.module.scss",
-                "relativePath": "discover-components.module.scss",
-                "test": false
-            },
-            {
-                "name": "discover-components.tsx",
-                "relativePath": "discover-components.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/sections/hybrid-homepage/discover-components",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/discover-components"
     },
     "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.9": {
-        "files": [
-            {
-                "name": "advantage-cards.module.scss",
-                "relativePath": "advantage-cards.module.scss",
-                "test": false
-            },
-            {
-                "name": "advantage-cards.tsx",
-                "relativePath": "advantage-cards.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/advantage-cards",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/advantage-cards"
     },
     "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.9": {
-        "files": [
-            {
-                "name": "component-analytics.module.scss",
-                "relativePath": "component-analytics.module.scss",
-                "test": false
-            },
-            {
-                "name": "component-analytics.tsx",
-                "relativePath": "component-analytics.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/component-analytics",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/component-analytics"
     },
     "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.8": {
-        "files": [
-            {
-                "name": "eco-system.tsx",
-                "relativePath": "eco-system.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/eco-system",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/eco-system"
     },
     "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.8": {
-        "files": [
-            {
-                "name": "expert-support.module.scss",
-                "relativePath": "expert-support.module.scss",
-                "test": false
-            },
-            {
-                "name": "expert-support.tsx",
-                "relativePath": "expert-support.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/experts-support",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/experts-support"
     },
     "teambit.evangelist/sections/enterprise-offering/hero@0.5.7": {
-        "files": [
-            {
-                "name": "hero.module.scss",
-                "relativePath": "hero.module.scss",
-                "test": false
-            },
-            {
-                "name": "hero.tsx",
-                "relativePath": "hero.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/hero",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/hero"
     },
     "teambit.evangelist/sections/enterprise-offering/integrations@0.5.6": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "integrations.module.scss",
-                "relativePath": "integrations.module.scss",
-                "test": false
-            },
-            {
-                "name": "integrations.tsx",
-                "relativePath": "integrations.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/integrations",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/integrations"
     },
     "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.8": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "powering-enterprise.module.scss",
-                "relativePath": "powering-enterprise.module.scss",
-                "test": false
-            },
-            {
-                "name": "powering-enterprise.tsx",
-                "relativePath": "powering-enterprise.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/powering-enterprise",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/powering-enterprise"
     },
     "teambit.evangelist/sections/enterprise-offering/reliability@0.5.8": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "reliability.module.scss",
-                "relativePath": "reliability.module.scss",
-                "test": false
-            },
-            {
-                "name": "reliability.tsx",
-                "relativePath": "reliability.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/reliability",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/reliability"
     },
     "teambit.evangelist/sections/enterprise-offering/sales-cta@0.5.9": {
-        "files": [
-            {
-                "name": "contact-form.module.scss",
-                "relativePath": "contact-form/contact-form.module.scss",
-                "test": false
-            },
-            {
-                "name": "contact-form.tsx",
-                "relativePath": "contact-form/contact-form.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "contact-form/index.ts",
-                "test": false
-            },
-            {
-                "name": "contact-values.tsx",
-                "relativePath": "contact-values.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "sales-cta.module.scss",
-                "relativePath": "sales-cta.module.scss",
-                "test": false
-            },
-            {
-                "name": "sales-cta.tsx",
-                "relativePath": "sales-cta.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/enterprise-offering/sales-cta",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/enterprise-offering/sales-cta"
     },
     "teambit.evangelist/sections/enterprise-section@0.5.8": {
-        "files": [
-            {
-                "name": "enterprise-section.module.scss",
-                "relativePath": "enterprise-section.module.scss",
-                "test": false
-            },
-            {
-                "name": "enterprise-section.tsx",
-                "relativePath": "enterprise-section.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/enterprise-section",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
     "teambit.evangelist/sections/hero@0.5.9": {
-        "files": [
-            {
-                "name": "hero.module.scss",
-                "relativePath": "hero.module.scss",
-                "test": false
-            },
-            {
-                "name": "hero.tsx",
-                "relativePath": "hero.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/sections/hybrid-homepage/hero",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/hero"
     },
     "teambit.evangelist/sections/independent-teams@0.5.7": {
-        "files": [
-            {
-                "name": "independent-teams.module.scss",
-                "relativePath": "independent-teams.module.scss",
-                "test": false
-            },
-            {
-                "name": "independent-teams.tsx",
-                "relativePath": "independent-teams.tsx",
-                "test": false
-            },
-            {
-                "name": "index.tsx",
-                "relativePath": "index.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.tsx",
-        "rootDir": "src/sections/hybrid-homepage/independent-teams",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
     "teambit.evangelist/sections/reuse-components@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "reuse-components.module.scss",
-                "relativePath": "reuse-components.module.scss",
-                "test": false
-            },
-            {
-                "name": "reuse-components.tsx",
-                "relativePath": "reuse-components.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/reuse-components",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
     "teambit.evangelist/sections/support-page/global-enterprise@0.5.7": {
-        "files": [
-            {
-                "name": "global-enterprise.module.scss",
-                "relativePath": "global-enterprise.module.scss",
-                "test": false
-            },
-            {
-                "name": "global-enterprise.tsx",
-                "relativePath": "global-enterprise.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/global-enterprise",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/global-enterprise"
     },
     "teambit.evangelist/sections/support-page/hero@0.5.8": {
-        "files": [
-            {
-                "name": "hero.module.scss",
-                "relativePath": "hero.module.scss",
-                "test": false
-            },
-            {
-                "name": "hero.tsx",
-                "relativePath": "hero.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/hero",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/hero"
     },
     "teambit.evangelist/sections/support-page/support-channels@0.5.9": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "support-channel-cta/index.ts",
-                "test": false
-            },
-            {
-                "name": "support-channel-cta.module.scss",
-                "relativePath": "support-channel-cta/support-channel-cta.module.scss",
-                "test": false
-            },
-            {
-                "name": "support-channel-cta.tsx",
-                "relativePath": "support-channel-cta/support-channel-cta.tsx",
-                "test": false
-            },
-            {
-                "name": "support-channels.module.scss",
-                "relativePath": "support-channels.module.scss",
-                "test": false
-            },
-            {
-                "name": "support-channels.tsx",
-                "relativePath": "support-channels.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/support-channels",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/support-channels"
     },
     "teambit.evangelist/sections/support-page/support-cta@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "support-cta.module.scss",
-                "relativePath": "support-cta.module.scss",
-                "test": false
-            },
-            {
-                "name": "support-cta.tsx",
-                "relativePath": "support-cta.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/support-cta",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/support-cta"
     },
     "teambit.evangelist/sections/support-page/support-developers@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "support-developers.module.scss",
-                "relativePath": "support-developers.module.scss",
-                "test": false
-            },
-            {
-                "name": "support-developers.tsx",
-                "relativePath": "support-developers.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/support-developers",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/support-developers"
     },
     "teambit.evangelist/sections/support-page/support-packages@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "support-packages.module.scss",
-                "relativePath": "support-packages.module.scss",
-                "test": false
-            },
-            {
-                "name": "support-packages.tsx",
-                "relativePath": "support-packages.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/support-page/support-packages",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/support-page/support-packages"
     },
     "teambit.evangelist/sections/talk-to-experts@0.5.7": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "talk-to-experts.module.scss",
-                "relativePath": "talk-to-experts.module.scss",
-                "test": false
-            },
-            {
-                "name": "talk-to-experts.tsx",
-                "relativePath": "talk-to-experts.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/sections/hybrid-homepage/talk-to-experts",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
     "teambit.evangelist/surfaces/dropdown@0.5.4": {
-        "files": [
-            {
-                "name": "dropdown.composition.tsx",
-                "relativePath": "dropdown.composition.tsx",
-                "test": false
-            },
-            {
-                "name": "dropdown.module.scss",
-                "relativePath": "dropdown.module.scss",
-                "test": false
-            },
-            {
-                "name": "dropdown.tsx",
-                "relativePath": "dropdown.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/dropdown",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/surfaces/dropdown"
     },
     "teambit.evangelist/surfaces/tooltip@0.5.4": {
-        "files": [
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            },
-            {
-                "name": "arrow-position.module.scss",
-                "relativePath": "tooltip-arrow/arrow-position.module.scss",
-                "test": false
-            },
-            {
-                "name": "arrow-shadow.module.scss",
-                "relativePath": "tooltip-arrow/arrow-shadow.module.scss",
-                "test": false
-            },
-            {
-                "name": "arrow.module.scss",
-                "relativePath": "tooltip-arrow/arrow.module.scss",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "tooltip-arrow/index.ts",
-                "test": false
-            },
-            {
-                "name": "tooltip-arrow.tsx",
-                "relativePath": "tooltip-arrow/tooltip-arrow.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "tooltip-card/index.ts",
-                "test": false
-            },
-            {
-                "name": "tooltip-card.module.scss",
-                "relativePath": "tooltip-card/tooltip-card.module.scss",
-                "test": false
-            },
-            {
-                "name": "tooltip-card.tsx",
-                "relativePath": "tooltip-card/tooltip-card.tsx",
-                "test": false
-            },
-            {
-                "name": "tooltip-drawer.module.scss",
-                "relativePath": "tooltip-drawer.module.scss",
-                "test": false
-            },
-            {
-                "name": "tooltip-drawer.tsx",
-                "relativePath": "tooltip-drawer.tsx",
-                "test": false
-            },
-            {
-                "name": "tooltip.composition.tsx",
-                "relativePath": "tooltip.composition.tsx",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/tooltip",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/surfaces/tooltip"
     },
     "teambit.evangelist/theme/icon-font@0.5.5": {
-        "files": [
-            {
-                "name": "icon-font.tsx",
-                "relativePath": "icon-font.tsx",
-                "test": false
-            },
-            {
-                "name": "index.ts",
-                "relativePath": "index.ts",
-                "test": false
-            }
-        ],
         "mainFile": "index.ts",
-        "rootDir": "src/theme/icon-font",
-        "origin": "AUTHORED",
-        "exported": true,
-        "lanes": []
+        "rootDir": "src/theme/icon-font"
     },
     "version": "14.8.9-local-dev"
 }
