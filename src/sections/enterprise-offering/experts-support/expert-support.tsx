@@ -13,7 +13,7 @@ import { Image } from '@teambit/evangelist.elements.image';
 import styles from './expert-support.module.scss';
 
 /**
- * A section showing 3 "chat messages", detailing our dedicated dev support team.<br/>
+ * A section showing 3 "chat messages", detailing our dedicated dev support team.
  * Floating chat heads are positioned on both sides, for desktop resolutions.
  * @name ExpertSupport
  */
