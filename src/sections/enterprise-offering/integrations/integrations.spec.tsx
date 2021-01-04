@@ -5,9 +5,8 @@ import { expect } from 'chai';
 import { IntegrationsExample } from './integrations.composition';
 
 it('should render correctly', () => {
-	// const { getByTestId } = render(<IntegrationsExample />);
-	// const rendered = getByTestId('test-integrations');
+	const { getByTestId } = render(<IntegrationsExample />);
+	const rendered = getByTestId('test-integrations');
 
-	// expect(rendered).to.exist;
-	expect(true).to.equal(true);
+	expect(rendered).to.exist;
 });

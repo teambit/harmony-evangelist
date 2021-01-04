@@ -10,11 +10,12 @@ import styles from './integrations.module.scss';
  * Uses a gentle rotating animation to fit them into one screen.
  * @name Integrations
  */
-export function Integrations(props: HTMLAttributes<HTMLDivElement>) {
+export function Integrations({ className, ...rest }: HTMLAttributes<HTMLDivElement>) {
 	return (
 		<div
-			className={classNames(props.className, styles.integrationBadges)}
+			className={classNames(className, styles.integrationBadges)}
 			data-bit-id="bit.evangelist/sections/enterprise-offering/integrations"
+			{...rest}
 		>
 			<div className={styles.logos}>
 				<Image
