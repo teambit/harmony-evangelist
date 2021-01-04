@@ -17,15 +17,13 @@ import styles from './component-analytics.module.scss';
 import { margin } from '@teambit/evangelist.layout.experimental.spacing';
 
 /**
- * A section showing Bit's analytical abilities.<br/>
+ * A section showing Bit's analytical abilities.
  * It features a large image extending outside the section, which gets nicely cut in lower resolutions
  * @name ComponentAnalytics
  */
 export function ComponentAnalytics(props: HTMLAttributes<HTMLDivElement>) {
 	return (
-		<div
-			className={styles.scrollPreventer}
-		>
+		<div className={styles.scrollPreventer}>
 			<Grid
 				{...props}
 				data-bit-id="bit.evangelist/sections/enterprise-offering/component-analytics"

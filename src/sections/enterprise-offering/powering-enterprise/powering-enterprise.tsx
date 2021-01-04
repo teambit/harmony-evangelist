@@ -14,7 +14,7 @@ import { H2 } from '@teambit/evangelist.elements.heading';
 import styles from './powering-enterprise.module.scss';
 
 /**
- * A section showing a summery of the Bit enterprise solution.
+ * A section showing a summary of the Bit enterprise solution.
  * @name PoweringEnterprise
  */
 export const PoweringEnterprise = (props: HTMLAttributes<HTMLDivElement>) => (

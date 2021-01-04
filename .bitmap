@@ -77,15 +77,15 @@
         "mainFile": "index.ts",
         "rootDir": "src/marketing/twitter-card"
     },
-    "teambit.evangelist/pages/enterprise-offering@0.5.11": {
+    "teambit.evangelist/pages/enterprise-offering@0.5.12": {
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
-    "teambit.evangelist/pages/hybrid-homepage@0.5.10": {
+    "teambit.evangelist/pages/hybrid-homepage@0.5.11": {
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
-    "teambit.evangelist/pages/support@0.5.11": {
+    "teambit.evangelist/pages/support@0.5.12": {
         "mainFile": "index.ts",
         "rootDir": "src/pages/support"
     },
@@ -117,11 +117,11 @@
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/discover-components"
     },
-    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.10": {
+    "teambit.evangelist/sections/enterprise-offering/advantage-cards@0.5.11": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/advantage-cards"
     },
-    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.10": {
+    "teambit.evangelist/sections/enterprise-offering/component-analytics@0.5.11": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/component-analytics"
     },
@@ -137,11 +137,11 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
-    "teambit.evangelist/sections/enterprise-offering/integrations@0.5.7": {
+    "teambit.evangelist/sections/enterprise-offering/integrations@0.5.8": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/integrations"
     },
-    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.9": {
+    "teambit.evangelist/sections/enterprise-offering/powering-enterprise@0.5.10": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/powering-enterprise"
     },

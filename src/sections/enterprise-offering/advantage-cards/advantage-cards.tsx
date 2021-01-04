@@ -19,7 +19,7 @@ import { Link } from '@teambit/evangelist.elements.link';
 import styles from './advantage-cards.module.scss';
 
 /**
- * A section showing the main advantages of the Bit enterprise solution.<br/>
+ * A section showing the main advantages of the Bit enterprise solution.
  * Each card has a call to action pointing to the /contact-sales page, with a custom subject and return url.
  * @name AdvantageCards
  */
