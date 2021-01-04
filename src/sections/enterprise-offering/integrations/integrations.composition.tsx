@@ -9,5 +9,5 @@ export const IntegrationsExample = () => (
 );
 
 IntegrationsExample.canvas = {
-	height: 200,
+	height: 180,
 };
