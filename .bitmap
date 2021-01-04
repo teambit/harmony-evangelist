@@ -77,7 +77,7 @@
         "mainFile": "index.ts",
         "rootDir": "src/marketing/twitter-card"
     },
-    "teambit.evangelist/pages/enterprise-offering@0.5.14": {
+    "teambit.evangelist/pages/enterprise-offering@0.5.15": {
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
@@ -125,15 +125,15 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/component-analytics"
     },
-    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.9": {
+    "teambit.evangelist/sections/enterprise-offering/eco-system@0.5.10": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/eco-system"
     },
-    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.9": {
+    "teambit.evangelist/sections/enterprise-offering/experts-support@0.5.10": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/experts-support"
     },
-    "teambit.evangelist/sections/enterprise-offering/hero@0.5.8": {
+    "teambit.evangelist/sections/enterprise-offering/hero@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
