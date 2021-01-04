@@ -13,14 +13,14 @@ import { Link } from '@teambit/evangelist.elements.link';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 
 /**
- * A section showing a security details for the Bit Enterprise solution.<br/>
+ * A section showing a security details for the Bit Enterprise solution.
  * The section features a large out-of-section background image, which get nicely cut in response to screen resolution.
  * @name Reliability
  */
-export const Reliability = (props: HTMLAttributes<HTMLDivElement>) => (
-	<div className={styles.corpoBg}>
+export const Reliability = ({ className, ...rest }: HTMLAttributes<HTMLDivElement>) => (
+	<div className={styles.corpoBg} {...rest}>
 		<div
-			className={classNames(props.className, text.center, text.md.left)}
+			className={classNames(className, text.center, text.md.left)}
 			data-bit-id="bit.evangelist/sections/enterprise-offering/reliability"
 		>
 			<div className={styles.content}>
