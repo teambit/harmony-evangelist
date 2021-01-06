@@ -81,7 +81,7 @@
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
-    "teambit.evangelist/pages/hybrid-homepage@0.5.11": {
+    "teambit.evangelist/pages/hybrid-homepage@0.5.12": {
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -89,31 +89,31 @@
         "mainFile": "index.ts",
         "rootDir": "src/pages/support"
     },
-    "teambit.evangelist/sections/build-together@0.5.8": {
+    "teambit.evangelist/sections/build-together@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/build-together"
     },
-    "teambit.evangelist/sections/carousel-section@0.5.8": {
+    "teambit.evangelist/sections/carousel-section@0.5.9": {
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
-    "teambit.evangelist/sections/community@0.5.9": {
+    "teambit.evangelist/sections/community@0.5.10": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/community"
     },
-    "teambit.evangelist/sections/component-advantages@0.5.8": {
+    "teambit.evangelist/sections/component-advantages@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/component-advantages"
     },
-    "teambit.evangelist/sections/cta@0.5.8": {
+    "teambit.evangelist/sections/cta@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/cta"
     },
-    "teambit.evangelist/sections/develop-components@0.5.8": {
+    "teambit.evangelist/sections/develop-components@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/develop-components"
     },
-    "teambit.evangelist/sections/discover-components@0.5.8": {
+    "teambit.evangelist/sections/discover-components@0.5.9": {
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/discover-components"
     },
@@ -153,19 +153,19 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/sales-cta"
     },
-    "teambit.evangelist/sections/enterprise-section@0.5.9": {
+    "teambit.evangelist/sections/enterprise-section@0.5.10": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
-    "teambit.evangelist/sections/hero@0.5.10": {
+    "teambit.evangelist/sections/hero@0.5.11": {
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
-    "teambit.evangelist/sections/independent-teams@0.5.8": {
+    "teambit.evangelist/sections/independent-teams@0.5.9": {
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
-    "teambit.evangelist/sections/reuse-components@0.5.8": {
+    "teambit.evangelist/sections/reuse-components@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
@@ -193,7 +193,7 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-packages"
     },
-    "teambit.evangelist/sections/talk-to-experts@0.5.8": {
+    "teambit.evangelist/sections/talk-to-experts@0.5.9": {
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
