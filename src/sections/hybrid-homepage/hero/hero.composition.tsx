@@ -1,15 +1,15 @@
 import React from 'react';
 import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
-import { BuildTogether } from './build-together';
+import { Hero } from './hero';
 
-export const BuildTogetherExample = () => (
+export const HeroExample = () => (
 	<ThemeCompositions>
-		<BuildTogether data-testid="test-build" />
+		<Hero data-testid="test-hero" />
 	</ThemeCompositions>
 );
 
-BuildTogetherExample.canvas = {
+HeroExample.canvas = {
 	width: 1400,
-	height: 400,
+	height: 600,
 	overflow: 'scroll',
 };

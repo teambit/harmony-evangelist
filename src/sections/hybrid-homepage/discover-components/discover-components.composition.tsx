@@ -1,14 +1,14 @@
 import React from 'react';
 import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
-import { BuildTogether } from './build-together';
+import { DiscoverComponents } from './discover-components';
 
-export const BuildTogetherExample = () => (
+export const DiscoverComponentsExample = () => (
 	<ThemeCompositions>
-		<BuildTogether data-testid="test-build" />
+		<DiscoverComponents data-testid="test-discover" />
 	</ThemeCompositions>
 );
 
-BuildTogetherExample.canvas = {
+DiscoverComponentsExample.canvas = {
 	width: 1400,
 	height: 400,
 	overflow: 'scroll',

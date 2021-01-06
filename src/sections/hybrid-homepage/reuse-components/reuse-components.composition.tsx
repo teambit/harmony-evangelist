@@ -1,15 +1,15 @@
 import React from 'react';
 import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
-import { BuildTogether } from './build-together';
+import { ReuseComponents } from './reuse-components';
 
-export const BuildTogetherExample = () => (
+export const ReuseComponentsExample = () => (
 	<ThemeCompositions>
-		<BuildTogether data-testid="test-build" />
+		<ReuseComponents data-testid="test-reuse" />
 	</ThemeCompositions>
 );
 
-BuildTogetherExample.canvas = {
+ReuseComponentsExample.canvas = {
 	width: 1400,
-	height: 400,
+	height: 600,
 	overflow: 'scroll',
 };
