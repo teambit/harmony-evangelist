@@ -70,7 +70,7 @@
         "@teambit/base-ui.theme.theme-provider": "^0.6.0",
         "@teambit/base-ui.utils.popper-js.ignore-popper-size": "^0.5.9",
         "@teambit/base-ui.utils.popper-js.resize-to-match-reference": "^0.5.9",
-        "@teambit/documenter.theme.theme-compositions": "1.0.3",
+        "@teambit/documenter.theme.theme-compositions": "2.0.1",
         "@testing-library/jest-dom": "^5.11.1",
         "@testing-library/react": "^10.4.7",
         "@testing-library/user-event": "^12.0.11",
