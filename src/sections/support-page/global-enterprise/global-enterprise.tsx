@@ -17,7 +17,7 @@ import { Link } from '@teambit/evangelist.elements.link';
 type GlobalEnterpriseProps = {} & HTMLAttributes<HTMLElement>;
 
 /**
- * Opening section for the Support offering page.
+ * Enterprise solution section for the Support offering page.
  * @name EcoSystem
  */
 export function GlobalEnterprise({ className, ...rest }: GlobalEnterpriseProps) {
@@ -77,9 +77,7 @@ export function GlobalEnterprise({ className, ...rest }: GlobalEnterpriseProps) 
 					<div className={styles.spacer} />
 
 					<Link className={styles.link} href="/enterprise">
-						<Button className={styles.button}>
-							Bit enterprise
-						</Button>
+						<Button className={styles.button}>Bit enterprise</Button>
 					</Link>
 				</div>
 			</div>

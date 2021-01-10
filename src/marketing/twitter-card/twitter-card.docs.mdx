@@ -1,0 +1,30 @@
+---
+labels: ['react', 'typescript', 'twitter']
+description: 'support plans comparison table'
+---
+
+import { TwitterCard } from './twitter-card';
+
+### Overview
+
+Shows a single tweet, with username and avatar.  
+Tweet example tweet:
+```js live
+<TwitterCard 
+  title="@bitdev_" 
+  image="bit-logo.png" 
+>
+	This is my tweet
+</TwitterCard>
+```
+
+Tweet example with verified icon:
+```js live
+<TwitterCard
+	title="@bitdev_"
+	image="bit-logo.png"
+	verified={true}
+>
+	This is my tweet
+</TwitterCard>
+```
