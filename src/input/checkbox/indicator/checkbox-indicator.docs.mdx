@@ -1,0 +1,15 @@
+The native `<input/>` tag is difficult to style, so it is hidden (using the `<HiddenInput/>` component), and replaced visually with a `<Indicator/>` component.
+The *indicator* is a `<span/>` element that mirrors the state of the *input* tag, showing checked/unchecked state, disabled state, and focus.
+
+Default styles include the following attributes:
+- checked / unchecked
+- disabled
+- focus
+
+Uses the following colors:
+- --separator-color - unchecked border.
+- --border-color - disabled unchecked 
+- --muted-color - focus outline
+- --base-color - checked
+- --base-highlight - checked hover
+- --muted-highlight - disabled checked
