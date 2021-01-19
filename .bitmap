@@ -41,6 +41,14 @@
         "mainFile": "index.ts",
         "rootDir": "src/elements/x-button"
     },
+    "teambit.evangelist/input/checkbox/indicator@0.0.1": {
+        "mainFile": "index.ts",
+        "rootDir": "src/input/checkbox/indicator"
+    },
+    "teambit.evangelist/input/checkbox/label@0.0.1": {
+        "mainFile": "index.ts",
+        "rootDir": "src/input/checkbox/label"
+    },
     "teambit.evangelist/input/input@0.5.7": {
         "mainFile": "index.ts",
         "rootDir": "src/input/input"

@@ -44,6 +44,8 @@
         "@teambit/base-ui.elements.separator": "^0.5.9",
         "@teambit/base-ui.geometry.curve-peek": "^0.5.9",
         "@teambit/base-ui.input.button": "^0.5.9",
+        "@teambit/base-ui.input.checkbox.indicator": "0.0.1",
+        "@teambit/base-ui.input.checkbox.label": "0.0.1",
         "@teambit/base-ui.input.error": "^0.5.9",
         "@teambit/base-ui.layout.align": "^0.5.9",
         "@teambit/base-ui.layout.breakpoints": "^0.5.9",
