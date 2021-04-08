@@ -8,26 +8,75 @@ import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions'
 
 ### Overview
 
-Button component with click effect and built in loader.  
-Supports all props from native html button.  
+Button component with click effect and built-in loader.  
+Supports all props from base-ui and native html button native html button.  
 
-Primary button example:
+### Loading
+
+The base-ui button has built in support for loading!  
+Simply return a Promise from `onClick`, and button will automatically show a loader until it resolves.
+
+```js live=true
+<Button onClick={() => new Promise((res) => setTimeout(res, 1500))} importance="ghost">
+	Click here to see loader
+</Button>
+```
+
+You can also turn on the loading animation explicitly, using the `loading={isBusy}` prop.
+
+> Use a promise when possible! it is easier and more maintainable.
+
+```js live=true
+<Button loading />
+```
+
+#### Multi trigger
+
+By default, the button is disabled while loading (to prevent duplicate triggers). This can be changed by using the `activeWhenLoading` prop.
+
+```js live=true
+<>
+	<Button onClick={() => new Promise((res) => setTimeout(res, 1000))} activeWhenLoading importance="ghost">
+		click me repeatedly
+	</Button>{' '}
+	<Button onClick={() => new Promise((res) => setTimeout(res, 1000))} importance="ghost">
+		(cannot) click me repeatedly
+	</Button>
+</>
+```
+
+
+### importance 
+The Evangelist button comes in three levels of "importance".  
+For ever lesser importance, use the inline link-like `text-button`. (to be implemented)
+
+##### Call to action  
+CTAs are "navigation lights" that lead the user in the only correct flow.  
+Setting a button as 'cta' indicates the user *should* press this button as the immediate next step.
+
+> Do not add more than one cta button in a viewport, as this would confuse the user.
+
 ```js live
 <ThemeCompositions style={{ minHeight: 90 }}>
-  <Button importance="cta" style={{ width: 120 }}>Primary</Button>
+  <Button importance="cta" style={{ width: 120 }}>Submit</Button>
 </ThemeCompositions>
 ```
 
-Secondary button example:
+##### Main button - for most actions.
+Indicates an action the user could take (like changing privacy, etc)
+
 ```js live
 <ThemeCompositions style={{ minHeight: 90 }}>
-  <Button importance="ghost" style={{ width: 120 }}>Secondary</Button>
+  <Button importance="ghost" style={{ width: 120 }}>Update</Button>
 </ThemeCompositions>
 ```
 
-Normal button example:
+##### Light button
+Indicates an action is undesirable or unimportant.
+May also be used in areas with high contrast.
+
 ```js live
 <ThemeCompositions style={{ minHeight: 90 }}>
-  <Button style={{ width: 120 }}>Normal</Button>
+  <Button style={{ width: 120 }}>Learn more</Button>
 </ThemeCompositions>
 ```

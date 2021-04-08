@@ -3,7 +3,7 @@
 .low {
 	box-shadow: var(--shadow-hover-low, initial);
 
-	&:active {
+	&:active:not(:disabled) {
 		box-shadow: var(--shadow-resting, initial);
 		transform: translateY(2px);
 	}
@@ -12,7 +12,7 @@
 .medium {
 	box-shadow: var(--shadow-hover-medium, initial);
 
-	&:active {
+	&:active:not(:disabled) {
 		box-shadow: var(--shadow-resting, initial);
 		transform: translateY(2px);
 	}
@@ -21,7 +21,7 @@
 .high {
 	box-shadow: var(--shadow-hover-high, initial);
 
-	&:active {
+	&:active:not(:disabled) {
 		box-shadow: var(--shadow-resting, initial);
 		transform: translateY(11px);
 	}
