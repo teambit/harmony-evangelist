@@ -11,7 +11,7 @@ import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { colSpanMd } from '@teambit/base-ui.layout.col-span';
 
 import { Image } from '@teambit/evangelist.elements.image';
-import { H2, H4 } from '@teambit/evangelist.elements.heading';
+import { H2 } from '@teambit/evangelist.elements.heading';
 import { Icon } from '@teambit/evangelist.elements.icon';
 import { Link } from '@teambit/evangelist.elements.link';
 import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos';
