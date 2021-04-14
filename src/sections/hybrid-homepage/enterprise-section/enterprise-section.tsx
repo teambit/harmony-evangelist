@@ -14,6 +14,7 @@ import { Image } from '@teambit/evangelist.elements.image';
 import { H2, H4 } from '@teambit/evangelist.elements.heading';
 import { Icon } from '@teambit/evangelist.elements.icon';
 import { Link } from '@teambit/evangelist.elements.link';
+import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos';
 
 /**
  * @name EnterpriseSection
@@ -56,44 +57,7 @@ export function EnterpriseSection(props: HTMLAttributes<HTMLDivElement>) {
 					/>
 				</div>
 			</Grid>
-
-			<Grid colMd={3} className={classNames(text.md.left, text.center, styles.benefits)}>
-				<div>
-					<Image
-						className={styles.icon}
-						alt="private"
-						src="homepage-bit/reuse-page/private.svg"
-					/>
-					<H4 size={PossibleSizes.xxs}>Private and secure</H4>
-					<Paragraph>
-						Keep your code private and secure with the highest standards.
-					</Paragraph>
-				</div>
-
-				<div>
-					<Image
-						className={styles.icon}
-						alt="cloud"
-						src="homepage-bit/reuse-page/cloud.svg"
-					/>
-					<H4 size={PossibleSizes.xxs}>Zero setup overhead</H4>
-					<Paragraph>
-						Create a cloud workspace in seconds and start working.
-					</Paragraph>
-				</div>
-
-				<div>
-					<Image
-						className={styles.icon}
-						alt="vendor"
-						src="homepage-bit/reuse-page/vendor.svg"
-					/>
-					<H4 size={PossibleSizes.xxs}>No vendor lock-in</H4>
-					<Paragraph>
-						Move components to any other server any time you choose.
-					</Paragraph>
-				</div>
-			</Grid>
+			<EnterpriseLogos />
 		</div>
 	);
 }
