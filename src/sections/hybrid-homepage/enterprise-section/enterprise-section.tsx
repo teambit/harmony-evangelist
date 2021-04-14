@@ -14,7 +14,6 @@ import { Image } from '@teambit/evangelist.elements.image';
 import { H2 } from '@teambit/evangelist.elements.heading';
 import { Icon } from '@teambit/evangelist.elements.icon';
 import { Link } from '@teambit/evangelist.elements.link';
-import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos';
 
 /**
  * @name EnterpriseSection
@@ -57,7 +56,6 @@ export function EnterpriseSection(props: HTMLAttributes<HTMLDivElement>) {
 					/>
 				</div>
 			</Grid>
-			<EnterpriseLogos />
 		</div>
 	);
 }

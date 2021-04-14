@@ -18,6 +18,7 @@ import { DevelopComponents } from '@teambit/evangelist.sections.develop-componen
 import { ReuseComponents } from '@teambit/evangelist.sections.reuse-components';
 import { BuildTogether } from '@teambit/evangelist.sections.build-together';
 import { DiscoverComponents } from '@teambit/evangelist.sections.discover-components';
+import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos';
 
 export type HybridHomepageProps = {
 	/** placeholder for content, after the first purple background fold. */
@@ -61,7 +62,9 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 
 				{communityCollections}
 
-				<EnterpriseSection className={classNames(centerColumn, styles.foldMargin)} />
+				<EnterpriseSection className={classNames(centerColumn, styles.margin100)} />
+
+				<EnterpriseLogos className={styles.margin130} />
 
 				<CarouselSection className={classNames(wideColumn)} />
 
