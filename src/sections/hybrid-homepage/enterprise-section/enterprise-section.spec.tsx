@@ -16,15 +16,9 @@ it('should render one h2 element', () => {
 
 	expect(rendered.length).to.equal(1);
 });
-it('should render three h4 element', () => {
-	const { container } = render(<EnterpriseSectionExample />);
-	const rendered = container.querySelectorAll('h4');
-
-	expect(rendered.length).to.equal(3);
-});
-it('should render four p element', () => {
+it('should render two p element', () => {
 	const { container } = render(<EnterpriseSectionExample />);
 	const rendered = container.querySelectorAll('p');
 
-	expect(rendered.length).to.equal(5);
+	expect(rendered.length).to.equal(2);
 });

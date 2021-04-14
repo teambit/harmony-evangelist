@@ -1,0 +1,26 @@
+.holder {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 70px 0;
+  display: grid;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+
+  @media (max-width: 1080px) {
+    max-width: 600px;
+
+    .icon {
+      margin: auto;
+
+      &:nth-child(n+10) {
+        display: none;
+      }
+    }
+	}
+  @media (max-width: 768px) {
+    max-width: 400px;
+    .icon:nth-child(n+7) {
+      display: none;
+    }
+	}
+}
