@@ -23,6 +23,7 @@
     }
 	}
   @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
     max-width: 432px;
     .icon:nth-child(n+7) {
       display: none;
