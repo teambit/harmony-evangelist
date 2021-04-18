@@ -46,16 +46,16 @@ function CrunchTheNumbers() {
 	return (
 		<div className={classNames(text.center, styles.crunchTheNumbers)}>
 			<div>
-				<div className={styles.emphasized}>35%</div>
-				<MutedText>Cost Reduction</MutedText>
+				<div className={styles.emphasized}>100%</div>
+				<MutedText>Component reuse</MutedText>
 			</div>
 			<div className={colorPalette.secondary}>
 				<div className={classNames(themedText, styles.emphasized)}>10x</div>
-				<MutedText>Feature delivery</MutedText>
+				<MutedText>More releases</MutedText>
 			</div>
 			<div className={colorPalette.primary}>
-				<div className={classNames(themedText, styles.emphasized)}>30x</div>
-				<MutedText>Team Releases</MutedText>
+				<div className={classNames(themedText, styles.emphasized)}>90%</div>
+				<MutedText>Faster integrations</MutedText>
 			</div>
 			<div className={colorPalette.complementary}>
 				<div className={classNames(themedText, styles.xtraEmpthasized)}>∞</div>

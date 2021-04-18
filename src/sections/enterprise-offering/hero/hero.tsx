@@ -43,10 +43,10 @@ export function Hero(props: HeroProps) {
 
 				<div className={styles.buttons}>
 					<a href="/contact-sales?redirectUri=%2Fenterprise">
-						<Button importance="cta">Contact Sales</Button>
+						<Button importance="cta">Talk to Us</Button>
 					</a>
 					<div className={styles.spacer} />
-					<Button onClick={props.onBookMeeting}>Book Intro</Button>
+					<Button onClick={props.onBookMeeting}>Book a Demo</Button>
 				</div>
 			</div>
 			<Image

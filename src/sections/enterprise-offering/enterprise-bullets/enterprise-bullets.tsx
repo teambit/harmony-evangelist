@@ -29,7 +29,7 @@ export function EnterpriseBullets({ className, ...rest }: EnterpriseBulletsProps
 					src="homepage-bit/reuse-page/private.svg"
 				/>
 				<H4 size={PossibleSizes.xxs}>Private and secure</H4>
-				<Paragraph>
+				<Paragraph className={styles.paragraph}>
 					Keep your code private and secure with the highest standards.
 				</Paragraph>
 			</div>
@@ -41,7 +41,9 @@ export function EnterpriseBullets({ className, ...rest }: EnterpriseBulletsProps
 					src="homepage-bit/reuse-page/cloud.svg"
 				/>
 				<H4 size={PossibleSizes.xxs}>Zero setup overhead</H4>
-				<Paragraph>Create a cloud workspace in seconds and start working.</Paragraph>
+				<Paragraph className={styles.paragraph}>
+					Create a cloud workspace in seconds and start working.
+				</Paragraph>
 			</div>
 
 			<div>
@@ -51,7 +53,9 @@ export function EnterpriseBullets({ className, ...rest }: EnterpriseBulletsProps
 					src="homepage-bit/reuse-page/vendor.svg"
 				/>
 				<H4 size={PossibleSizes.xxs}>No vendor lock-in</H4>
-				<Paragraph>Move components to any other server any time you choose.</Paragraph>
+				<Paragraph className={styles.paragraph}>
+					Move components to your own server at any moment.
+				</Paragraph>
 			</div>
 		</Grid>
 	);
