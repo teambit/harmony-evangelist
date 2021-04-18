@@ -78,9 +78,8 @@
 
 //sections:
 .landingSection {
-	padding-top: 35px;
-	width: calc(100% - 40px);
-	max-width: 1445px;
+	padding: 35px 20px 0;
+	max-width: $br-xl;
 	margin-right: auto;
 	margin-left: auto;
 }
