@@ -211,6 +211,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/eco-system"
     },
+    "sections/enterprise-offering/enterprise-bullets": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/enterprise-bullets"
+    },
     "sections/enterprise-offering/experts-support": {
         "scope": "teambit.evangelist",
         "version": "0.5.21",

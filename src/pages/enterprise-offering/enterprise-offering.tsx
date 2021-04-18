@@ -17,7 +17,9 @@ import {
 	SalesCta,
 	ContactValues,
 } from '@teambit/evangelist.sections.enterprise-offering.sales-cta';
+import { EnterpriseBullets } from '@teambit/evangelist.sections.enterprise-offering.enterprise-bullets'
 import { margin } from '@teambit/evangelist.layout.experimental.spacing';
+import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos';
 
 import styles from './enterprise-offering.module.scss';
 
@@ -50,6 +52,10 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
 			</div>
 
 			<PoweringEnterprise className={classNames(centerColumn, margin[180])} />
+
+			<EnterpriseLogos className={styles.margin160} />
+
+			<EnterpriseBullets className={classNames(centerColumn, margin[180])} />
 
 			<div className={styles.gradient01}>
 				<AdvantageCards className={classNames(centerColumn, styles.foldMarginPlus)} />
