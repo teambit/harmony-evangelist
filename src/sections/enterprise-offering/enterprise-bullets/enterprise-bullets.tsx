@@ -7,12 +7,6 @@ import { Paragraph, PossibleSizes } from '@teambit/base-ui.text.paragraph';
 import { H4 } from '@teambit/evangelist.elements.heading';
 import styles from './enterprise-bullets.module.scss';
 
-/**
- * @name EnterpriseBullets
- * @description
- * A section showing few advantages of the Bit enterprise solution.
- */
-
 export type EnterpriseBulletsProps = {} & HTMLAttributes<HTMLDivElement>;
 
 export function EnterpriseBullets({ className, ...rest }: EnterpriseBulletsProps) {
