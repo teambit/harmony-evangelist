@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
 import styles from './talk-to-experts.module.scss';
@@ -11,18 +11,22 @@ import { H2 } from '@teambit/evangelist.elements.heading';
 import { Link } from '@teambit/evangelist.elements.link';
 import { Button } from '@teambit/evangelist.elements.button';
 
+export type TalkToExpertsProps = {
+	/** handles 'book meeting' call to action */
+	onBookMeeting?: () => any | Promise<any>;
+} & HTMLAttributes<HTMLDivElement>;
+
 /**
  * @name TalkToExperts
  * @description
  * A static section, calling users to contact us.
  * Assumes the consuming component to supply className with width and other styles.
  */
-export function TalkToExperts(props: React.HTMLAttributes<HTMLDivElement>) {
+export function TalkToExperts({ onBookMeeting, className, ...rest }: TalkToExpertsProps) {
 	return (
 		<div
-			{...props}
 			className={classNames(
-				props.className,
+				className,
 				styles.talkToExperts,
 				justifyItems.center,
 				alignItems.center,
@@ -30,20 +34,19 @@ export function TalkToExperts(props: React.HTMLAttributes<HTMLDivElement>) {
 				text.sm.left
 			)}
 			data-bit-id="bit.evangelist/sections/talk-to-experts"
+			{...rest}
 		>
 			<div className={marginCenter}>
-				<H2 size={PossibleSizes.xs}>
-					Exploring component reuse? Talk to world experts
-				</H2>
+				<H2 size={PossibleSizes.xs}>Build like the world's best teams</H2>
 				<Paragraph size={PossibleSizes.xl}>
-					We help the best teams reuse components together. Get in touch with our
-					expert architects to find the best solution for your team!
+					We help the world's best teams build and ship modern apps better together.
+					Let us show you what Bit can do for you.
 				</Paragraph>
 			</div>
 			<div>
-				<Link href="/contact-sales">
-					<Button importance="cta">Get in touch</Button>
-				</Link>
+				<Button importance="cta" onClick={onBookMeeting}>
+					Book a Demo
+				</Button>
 			</div>
 		</div>
 	);

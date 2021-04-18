@@ -9,11 +9,24 @@
 	margin-bottom: 24px;
 }
 
-.linkArrow {
-	display: block;
-	font-size: 0.75em;
-	transform: translate(3px, 1px);
-	display: inline-block;
+.contactButton {
+	width: 146px;
+  height: 32px;
+  font-size: var(--p-xs, 14px);
+
+	@media (max-width: 360px) {
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+	}
+
+	.linkArrow {
+		font-size: 1em;
+		transform: translate(3px, 1px);
+		display: inline-block;
+		margin-left: 10px;
+	}
 }
 
 .paragraph {

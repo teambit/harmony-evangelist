@@ -24,7 +24,7 @@ export function CarouselSection(props: HTMLAttributes<HTMLDivElement>) {
 		<div {...props} className={props.className}>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm} className={styles.heading}>
-					Trusted by over 100,000 developers
+					Trusted by over 200,000 developers
 				</H2>
 			</div>
 			<CommentCarousel content={bitTestimonials} />
