@@ -55,7 +55,7 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 						styles.margin180
 					)}
 				>
-					<Hero className={classNames(styles.landingSection, centerColumn)} />
+					<Hero className={classNames(styles.landingSection)} />
 
 					{mainCta}
 				</div>

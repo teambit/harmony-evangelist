@@ -1,7 +1,7 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import styles from './hero.module.scss'; 
+import styles from './hero.module.scss';
 
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
@@ -79,7 +79,7 @@ export function Hero(props: ReuseLandingProps) {
 				</div>
 
 				<Image
-					src="homepage-bit/flying-man-01.svg"
+					src="homepage-bit/process.svg"
 					className={marginCenter}
 					alt="illustration"
 					fullWidth

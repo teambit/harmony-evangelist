@@ -2,6 +2,10 @@
 
 .mainGrid {
 	gap: 76px;
+
+	@media screen and (min-width: $br-lg) {
+		grid-template-columns: 1fr 2fr;
+	}
 }
 
 .spacer {
