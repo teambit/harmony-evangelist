@@ -4,7 +4,10 @@ import { HybridHomepage } from './hybrid-homepage';
 
 export const HybridHomePageComposition = () => (
 	<ThemeCompositions>
-		<HybridHomepage githubStars={12600} />
+		<HybridHomepage
+			githubStars={12600}
+			onBookMeeting={() => alert('function to book a meeting')}
+		/>
 	</ThemeCompositions>
 );
 

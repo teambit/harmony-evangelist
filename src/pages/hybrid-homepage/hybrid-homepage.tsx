@@ -27,6 +27,8 @@ export type HybridHomepageProps = {
 	mainCta?: ReactNode;
 	/** show github star count at the community section */
 	githubStars?: number;
+	/** handles 'book meeting' call to action */
+	onBookMeeting?: () => any | Promise<any>;
 } & HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -42,6 +44,7 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 			communityCollections = null,
 			mainCta,
 			githubStars,
+			onBookMeeting,
 			className,
 			...rest
 		} = this.props;
@@ -86,7 +89,10 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 
 				<ReuseComponents className={classNames(centerColumn, styles.foldMargin)} />
 
-				<TalkToExperts className={classNames(centerColumn, styles.foldMargin)} />
+				<TalkToExperts
+					className={classNames(centerColumn, styles.foldMargin)}
+					onBookMeeting={onBookMeeting}
+				/>
 
 				<div
 					className={classNames(
