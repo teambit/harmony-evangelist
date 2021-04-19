@@ -135,13 +135,13 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -159,7 +159,7 @@
     },
     "sections/carousel-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
@@ -211,6 +211,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/eco-system"
     },
+    "sections/enterprise-offering/enterprise-bullets": {
+        "scope": "teambit.evangelist",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/sections/enterprise-offering/enterprise-bullets"
+    },
     "sections/enterprise-offering/experts-support": {
         "scope": "teambit.evangelist",
         "version": "0.5.21",
@@ -219,7 +225,7 @@
     },
     "sections/enterprise-offering/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
@@ -231,7 +237,7 @@
     },
     "sections/enterprise-offering/powering-enterprise": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/powering-enterprise"
     },
@@ -249,13 +255,13 @@
     },
     "sections/enterprise-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
@@ -309,7 +315,7 @@
     },
     "sections/talk-to-experts": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },

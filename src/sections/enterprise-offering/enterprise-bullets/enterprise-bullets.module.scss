@@ -1,0 +1,15 @@
+@import '~@teambit/base-ui.layout.breakpoints/_breakpoints.scss';
+
+.benefits {
+	grid-gap: 40px;
+}
+.icon {
+	width: 50px;
+	margin-bottom: 24px;
+}
+.paragraph {
+  margin: auto;
+	@media screen and (min-width: $br-l) {
+		padding: 0 30px;
+	}
+}

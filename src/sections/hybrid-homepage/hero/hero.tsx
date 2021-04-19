@@ -1,7 +1,7 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 
-import styles from './hero.module.scss'; 
+import styles from './hero.module.scss';
 
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
@@ -10,7 +10,6 @@ import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
-import { links } from '@teambit/evangelist.content.links';
 import { H1 } from '@teambit/evangelist.elements.heading';
 import { IconLine } from '@teambit/evangelist.elements.icon-line';
 import { Link } from '@teambit/evangelist.elements.link';
@@ -72,15 +71,15 @@ export function Hero(props: ReuseLandingProps) {
 							</Button>
 						</Link>
 						<div className={styles.spacer} />
-						<Link external href={`${links.docs}/docs/quick-start`}>
-							<Button elevation="medium">Learn More</Button>
+						<Link href="/contact-sales">
+							<Button elevation="medium">Book a Demo</Button>
 						</Link>
 					</Paragraph>
 					<IconLine icons={iconsArray} className={styles.icons} />
 				</div>
 
 				<Image
-					src="homepage-bit/flying-man-01.svg"
+					src="homepage-bit/process.svg"
 					className={marginCenter}
 					alt="illustration"
 					fullWidth
