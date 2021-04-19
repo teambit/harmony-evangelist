@@ -135,7 +135,7 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
@@ -249,7 +249,7 @@
     },
     "sections/enterprise-offering/sales-cta": {
         "scope": "teambit.evangelist",
-        "version": "0.5.21",
+        "version": "0.5.22",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/sales-cta"
     },
