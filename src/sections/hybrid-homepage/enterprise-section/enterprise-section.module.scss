@@ -1,3 +1,5 @@
+@import '~@teambit/base-ui.layout.breakpoints/_breakpoints.scss';
+
 .content {
 	margin-bottom: 100px;
 }
@@ -14,7 +16,7 @@
   height: 32px;
   font-size: var(--p-xs, 14px);
 
-	@media (max-width: 360px) {
+	@media (max-width: $br-xs) {
 		margin: auto;
 		align-items: center;
 		justify-content: center;
