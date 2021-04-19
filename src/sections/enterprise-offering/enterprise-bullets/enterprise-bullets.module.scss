@@ -1,3 +1,5 @@
+@import '~@teambit/base-ui.layout.breakpoints/_breakpoints.scss';
+
 .benefits {
 	grid-gap: 40px;
 }
@@ -6,6 +8,8 @@
 	margin-bottom: 24px;
 }
 .paragraph {
-  width: 248px;
   margin: auto;
+	@media screen and (min-width: $br-l) {
+		padding: 0 30px;
+	}
 }
