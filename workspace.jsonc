@@ -14,7 +14,7 @@
     /**
      * set the default scope when there is no matching for the component in the components array.
      **/
-    "defaultScope": "teambit.evangelist",
+    "defaultScope": "odedr.test-evangelist",
     /**
      * set the default directory when there is no matching for the component in the components array.
      **/
@@ -146,15 +146,15 @@
   **/
   "teambit.workspace/variants": {
     "*": {
-      "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": [
-          "--access public"
-        ],
-        "packageJson": {
-          "name": "@teambit/evangelist.{name}",
-          "private": false
-        }
-      },
+      // "teambit.pkg/pkg": {
+      //   "packageManagerPublishArgs": [
+      //     "--access public"
+      //   ],
+      //   "packageJson": {
+      //     "name": "@teambit/evangelist.{name}",
+      //     "private": false
+      //   }
+      // },
       "teambit.react/react": {}
     }
   }
