@@ -26,7 +26,7 @@ export function ComponentAnalytics(props: HTMLAttributes<HTMLDivElement>) {
 		<div className={styles.scrollPreventer}>
 			<Grid
 				{...props}
-				data-bit-id="bit.evangelist/sections/enterprise-offering/component-analytics"
+				data-bit-id="teambit.evangelist/sections/enterprise-offering/component-analytics"
 				className={classNames(alignItems.center, props.className, styles.customGrid)}
 			>
 				<div>

@@ -20,7 +20,7 @@ import styles from './powering-enterprise.module.scss';
 export const PoweringEnterprise = (props: HTMLAttributes<HTMLDivElement>) => (
 	<div
 		{...props}
-		data-bit-id="bit.evangelist/sections/enterprise-offering/powering-enterprise"
+		data-bit-id="teambit.evangelist/sections/enterprise-offering/powering-enterprise"
 		className={classNames(
 			props.className,
 			text.center,

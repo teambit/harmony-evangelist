@@ -81,7 +81,7 @@ export class CommentCarousel extends PureComponent<CommentCarouselProps> {
 
 		return (
 			<div
-				data-bit-id="bit.evangelist/marketing/comment-carousel"
+				data-bit-id="teambit.evangelist/marketing/comment-carousel"
 				{...rest}
 				className={classNames(
 					styles.carouselWrapper,

@@ -41,7 +41,7 @@ type ReuseLandingProps = {
 
 export function Hero(props: ReuseLandingProps) {
 	return (
-		<div data-bit-id="bit.evangelist/sections/hero" {...props}>
+		<div data-bit-id="teambit.evangelist/sections/hero" {...props}>
 			<Grid colL={2} className={classNames(styles.mainGrid, text.center, text.l.left)}>
 				<div>
 					<div>

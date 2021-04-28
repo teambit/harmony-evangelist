@@ -27,7 +27,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 		<div
 			{...props}
 			className={classNames(props.className, text.center)}
-			data-bit-id="bit.evangelist/sections/build-together"
+			data-bit-id="teambit.evangelist/sections/build-together"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm}>Keep apps and teams in perfect sync</H2>

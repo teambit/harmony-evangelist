@@ -33,7 +33,7 @@ export function TalkToExperts({ onBookMeeting, className, ...rest }: TalkToExper
 				text.center,
 				text.sm.left
 			)}
-			data-bit-id="bit.evangelist/sections/talk-to-experts"
+			data-bit-id="teambit.evangelist/sections/talk-to-experts"
 			{...rest}
 		>
 			<div className={marginCenter}>

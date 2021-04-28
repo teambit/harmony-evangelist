@@ -55,7 +55,7 @@ export function GlobalEnterprise({ className, ...rest }: GlobalEnterpriseProps) 
 		<div
 			className={className}
 			{...rest}
-			data-bit-id="bit.evangelist/sections/support-page/global-enterprise"
+			data-bit-id="teambit.evangelist/sections/support-page/global-enterprise"
 		>
 			<div className={classNames(styles.topSection, marginCenter, text.center)}>
 				<H2 size={PossibleSizes.sm}>We support global enterprises</H2>

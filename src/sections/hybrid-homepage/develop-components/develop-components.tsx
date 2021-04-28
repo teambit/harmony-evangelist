@@ -21,7 +21,7 @@ import styles from './develop-components.module.scss';
 
 export function DevelopComponents(props: HTMLAttributes<HTMLDivElement>) {
 	return (
-		<div {...props} data-bit-id="bit.evangelist/sections/develop-components">
+		<div {...props} data-bit-id="teambit.evangelist/sections/develop-components">
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm}>
 					Develop modular applications with independent components

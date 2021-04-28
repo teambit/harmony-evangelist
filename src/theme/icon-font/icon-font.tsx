@@ -22,7 +22,7 @@ export function EvaIconFont(props: EvaIconFontProps) {
 	const { query = 'dqaogs' } = props;
 	return (
 		<link
-			data-bit-id="bit.evangelist/theme/icon-font"
+			data-bit-id="teambit.evangelist/theme/icon-font"
 			rel="stylesheet"
 			href={`${EMBED_LINK}?${query}`}
 		/>

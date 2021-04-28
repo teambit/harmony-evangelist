@@ -22,7 +22,7 @@ export function Icon({ className, of: iconName, ...rest }: IconProps) {
 		<BaseIcon
 			of={`${iconSetPrefix}-${iconName}`}
 			className={className}
-			data-bit-id="bit.evangelist/elements/icon"
+			data-bit-id="teambit.evangelist/elements/icon"
 			{...rest}
 		/>
 	);

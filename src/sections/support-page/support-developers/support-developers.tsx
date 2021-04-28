@@ -77,7 +77,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
 		<div
 			className={className}
 			{...rest}
-			data-bit-id="bit.evangelist/sections/support-page/support-developers"
+			data-bit-id="teambit.evangelist/sections/support-page/support-developers"
 		>
 			<div className={classNames(styles.content, text.center)}>
 				<H2 size={PossibleSizes.sm}>We got you covered</H2>

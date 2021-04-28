@@ -21,7 +21,7 @@ export function SlackLink({ className, children, ...rest }: SlackLinkProps) {
 	return (
 		<CommunityLink
 			external
-			data-bit-id="bit.evangelist/marketing/community-links/slack-link"
+			data-bit-id="teambit.evangelist/marketing/community-links/slack-link"
 			className={classNames(styles.slackLink, className)}
 			{...rest}
 		>

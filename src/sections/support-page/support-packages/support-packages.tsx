@@ -27,7 +27,7 @@ export function SupportPackages(props: SupportPackagesProps) {
 		<div
 			className={className}
 			{...rest}
-			data-bit-id="bit.evangelist/sections/support-page/support-packages"
+			data-bit-id="teambit.evangelist/sections/support-page/support-packages"
 		>
 			<div className={classNames(styles.topSection, marginCenter, text.center)}>
 				<H2 size={PossibleSizes.sm}>Simple transparent plans</H2>

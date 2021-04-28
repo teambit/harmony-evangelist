@@ -15,7 +15,7 @@ import { marginCenter } from '@teambit/base-ui.layout.align';
  */
 export const EcoSystem = (props: HTMLAttributes<HTMLDivElement>) => {
 	return (
-		<div {...props} data-bit-id="bit.evangelist/sections/enterprise-offering/eco-system">
+		<div {...props} data-bit-id="teambit.evangelist/sections/enterprise-offering/eco-system">
 			<H2 size={PossibleSizes.sm}>Rooted in your ecosystem</H2>
 			<Paragraph
 				className={classNames(mutedText, textColumn, marginCenter)}

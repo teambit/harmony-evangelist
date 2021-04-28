@@ -18,7 +18,7 @@ export type PrimaryLinkProps = LinkProps;
 export function CommunityLink({ className, ...rest }: PrimaryLinkProps) {
 	return (
 		<Link
-			data-bit-id="bit.evangelist/marketing/community-links/community-link"
+			data-bit-id="teambit.evangelist/marketing/community-links/community-link"
 			className={classNames(styles.primaryLink, className)}
 			{...rest}
 		></Link>

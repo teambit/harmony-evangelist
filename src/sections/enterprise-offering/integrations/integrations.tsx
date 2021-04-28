@@ -14,7 +14,7 @@ export function Integrations({ className, ...rest }: HTMLAttributes<HTMLDivEleme
 	return (
 		<div
 			className={classNames(className, styles.integrationBadges)}
-			data-bit-id="bit.evangelist/sections/enterprise-offering/integrations"
+			data-bit-id="teambit.evangelist/sections/enterprise-offering/integrations"
 			{...rest}
 		>
 			<div className={styles.logos}>

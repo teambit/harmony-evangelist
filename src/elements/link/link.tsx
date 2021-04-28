@@ -19,7 +19,7 @@ import styles from './link.module.scss';
 export function Link(props: LinkProps) {
 	return (
 		<BaseLink
-			data-bit-id="bit.evangelist/elements/link"
+			data-bit-id="teambit.evangelist/elements/link"
 			{...props}
 			className={classNames(props.className, styles.primaryLink)}
 		/>

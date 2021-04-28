@@ -27,7 +27,7 @@ export const AdvantageCards = (props: HTMLAttributes<HTMLDivElement>) => (
 	<div
 		{...props}
 		className={classNames(props.className)}
-		data-bit-id="bit.evangelist/sections/enterprise-offering/advantage-cards"
+		data-bit-id="teambit.evangelist/sections/enterprise-offering/advantage-cards"
 	>
 		<div className={classNames(textColumn, marginCenter, text.center)}>
 			<H2 size={PossibleSizes.sm}>Bit enterprise</H2>

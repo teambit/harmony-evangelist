@@ -21,7 +21,7 @@ export const Reliability = ({ className, ...rest }: HTMLAttributes<HTMLDivElemen
 	<div className={styles.corpoBg} {...rest}>
 		<div
 			className={classNames(className, text.center, text.md.left)}
-			data-bit-id="bit.evangelist/sections/enterprise-offering/reliability"
+			data-bit-id="teambit.evangelist/sections/enterprise-offering/reliability"
 		>
 			<div className={styles.content}>
 				<H2 size={PossibleSizes.sm} className={styles.title}>

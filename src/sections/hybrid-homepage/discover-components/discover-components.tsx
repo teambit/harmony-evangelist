@@ -26,7 +26,7 @@ export function DiscoverComponents(props: HTMLAttributes<HTMLDivElement>) {
 		<div
 			{...props}
 			className={classNames(props.className)}
-			data-bit-id="bit.evangelist/sections/discover-components"
+			data-bit-id="teambit.evangelist/sections/discover-components"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm} className={text.center}>

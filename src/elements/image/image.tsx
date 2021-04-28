@@ -16,7 +16,7 @@ export type ImageProps = BaseImageProps;
 export function Image({ src, ...rest }: ImageProps) {
 	return (
 		<BaseImage
-			data-bit-id="bit.evangelist/elements/image"
+			data-bit-id="teambit.evangelist/elements/image"
 			{...rest}
 			src={`${staticStorageUrl}/${src}`}
 		/>

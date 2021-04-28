@@ -18,7 +18,7 @@ export function TwitterLink({ className, ...rest }: TwitterLinkProps) {
 	return (
 		<CommunityLink
 			external
-			data-bit-id="bit.evangelist/marketing/community-links/twitter-link"
+			data-bit-id="teambit.evangelist/marketing/community-links/twitter-link"
 			className={classNames(styles.twitterLink, className)}
 			{...rest}
 		>

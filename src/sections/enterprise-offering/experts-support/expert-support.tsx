@@ -20,7 +20,7 @@ import styles from './expert-support.module.scss';
 export const ExpertSupport = (props: HTMLAttributes<HTMLDivElement>) => (
 	<div
 		className={styles.preventOverflow}
-		data-bit-id="bit.evangelist/sections/enterprise-offering/experts-support"
+		data-bit-id="teambit.evangelist/sections/enterprise-offering/experts-support"
 	>
 		<div {...props} className={classNames(styles.container, props.className)}>
 			<div className={classNames(styles.mainContent, marginCenter)}>

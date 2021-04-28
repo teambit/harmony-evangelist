@@ -25,7 +25,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 		<div
 			{...props}
 			className={classNames(props.className, text.center)}
-			data-bit-id="bit.evangelist/sections/reuse-components"
+			data-bit-id="teambit.evangelist/sections/reuse-components"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm}>Reuse everything to max speed and consistency</H2>
