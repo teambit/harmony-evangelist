@@ -3,7 +3,7 @@
 {
     "content/bit-testimonials": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "bit-testimonials.tsx",
         "rootDir": "src/content/bit-testimonials"
     },
@@ -21,103 +21,103 @@
     },
     "elements/button": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.tsx",
         "rootDir": "src/elements/button"
     },
     "elements/heading": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.tsx",
         "rootDir": "src/elements/heading"
     },
     "elements/icon": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.tsx",
         "rootDir": "src/elements/icon"
     },
     "elements/icon-line": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/elements/icon-line"
     },
     "elements/image": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/elements/image"
     },
     "elements/link": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/elements/link"
     },
     "elements/x-button": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/elements/x-button"
     },
     "input/checkbox/indicator": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/indicator"
     },
     "input/checkbox/label": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/label"
     },
     "input/input": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/input/input"
     },
     "layout/experimental/spacing": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/layout/spacing"
     },
     "marketing/comment-carousel": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/comment-carousel"
     },
     "marketing/community-links/community-link": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/community-links/community-link"
     },
     "marketing/community-links/github-link": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/community-links/github-link"
     },
     "marketing/community-links/slack-link": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/community-links/slack-link"
     },
     "marketing/community-links/twitter-link": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/community-links/twitter-link"
     },
     "marketing/enterprise-logos": {
         "scope": "teambit.evangelist",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/enterprise-logos"
     },
@@ -129,205 +129,205 @@
     },
     "marketing/twitter-card": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/twitter-card"
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.29",
+        "version": "0.5.30",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
     "pages/support": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/pages/support"
     },
     "sections/build-together": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/build-together"
     },
     "sections/carousel-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
     "sections/community": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/community"
     },
     "sections/component-advantages": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/component-advantages"
     },
     "sections/cta": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/cta"
     },
     "sections/develop-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/develop-components"
     },
     "sections/discover-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/discover-components"
     },
     "sections/enterprise-offering/advantage-cards": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/advantage-cards"
     },
     "sections/enterprise-offering/component-analytics": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/component-analytics"
     },
     "sections/enterprise-offering/eco-system": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/eco-system"
     },
     "sections/enterprise-offering/enterprise-bullets": {
         "scope": "teambit.evangelist",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/enterprise-bullets"
     },
     "sections/enterprise-offering/experts-support": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/experts-support"
     },
     "sections/enterprise-offering/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
     "sections/enterprise-offering/integrations": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/integrations"
     },
     "sections/enterprise-offering/powering-enterprise": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/powering-enterprise"
     },
     "sections/enterprise-offering/reliability": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/reliability"
     },
     "sections/enterprise-offering/sales-cta": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/sales-cta"
     },
     "sections/enterprise-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
     "sections/independent-teams": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
     "sections/reuse-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
     "sections/support-page/global-enterprise": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/global-enterprise"
     },
     "sections/support-page/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/hero"
     },
     "sections/support-page/support-channels": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-channels"
     },
     "sections/support-page/support-cta": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-cta"
     },
     "sections/support-page/support-developers": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-developers"
     },
     "sections/support-page/support-packages": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-packages"
     },
     "sections/talk-to-experts": {
         "scope": "teambit.evangelist",
-        "version": "0.5.23",
+        "version": "0.5.24",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
     "surfaces/dropdown": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/dropdown"
     },
     "surfaces/tooltip": {
         "scope": "teambit.evangelist",
-        "version": "0.5.22",
+        "version": "0.5.23",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/tooltip"
     },
