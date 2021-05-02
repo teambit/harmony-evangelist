@@ -159,7 +159,7 @@
     },
     "sections/carousel-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.26",
+        "version": "0.5.27",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
@@ -321,13 +321,13 @@
     },
     "surfaces/dropdown": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/dropdown"
     },
     "surfaces/tooltip": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/tooltip"
     },

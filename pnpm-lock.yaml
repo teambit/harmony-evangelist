@@ -29,7 +29,7 @@ importers:
       '@teambit/base-ui.surfaces.background': registry.npmjs.org/@teambit/base-ui.surfaces.background/0.6.9_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.surfaces.bedrock': registry.npmjs.org/@teambit/base-ui.surfaces.bedrock/0.6.10_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.surfaces.card': registry.npmjs.org/@teambit/base-ui.surfaces.card/0.6.11_react-dom@16.14.0+react@16.14.0
-      '@teambit/base-ui.surfaces.drawer': registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.10_react-dom@16.14.0+react@16.14.0
+      '@teambit/base-ui.surfaces.drawer': registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.11_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.text.heading': registry.npmjs.org/@teambit/base-ui.text.heading/0.6.11_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.text.muted-text': registry.npmjs.org/@teambit/base-ui.text.muted-text/0.6.11_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.text.paragraph': registry.npmjs.org/@teambit/base-ui.text.paragraph/0.6.12_react-dom@16.14.0+react@16.14.0
@@ -107,7 +107,7 @@ importers:
       '@teambit/base-ui.surfaces.background': ^0.6.9
       '@teambit/base-ui.surfaces.bedrock': ^0.6.10
       '@teambit/base-ui.surfaces.card': ^0.6.11
-      '@teambit/base-ui.surfaces.drawer': ^0.6.10
+      '@teambit/base-ui.surfaces.drawer': ^0.6.11
       '@teambit/base-ui.text.heading': ^0.6.11
       '@teambit/base-ui.text.muted-text': ^0.6.11
       '@teambit/base-ui.text.paragraph': ^0.6.12
@@ -281,10 +281,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-pnbuDs813mUClJue8GmYQYyguEE=
+      tarball: '@bit/bit.javascript.component.npm-id/-/bit.javascript.component.npm-id-0.4.3.tgz'
   /@bit/bit.utils.string.optional/0.0.4:
     dev: false
     resolution:
       integrity: sha1-Hk6S9FxQH0wxICItovqjsziUvyg=
+      tarball: '@bit/bit.utils.string.optional/-/bit.utils.string.optional-0.0.4.tgz'
   registry.npmjs.org/@babel/code-frame/7.12.13:
     dependencies:
       '@babel/highlight': registry.npmjs.org/@babel/highlight/7.13.10
@@ -2832,22 +2834,22 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@teambit/base-ui.geometry.curve-peek/-/base-ui.geometry.curve-peek-0.6.11.tgz
     version: 0.6.11
-  registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.10_react-dom@16.14.0+react@16.14.0:
+  registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.11_react-dom@16.14.0+react@16.14.0:
     dependencies:
       core-js: registry.npmjs.org/core-js/3.11.1
       react: registry.npmjs.org/react/16.14.0
       react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: false
-    id: registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.10
+    id: registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.11
     name: '@teambit/base-ui.hook.use-click-outside'
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     resolution:
-      integrity: sha512-Jg/TjoZ+JcDCut9PmLhhveTwgxKnl5/ro/cexBLqgUtn7WFtcfXvPvgyxfadf5EqdnVAizyZ91zCfDEYCBenmQ==
+      integrity: sha512-HsF4cvEhSHz6PX8JIuzLL9RVAEushhvA/dWx2Ln4rtktFxcLlxvYjMpieoQPSc+LZVZXW24SjGn7k0PcuSdh2Q==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/-/base-ui.hook.use-click-outside-0.6.10.tgz
-    version: 0.6.10
+      tarball: https://registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/-/base-ui.hook.use-click-outside-0.6.11.tgz
+    version: 0.6.11
   registry.npmjs.org/@teambit/base-ui.input.button/0.6.11_react-dom@16.14.0+react@16.14.0:
     dependencies:
       '@teambit/base-ui.elements.dots-loader': registry.npmjs.org/@teambit/base-ui.elements.dots-loader/0.6.11_react-dom@16.14.0+react@16.14.0
@@ -3145,9 +3147,9 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@teambit/base-ui.surfaces.card/-/base-ui.surfaces.card-0.6.11.tgz
     version: 0.6.11
-  registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.10_react-dom@16.14.0+react@16.14.0:
+  registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.11_react-dom@16.14.0+react@16.14.0:
     dependencies:
-      '@teambit/base-ui.hook.use-click-outside': registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.10_react-dom@16.14.0+react@16.14.0
+      '@teambit/base-ui.hook.use-click-outside': registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.6.11_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.surfaces.abs-container': registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.6.10_react-dom@16.14.0+react@16.14.0
       classnames: registry.npmjs.org/classnames/2.3.1
       core-js: registry.npmjs.org/core-js/3.11.1
@@ -3155,16 +3157,16 @@ packages:
       react-create-ref: registry.npmjs.org/react-create-ref/1.0.1_react@16.14.0
       react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: false
-    id: registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.10
+    id: registry.npmjs.org/@teambit/base-ui.surfaces.drawer/0.6.11
     name: '@teambit/base-ui.surfaces.drawer'
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     resolution:
-      integrity: sha512-FrfFSxHL492GMVI8fT5uQSDo5S2sKcohgqkBcTH6VnMlCTB6V8cORxJ4Pic/SGaHhmbWPjW/s5WVP+xJeGIkOw==
+      integrity: sha512-r2EcuI2JxviqtcGip24rnVvphfxP3pJmgOVEJQztScpLrUpUXPZ/3c8ovyW7jV4mrkxWFhDcvTfLvWK9ip+Raw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@teambit/base-ui.surfaces.drawer/-/base-ui.surfaces.drawer-0.6.10.tgz
-    version: 0.6.10
+      tarball: https://registry.npmjs.org/@teambit/base-ui.surfaces.drawer/-/base-ui.surfaces.drawer-0.6.11.tgz
+    version: 0.6.11
   registry.npmjs.org/@teambit/base-ui.text.heading/0.6.11_react-dom@16.14.0+react@16.14.0:
     dependencies:
       core-js: registry.npmjs.org/core-js/3.11.1
