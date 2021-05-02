@@ -321,13 +321,13 @@
     },
     "surfaces/dropdown": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/dropdown"
     },
     "surfaces/tooltip": {
         "scope": "teambit.evangelist",
-        "version": "0.5.24",
+        "version": "0.5.25",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/tooltip"
     },

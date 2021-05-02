@@ -72,7 +72,7 @@ export function Hero(props: ReuseLandingProps) {
 						</Link>
 						<div className={styles.spacer} />
 						<Link href="/contact-sales">
-							<Button elevation="medium">Book a Demo</Button>
+							<Button elevation="medium">Get a Demo</Button>
 						</Link>
 					</Paragraph>
 					<IconLine icons={iconsArray} className={styles.icons} />

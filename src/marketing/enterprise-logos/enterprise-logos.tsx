@@ -10,7 +10,7 @@ const LOGOS = [
 	'homepage-enterprise-logos/at&t.svg',
 	'homepage-enterprise-logos/Autodesk.svg',
 	'homepage-enterprise-logos/Moodys.svg',
-	'homepage-enterprise-logos/Carlsberg.svg',
+	'homepage-enterprise-logos/Ryerson.svg',
 	'homepage-enterprise-logos/okta.svg',
 	'homepage-enterprise-logos/HOOPP.svg',
 	'homepage-enterprise-logos/Expression.svg',
