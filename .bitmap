@@ -159,7 +159,7 @@
     },
     "sections/carousel-section": {
         "scope": "teambit.evangelist",
-        "version": "0.5.26",
+        "version": "0.5.27",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/carouselSection"
     },
