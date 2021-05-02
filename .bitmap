@@ -141,7 +141,7 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.32",
+        "version": "0.5.34",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
