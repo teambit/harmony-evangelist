@@ -32,6 +32,13 @@ export const bitTestimonials: TestimonialObj[] = [
 		avatar: `${staticStorageUrl}/comment-carousel/kat.png`,
 	},
 	{
+		content:
+			'“Bit with module federation is next-level awesome… going to make micro-frontends development a dream”',
+		name: 'Zack Jackson',
+		description: 'Author of Module Federation',
+		avatar: `${staticStorageUrl}/comment-carousel/ZackJackson@3x.png`,
+	},
+	{
 		content: '“Dreaming of an app design system powered by Bit and Figma…”',
 		name: 'Lee Martin',
 		description: 'Fullstack rock n’ roll devstar',
@@ -49,12 +56,6 @@ export const bitTestimonials: TestimonialObj[] = [
 		name: 'Mike Kerr',
 		description: 'Engineering manager at FabFitFun',
 		avatar: `${staticStorageUrl}/comment-carousel/mike.png`,
-	},
-	{
-		content: "“I just discovered Bit and it's brilliant! thanks! Shared it with my team!”",
-		name: 'Alena Nikolaeva',
-		description: 'Designer & Coder',
-		avatar: `${staticStorageUrl}/comment-carousel/alena.png`,
 	},
 	{
 		content:
