@@ -79,7 +79,7 @@ export function Hero(props: ReuseLandingProps) {
 				</div>
 
 				<Image
-					src="homepage-bit/process.svg"
+					src="homepage-bit/process-2.svg"
 					className={marginCenter}
 					alt="illustration"
 					fullWidth
