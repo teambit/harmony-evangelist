@@ -46,7 +46,7 @@ export function CommunitySection(props: CommunitySectionProps) {
 						Join the community
 					</H2>
 					<Paragraph className={styles.text} size={PossibleSizes.md}>
-						Join over 100,000 developers around the world to share and build
+						Join over 200,000 developers around the world to share and build
 						components together. Enjoy the world’s largest open-source component
 						community with over 60,000 components and growing. Come join us.
 					</Paragraph>

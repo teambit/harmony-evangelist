@@ -28,10 +28,14 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 			data-bit-id="teambit.evangelist/sections/reuse-components"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
-				<H2 size={PossibleSizes.sm}>Reuse everything to max speed and consistency</H2>
+				<H2 size={PossibleSizes.sm}>
+					Host and reuse components in the cloud.
+					<br />
+					Max dev speed and consistency.
+				</H2>
 				<Paragraph size={PossibleSizes.xl} className={classNames(styles.subtitle)}>
-					Easily share and reuse every components across projects and teams.
-					Accelerate development and ensure consistency at every touchpoint.
+					Build better together with a reusable component marketplace for your
+					organization. Collaborate and integrate to speed delivery.
 				</Paragraph>
 			</div>
 
@@ -44,11 +48,13 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>World-class package registry</H3>
+					<H3 size={PossibleSizes.xs}>
+						Enjoy a world-class package registry, or bring your own
+					</H3>
 					<Paragraph>
-						Use npm or yarn to Install any component from your very own blazing-fast
-						private registry. Only install and get updates for the components you
-						actually need.
+						Install components directly from the bit.dev registry using your
+						favorite package manager, or bring your own registry or Artifactory.
+						Your choice.
 					</Paragraph>
 				</div>
 				<Image
@@ -58,11 +64,13 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Bring in the code, stay independent</H3>
+					<H3 size={PossibleSizes.xs}>
+						Integrate components in build-time or runtime, it's your choice
+					</H3>
 					<Paragraph>
-						Use Bit to bring any component’s files and setup into your local
-						project. Edit, debug and change the code any way you like. Keep getting
-						updates on top to stay synced.
+						Bit gives you control over which components should be integrated in
+						build-time and which in runtime, to avoid complexity and max
+						performance.
 					</Paragraph>
 				</div>
 				<Image
@@ -71,11 +79,12 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 					fullWidth
 				/>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Empower everyone to share code</H3>
+					<H3 size={PossibleSizes.xs}>
+						Standardize development across teams and projects
+					</H3>
 					<Paragraph>
-						Bit makes it easy for every developer to share their components with
-						your entire team. Create a collaborative workflow for reusing components
-						as part of your workflow.
+						Connect all teams and projects with your component system to make sure
+						your entire organization builds and ships together the same way.
 					</Paragraph>
 				</div>
 				<Image
@@ -85,11 +94,12 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Easily contribute code and feedback</H3>
+					<H3 size={PossibleSizes.xs}>
+						Drive collaboration and adoption for components
+					</H3>
 					<Paragraph>
-						Giving feedback on single components is much easier than diving into a
-						large codebase. Suggesting changes right from your local workspace is
-						even better.
+						Bit makes it easy to create, adopt, and collaborate on components.
+						Democratize innovation and empower product teams to build together.
 					</Paragraph>
 				</div>
 				<Image

@@ -12,8 +12,6 @@ import { fourWayGrid } from '@teambit/base-ui.layout.grid-presets.four-way-grid'
 import { Image } from '@teambit/evangelist.elements.image';
 import { H3 } from '@teambit/evangelist.elements.heading';
 
-
-
 /**
  * @name ComponentsAdvantages
  * @description
@@ -38,10 +36,13 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Dynamic component workspace</H3>
+					<H3 size={PossibleSizes.xs}>
+						Develop and compose components in your workspace
+					</H3>
 					<Paragraph>
-						Get a modular workspace where you can dynamically develop, add and
-						remove components to compose your apps.
+						Spawn Bit's workspace to seamlessly turn our project into a powerful
+						monorepo where you can easily add, remove, and compose components to
+						build apps.
 					</Paragraph>
 				</div>
 				<Image
@@ -52,7 +53,9 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Smart per-component versioning</H3>
+					<H3 size={PossibleSizes.xs}>
+						Easily version components and update dependencies
+					</H3>
 					<Paragraph>
 						Enjoy simple yet scalable semantic versioning per component, with smart
 						automatic dependency definitions and management.
@@ -66,10 +69,12 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Reusable dev environments</H3>
+					<H3 size={PossibleSizes.xs}>
+						Develop, build, and test with reusable dev environments
+					</H3>
 					<Paragraph>
-						Apply pre-made reusable environments to develop, build, test and render
-						each component in full isolation. Best practices included.
+						Enjoy reusable and highly customizable dev environments for components,
+						to speed up and standardize development across teams and apps.
 					</Paragraph>
 				</div>
 				<Image
@@ -80,11 +85,13 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Goodbye configuration files</H3>
+					<H3 size={PossibleSizes.xs}>
+						Enjoy an effortless, scalable monorepo dev experience
+					</H3>
 					<Paragraph>
-						Say goodbye to painful config files, and let Bit handle them for you.
-						Want control? Use overrides to quickly apply changes across many
-						components.
+						Bit brings you the benefits of highly modular and distributed
+						development, with a simple holistic dev experience that makes
+						development fun!
 					</Paragraph>
 				</div>
 				<Image

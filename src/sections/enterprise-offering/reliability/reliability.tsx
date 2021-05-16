@@ -83,7 +83,7 @@ const AdvantageList = () => (
 			<div>
 				<H3 size={PossibleSizes.xs}>Trusted by the best</H3>
 				<Paragraph className={mutedText} size={PossibleSizes.lg}>
-					Bit is trusted by over 100,000 developers and teams from the world’s leading
+					Bit is trusted by over 200,000 developers and teams from the world’s leading
 					companies from various industry sectors.
 				</Paragraph>
 			</div>

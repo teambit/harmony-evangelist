@@ -24,11 +24,11 @@ export function DevelopComponents(props: HTMLAttributes<HTMLDivElement>) {
 		<div {...props} data-bit-id="teambit.evangelist/sections/develop-components">
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm}>
-					Develop modular applications with independent components
+					Split app development to independent components and teams
 				</H2>
 				<Paragraph size={PossibleSizes.lg} className={classNames(styles.subtitle)}>
-					Break the web monolith! Develop and compose modular apps together in a fast
-					and scalable way, with an amazing dev experience at every step.
+					Say goodbye to monolithic app development, and hello to modular applications
+					composed from features built by autonomous teams working side by side.
 				</Paragraph>
 			</div>
 			<Image alt="bit" src="homepage-bit/assets/booking-breakdown.png" fullWidth />

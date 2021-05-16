@@ -37,7 +37,7 @@ export function TalkToExperts({ onBookMeeting, className, ...rest }: TalkToExper
 			{...rest}
 		>
 			<div className={marginCenter}>
-				<H2 size={PossibleSizes.xs}>Build like the world's best teams</H2>
+				<H2 size={PossibleSizes.xs}>What are you waiting for? Let us show you</H2>
 				<Paragraph size={PossibleSizes.xl}>
 					We help the world's best teams build and ship modern apps better together.
 					Let us show you what Bit can do for you.
