@@ -135,13 +135,13 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.42",
+        "version": "0.5.43",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -153,7 +153,7 @@
     },
     "sections/build-together": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/build-together"
     },
@@ -165,13 +165,13 @@
     },
     "sections/community": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/community"
     },
     "sections/component-advantages": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/component-advantages"
     },
@@ -183,13 +183,13 @@
     },
     "sections/develop-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/develop-components"
     },
     "sections/discover-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/discover-components"
     },
@@ -243,7 +243,7 @@
     },
     "sections/enterprise-offering/reliability": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/reliability"
     },
@@ -261,19 +261,19 @@
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.42",
+        "version": "0.5.43",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
     "sections/independent-teams": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
     "sections/reuse-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
@@ -315,7 +315,7 @@
     },
     "sections/talk-to-experts": {
         "scope": "teambit.evangelist",
-        "version": "0.5.41",
+        "version": "0.5.42",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
