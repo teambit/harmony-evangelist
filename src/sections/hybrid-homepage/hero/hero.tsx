@@ -1,11 +1,9 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
-
-import styles from './hero.module.scss';
+import Typewriter from 'typewriter-effect';
 
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 import { text, marginCenter } from '@teambit/base-ui.layout.align';
-
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
@@ -15,6 +13,7 @@ import { IconLine } from '@teambit/evangelist.elements.icon-line';
 import { Link } from '@teambit/evangelist.elements.link';
 import { Image } from '@teambit/evangelist.elements.image';
 import { Button } from '@teambit/evangelist.elements.button';
+import styles from './hero.module.scss';
 
 const iconsArray = [
 	'logo-react',
@@ -23,6 +22,14 @@ const iconsArray = [
 	'logo-web-components',
 	'logo-ts',
 	'logo-js',
+];
+
+const typeWriterArray = [
+	'build with components',
+	'build micro frontends',
+	'build design systems',
+	'release features faster',
+	'build web apps together',
 ];
 
 type ReuseLandingProps = {
@@ -46,17 +53,27 @@ export function Hero(props: ReuseLandingProps) {
 				<div>
 					<div>
 						<H1 size={PossibleSizes.sm} className={styles.headline}>
-							A better way to build
+							How the best teams
 							<br />
-							with modern components
+							<Typewriter
+								onInit={() => {}}
+								options={{
+									strings: typeWriterArray,
+									autoStart: true,
+									loop: true,
+									delay: 50,
+									deleteSpeed: 50,
+								}}
+							/>
 						</H1>
 						<Paragraph
 							size={PossibleSizes.lg}
 							className={classNames(styles.paragraph, textColumn, marginCenter)}
 						>
-							Bit is a scalable and collaborative way to build and reuse
-							components. It's everything you need from local development to
-							cross-project integrations. Try it for free.
+							Bit is a standard infrastructure for components. It's everything
+							your teams need to enjoy autonomous development, faster releases,
+							effortless consistency, and collaboration at scale. Try it out for
+							free.
 						</Paragraph>
 					</div>
 

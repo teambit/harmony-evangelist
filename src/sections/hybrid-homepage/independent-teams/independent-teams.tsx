@@ -28,12 +28,14 @@ export function IndependentTeams(props: HTMLAttributes<HTMLDivElement>) {
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm} className={text.center}>
-					Build together. Stay independent.
+					Autonomous teams working side by side.
+					<br />
+					Build everything like microservices.
 				</H2>
 				<Paragraph className={classNames(text.center, styles.subtitle)}>
-					Create a truly scalable infrastructure for everyone to build, adopt and
-					integrate components. Empower teams to independently deliver while building
-					together.
+					Enable teams to develop features independently in decoupled codebases,
+					exposing expandable APIs and continuously integrating with each other. Miro
+					Frontends? Try Micro Everything.
 				</Paragraph>
 			</div>
 
@@ -46,23 +48,23 @@ export function IndependentTeams(props: HTMLAttributes<HTMLDivElement>) {
 
 			<Grid colL={3} className={classNames(text.left, styles.benefitsGrid)}>
 				<div className={styles.benefit}>
-					<H5 size={PossibleSizes.xxs}>Own your components.</H5>
+					<H5 size={PossibleSizes.xxs}>Decoupled codebases</H5>
 					<Paragraph>
-						Autonomously maintain your team’s independent scope of components.
+						Develop components and build features in simple, decoupled codebases.
 					</Paragraph>
 				</div>
 
 				<div className={styles.benefit}>
-					<H5 size={PossibleSizes.xxs}>Integrate with everyone.</H5>
+					<H5 size={PossibleSizes.xxs}>Autonomous teams</H5>
 					<Paragraph>
-						Expose and adopt shared component APIs to build frontends together.
+						Empower product teams to build and ship component APIs to everyone.
 					</Paragraph>
 				</div>
 
 				<div className={styles.benefit}>
-					<H5 size={PossibleSizes.xxs}>Stay independent.</H5>
+					<H5 size={PossibleSizes.xxs}>Build-time integrations</H5>
 					<Paragraph>
-						Keep your team fully autonomous to independently deliver new things.
+						Continuously integrate and compose applications without complexity.
 					</Paragraph>
 				</div>
 			</Grid>

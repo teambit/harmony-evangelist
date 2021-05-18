@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import styles from './build-together.module.scss'; 
+import styles from './build-together.module.scss';
 
 import { fourWayGrid } from '@teambit/base-ui.layout.grid-presets.four-way-grid';
 
@@ -30,12 +30,14 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 			data-bit-id="teambit.evangelist/sections/build-together"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
-				<H2 size={PossibleSizes.sm}>Keep apps and teams in perfect sync</H2>
+				<H2 size={PossibleSizes.sm}>
+					Continuously release and integrate component updates. Innovate more.
+				</H2>
 
 				<Paragraph size={PossibleSizes.lg} className={styles.subtitle}>
-					Bit helps your team collaborate to make sure every application and every
-					teammate is always in sync and always up to date. And, it integrates to the
-					tools you love.
+					Bit empowers teams to deliver more often and faster to production while
+					making sure all applications and teams are updated in perfect sync and
+					harmony.
 				</Paragraph>
 			</div>
 
@@ -48,30 +50,40 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Focused relevant updates</H3>
+					<H3 size={PossibleSizes.xs}>
+						Rapidly release component upgrades, hotfixes, or rollbacks
+					</H3>
 					<Paragraph>
-						No more bloated or irrelevant library updates. Constantly get and
-						deliver meaningful updates for components you actually use in your apps,
-						nothing else.
+						Deliver updates fast and fearlessly multiple times a day with decoupled
+						component versions and release pipelines. Ship changes to many apps in a
+						click.
 					</Paragraph>
 				</div>
-				<Image alt="multi packagers" src="homepage-bit/assets/component-versions.png" fullWidth />
+				<Image
+					alt="multi packagers"
+					src="homepage-bit/assets/component-versions.png"
+					fullWidth
+				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Per-component CI</H3>
+					<H3 size={PossibleSizes.xs}>
+						Build and test all impacted components, nothing else
+					</H3>
 					<Paragraph>
-						Enjoy bulletproof updates with per-component CI that runs every
-						component in full isolation. Reduce build and CI time by building and
-						testing only your changed components.
+						Bit's component-driven CI propogates changes to all impacted components,
+						in all your apps, and nothing else. Result: 10x faster builds, and
+						bulletproof updates.
 					</Paragraph>
 				</div>
 				<Image alt="cloud code" src="homepage-bit/comp-build-flow.png" fullWidth />
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Keep repos synced with GitHub integrations</H3>
+					<H3 size={PossibleSizes.xs}>
+						Automatically create PRs to impacted GitHub projects
+					</H3>
 					<Paragraph>
-						Connect your team to GitHub to get automatic PRs for every new component
-						update. Effortlessly keep every project in perfect sync, and learn who
-						adopted what and where.
+						Connect Bit with GitHub to get automatic PRs for every new component
+						update. Effortlessly keep dependant projects up to date, and track
+						adoption.
 					</Paragraph>
 				</div>
 				<Image
@@ -81,7 +93,9 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Keep people synced with Slack integrations</H3>
+					<H3 size={PossibleSizes.xs}>
+						Keep everyone in the loop with automatic Slack updates
+					</H3>
 					<Paragraph>
 						Connect your team to Slack to get automatic updates on important stuff
 						like new component versions. Create relevant discussions with instant

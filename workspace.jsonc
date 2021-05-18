@@ -97,6 +97,7 @@
         "reset-css": "^5.0.1",
         "resize-observer-polyfill": "^1.5.1",
         "typescript": "^3.9.7",
+        "typewriter-effect": "2.17.0",
         "yup": "^0.29.1"
       },
       "peerDependencies": {

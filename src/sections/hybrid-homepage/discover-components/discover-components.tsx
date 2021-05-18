@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-import styles from './discover-components.module.scss'; 
+import styles from './discover-components.module.scss';
 
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
@@ -30,9 +30,9 @@ export function DiscoverComponents(props: HTMLAttributes<HTMLDivElement>) {
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm} className={text.center}>
-					Keep components organized.
+					Effortlessly document,
 					<br />
-					Documentation? Don’t sweat it.
+					organize and discover all your components
 				</H2>
 
 				<Paragraph
