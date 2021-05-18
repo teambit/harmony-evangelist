@@ -32,7 +32,7 @@ export function DiscoverComponents(props: HTMLAttributes<HTMLDivElement>) {
 				<H2 size={PossibleSizes.sm} className={text.center}>
 					Effortlessly document,
 					<br />
-					organize and discover all your components
+					organize and discover components
 				</H2>
 
 				<Paragraph
