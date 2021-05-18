@@ -24,6 +24,14 @@ const iconsArray = [
 	'logo-js',
 ];
 
+const typeWriterArray = [
+	'build with components',
+	'build micro frontends',
+	'build design systems',
+	'release features faster',
+	'build web apps together',
+];
+
 type ReuseLandingProps = {
 	/**
 	 * Placeholder for content, at the bottom of this section
@@ -50,13 +58,7 @@ export function Hero(props: ReuseLandingProps) {
 							<Typewriter
 								onInit={() => {}}
 								options={{
-									strings: [
-										'build with components',
-										'build micro frontends',
-										'build design systems',
-										'release features faster',
-										'build web apps together',
-									],
+									strings: typeWriterArray,
 									autoStart: true,
 									loop: true,
 									delay: 50,
