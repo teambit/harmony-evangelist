@@ -35,7 +35,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				</H2>
 				<Paragraph size={PossibleSizes.xl} className={classNames(styles.subtitle)}>
 					Build better together with a reusable component marketplace for your
-					organization. Collaborate and integrate to speed delivery.
+					organization. Collaborate and integrate to speed up delivery.
 				</Paragraph>
 			</div>
 

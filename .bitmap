@@ -141,7 +141,7 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.46",
+        "version": "0.5.47",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -273,7 +273,7 @@
     },
     "sections/reuse-components": {
         "scope": "teambit.evangelist",
-        "version": "0.5.46",
+        "version": "0.5.47",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
