@@ -20,6 +20,7 @@ const iconsArray = [
 	'logo-vue',
 	'logo-angular',
 	'logo-web-components',
+	'logo-nodejs',
 	'logo-ts',
 	'logo-js',
 ];
