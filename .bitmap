@@ -141,7 +141,7 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "0.5.47",
+        "version": "0.5.48",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -261,7 +261,7 @@
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "0.5.46",
+        "version": "0.5.47",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
