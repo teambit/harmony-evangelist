@@ -331,6 +331,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/tooltip"
     },
+    "theme/brands": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/theme/brands"
+    },
     "theme/icon-font": {
         "scope": "teambit.evangelist",
         "version": "0.5.46",
