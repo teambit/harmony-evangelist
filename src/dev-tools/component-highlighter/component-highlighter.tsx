@@ -5,9 +5,11 @@ import debounce from 'lodash.debounce';
 
 import styles from './component-highlighter.module.scss';
 import { RefTooltip } from '@teambit/base-ui.placement.ref-tooltip';
+// @ts-ignore deprecated
 import { OverlayBorder } from '@teambit/evangelist.dev-tools.overlay-border';
 import { VersionMap } from './content-type';
 
+// @ts-ignore deprecated
 import { ComponentLabel } from '@teambit/evangelist.dev-tools.component-label';
 
 export type ComponentHighlighterProps = {
