@@ -14,7 +14,7 @@ export type ButtonProps = {
 	/**
 	 * style variance ('cta', 'normal')
 	 */
-	importance?: 'normal' | 'ghost' | 'cta' | 'muted';
+	importance?: 'normal' | 'ghost' | 'cta' | 'muted' | 'danger';
 } & BaseProps;
 
 /**

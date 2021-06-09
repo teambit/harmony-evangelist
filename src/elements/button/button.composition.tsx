@@ -32,6 +32,16 @@ export const LightButton = ({ ...rest }) => {
 	);
 };
 
+export const DangerButton = () => {
+	return (
+		<ThemeCompositions>
+			<Button importance="danger" style={{ width: 120 }}>
+				Danger
+			</Button>
+		</ThemeCompositions>
+	);
+};
+
 export const CallToActionLoading = () => {
 	return (
 		<ThemeCompositions>

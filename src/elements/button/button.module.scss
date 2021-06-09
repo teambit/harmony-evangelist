@@ -48,4 +48,15 @@
 			background-color: var(--cta-highlight, var(--base-highlight, #5d4aec));
 		}
 	}
+
+	&[data-variation='danger'] {
+		border: 1px solid var(--bit-error-color, #e62e5c);
+		background-color: var(--bit-error-color, #e62e5c);
+		color: var(--cta-button-text, white);
+
+		&:hover:not(:disabled) {
+			border: 1px solid var(--bit-error-heavy, #d31948);
+			background-color: var(--bit-error-heavy, #d31948);
+		}
+	}
 }
