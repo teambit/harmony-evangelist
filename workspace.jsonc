@@ -69,6 +69,8 @@
         "@teambit/base-ui.theme.colors": "^1.0.0",
         "@teambit/base-ui.theme.fonts.book": "^1.0.0",
         "@teambit/base-ui.theme.fonts.roboto": "1.0.0",
+        "@teambit/base-ui.theme.heading-margin-definition": "1.0.0",
+        "@teambit/base-ui.theme.size-definition": "1.0.0",
         "@teambit/base-ui.theme.sizes": "^1.0.0",
         "@teambit/base-ui.theme.theme-provider": "^1.0.0",
         "@teambit/base-ui.utils.popper-js.ignore-popper-size": "^1.0.0",

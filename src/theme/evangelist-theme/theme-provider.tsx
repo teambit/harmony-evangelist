@@ -3,9 +3,24 @@ import classNames from 'classnames';
 
 import { Theme as BaseTheme } from '@teambit/base-ui.theme.theme-provider';
 import { brands } from '@teambit/evangelist.theme.brands';
+
+import { headingFontSize, textFontSize } from '@teambit/base-ui.theme.size-definition';
+import { headingMargins } from '@teambit/base-ui.theme.heading-margin-definition';
 import texts from './texts.module.scss';
 
 export type ThemeProps = React.HTMLAttributes<HTMLDivElement>;
+
+/**
+ * Marketing style customizations, added on top of the regular theme.
+ * (some of these are already included in the base-ui theme, but they will be separated in the future)
+ */
+export const EvangelistThemeAddons = classNames(
+	brands,
+	headingFontSize,
+	headingMargins,
+	textFontSize,
+	texts.defaults
+);
 
 /**
  * @name ThemeProvider
@@ -27,6 +42,6 @@ export type ThemeProps = React.HTMLAttributes<HTMLDivElement>;
 
 export function Theme(props: ThemeProps) {
 	return (
-		<BaseTheme {...props} className={classNames(props.className, brands, texts.defaults)} />
+		<BaseTheme {...props} className={classNames(props.className, EvangelistThemeAddons)} />
 	);
 }
