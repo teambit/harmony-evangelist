@@ -5,6 +5,8 @@ import { Theme as BaseTheme } from '@teambit/base-ui.theme.theme-provider';
 import { brands } from '@teambit/evangelist.theme.brands';
 import texts from './texts.module.scss';
 
+export type ThemeProps = React.HTMLAttributes<HTMLDivElement>;
+
 /**
  * @name ThemeProvider
  * @description
@@ -23,7 +25,7 @@ import texts from './texts.module.scss';
  * </Theme>
  */
 
-export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
+export function Theme(props: ThemeProps) {
 	return (
 		<BaseTheme {...props} className={classNames(props.className, brands, texts.defaults)} />
 	);
