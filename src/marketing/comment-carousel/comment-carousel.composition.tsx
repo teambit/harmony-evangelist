@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { ThemeCompositions } from '@teambit/evangelist.theme.evangelist-theme';
 import { CommentCarousel } from './comment-carousel';
 
 export const CommentCarouselExample = () => {

@@ -8,7 +8,7 @@ import { Card } from '@teambit/base-ui.surfaces.card';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { themedText } from '@teambit/base-ui.text.themed-text';
-import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { colorPalette } from '@teambit/base-ui.theme.accent-color';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import { Button } from '@teambit/evangelist.elements.button';
@@ -64,7 +64,7 @@ function Cards() {
 		<Grid colMd={2} className={classNames(styles.particlesBg, styles.grid)}>
 			<Card
 				id="contact-security"
-				className={classNames(colorPalette.emphasized, styles.card)}
+				className={classNames(colorPalette.neutralHeavy, styles.card)}
 			>
 				<H4 size={PossibleSizes.xs} className={themedText}>
 					Security and control
@@ -111,7 +111,7 @@ function Cards() {
 
 			<Card
 				id="contact-support"
-				className={classNames(colorPalette.secondary, styles.card)}
+				className={classNames(colorPalette.process, styles.card)}
 			>
 				<H4 size={PossibleSizes.xs} className={themedText}>
 					Dedicated support
@@ -192,7 +192,7 @@ function Cards() {
 
 			<Card
 				id="contact-experts"
-				className={classNames(colorPalette.impulse, styles.card)}
+				className={classNames(colorPalette.action, styles.card)}
 			>
 				<H4 size={PossibleSizes.xs} className={themedText}>
 					Expert consultation

@@ -53,14 +53,15 @@
 	@media screen and (min-width: $br-sm) {
 		padding: 40px 60px;
 	}
-
-
-
-	.separator {
-		--separator-color: #ededed; //TODO
-	}
 }
 
 .margin {
 	margin-bottom: 18px;
+}
+
+.muted {
+	--bit-accent-color: #{$d40};
+	--bit-accent-heavy: #{$d50};
+	--bit-bg-color: #{$p20};
+	--bit-bg-color-highlight: #{$p30};
 }

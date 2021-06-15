@@ -15,37 +15,37 @@
 	}
 
 	&[data-variation='normal'] {
-		border: 1px solid var(--bg-topping, white);
-		background-color: var(--bg-topping, white);
-		color: var(--primary-button-text, var(--base-color, #6c5ce7));
+		border: 1px solid var(--bit-bg-color, white);
+		background-color: var(--bit-bg-color, white);
+		color: var(--bit-accent-color, #6c5ce7);
 
 		&:hover:not(:disabled) {
-			border: 1px solid var(--bg-topping-highlight, white);
-			background-color: var(--bg-topping-highlight, white);
-			color: var(--base-highlight, #5d4aec);
+			border: 1px solid var(--bit-bg-color-highlight, white);
+			background-color: var(--bit-bg-color-highlight, white);
+			color: var(--bit-accent-heavy, #5d4aec);
 		}
 	}
 
 	&[data-variation='ghost'] {
-		border: 1px solid var(--base-color, #6c5ce7);
-		background-color: var(--bg-topping, white);
-		color: var(--primary-button-text, var(--base-color, #6c5ce7));
+		border: 1px solid var(--bit-accent-color, #6c5ce7);
+		background-color: var(--bit-bg-color, white);
+		color: var(--bit-accent-color, #6c5ce7);
 
 		&:hover:not(:disabled) {
-			border: 1px solid var(--base-highlight, #5d4aec);
-			background-color: var(--bg-topping-highlight, white);
-			color: var(--base-highlight, #5d4aec);
+			border: 1px solid var(--bit-accent-heavy, #5d4aec);
+			background-color: var(--bit-bg-color-highlight, white);
+			color: var(--bit-accent-heavy, #5d4aec);
 		}
 	}
 
 	&[data-variation='cta'] {
-		border: 1px solid var(--cta-color, var(--base-color, #6c5ce7));
-		background-color: var(--cta-color, var(--base-color, #6c5ce7));
-		color: var(--cta-button-text, white);
+		border: 1px solid var(--bit-accent-color, #6c5ce7);
+		background-color: var(--bit-accent-color, #6c5ce7);
+		color: var(--bit-text-on-accent, white);
 
 		&:hover:not(:disabled) {
-			border: 1px solid var(--cta-highlight, var(--base-highlight, #5d4aec));
-			background-color: var(--cta-highlight, var(--base-highlight, #5d4aec));
+			border: 1px solid var(--bit-accent-heavy, #5d4aec);
+			background-color: var(--bit-accent-heavy, #5d4aec);
 		}
 	}
 }
