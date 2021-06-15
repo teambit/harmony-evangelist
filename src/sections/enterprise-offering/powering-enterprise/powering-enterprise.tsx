@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { textColumn } from '@teambit/base-ui.layout.page-frame';
 import { Paragraph } from '@teambit/base-ui.text.paragraph';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
-import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { colorPalette } from '@teambit/base-ui.theme.accent-color';
 import { themedText } from '@teambit/base-ui.text.themed-text';
 import { text } from '@teambit/base-ui.layout.align';
 import { MutedText, mutedText } from '@teambit/base-ui.text.muted-text';
@@ -49,7 +49,7 @@ function CrunchTheNumbers() {
 				<div className={styles.emphasized}>100%</div>
 				<MutedText>Component reuse</MutedText>
 			</div>
-			<div className={colorPalette.secondary}>
+			<div className={colorPalette.process}>
 				<div className={classNames(themedText, styles.emphasized)}>10x</div>
 				<MutedText>More releases</MutedText>
 			</div>

@@ -4,7 +4,7 @@
 	justify-content: center;
 	position: relative;
 
-	border: 1px solid var(--separator-color);
+	border: 1px solid var(--bit-border-color);
 	box-sizing: border-box;
 	width: 1em;
 	height: 1em;
@@ -19,31 +19,31 @@
 	}
 
 	input:focus + & {
-		box-shadow: 0 0 0 0.125em var(--muted-color);
+		box-shadow: 0 0 0 0.125em var(--bit-accent-bg);
 		outline: none;
 	}
 
 	input:checked + & {
-		background-color: var(--base-color);
-		border-color: var(--base-color);
+		background-color: var(--bit-accent-color);
+		border-color: var(--bit-accent-color);
 
 		& .icon {
 			visibility: visible;
 		}
 
 		&:hover {
-			background-color: var(--base-highlight);
-			border-color: var(--base-highlight);
+			background-color: var(--bit-accent-heavy);
+			border-color: var(--bit-accent-heavy);
 		}
 	}
 
 	input:disabled + & {
-		background: var(--border-color); // TODO should be --bg-disabled
+		background: var(--bit-border-color-lightest); // TODO should be --bg-disabled
 	}
 
 	input:checked:disabled + & {
-		background: var(--muted-highlight); // TODO - should be --accent-bg-disabled
-		border-color: var(--muted-highlight); // TODO - should be --accent-bg-disabled
+		background: var(--bit-accent-bg-heavy); // TODO - should be --accent-bg-disabled
+		border-color: var(--bit-accent-bg-heavy); // TODO - should be --accent-bg-disabled
 	}
 }
 

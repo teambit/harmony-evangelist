@@ -38,15 +38,15 @@
     justify-content: center;
 }
 .slack {
-    background-color: var(--slack-bg, #4a154b);
+    background-color: var(--bit-slack-bg, #4a154b);
 }
 .email {
-    background-color: var(--cta-color, var(--base-color, #6c5ce7));
-    color: var(--brand-text, white);
+    background-color: var(--cta-color, var(--bit-accent-color, #6c5ce7));
+    color: var(--bit-brand-text, white);
     .emailIcon {
         margin-right: 10px;
     }
 }
 .github {
-    background-color: var(--github-bg, #4a154b);
+    background-color: var(--bit-github-bg, #4a154b);
 }

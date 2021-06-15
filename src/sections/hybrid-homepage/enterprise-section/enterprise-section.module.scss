@@ -14,7 +14,7 @@
 .contactButton {
 	width: 146px;
   height: 32px;
-  font-size: var(--p-xs, 14px);
+  font-size: var(--bit-p-xs, 14px);
 
 	@media (max-width: $br-xs) {
 		margin: auto;

@@ -5,7 +5,7 @@ import { alignItems } from '@teambit/base-ui.layout.align';
 import { Grid } from '@teambit/base-ui.layout.grid-component';
 import { mutedText } from '@teambit/base-ui.text.muted-text';
 import { themedText } from '@teambit/base-ui.text.themed-text';
-import { colorPalette } from '@teambit/base-ui.theme.color-palette';
+import { colorPalette } from '@teambit/base-ui.theme.accent-color';
 import { PossibleSizes } from '@teambit/base-ui.theme.sizes';
 
 import { H2 } from '@teambit/evangelist.elements.heading';

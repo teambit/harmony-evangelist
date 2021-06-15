@@ -10,8 +10,8 @@ import styles from './link.module.scss';
  * Accepts all props as html Anchor Element.
  *
  * The link will use these css variables, when available:
- * -   --primary-link-color, or --base-color, for text color.
- * -   --primary-link-highlight, or --base-highlight, for text color on hover.
+ * -   --bit-accent-color, for text color.
+ * -   --bit-accent-heavy, for text color on hover.
  * @name Link
  * @example
  * <Link href="https://google.com">look it up!</Link>

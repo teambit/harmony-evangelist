@@ -6,12 +6,12 @@
 	font-family: inherit;
 
 	border-radius: 7px;
-	border: solid 1px var(--border-color, #ededed);
-	background-color: var(--bg-dent, #f6f6f6);
+	border: solid 1px var(--bit-border-color-lightest, #ededed);
+	background-color: var(--bit-bg-dent, #f6f6f6);
 
 	&[data-error] {
-		background: var(--bg-error, #fdeff2); //TODO
-		border: 1px solid var(--error-color, #e62e5c);
+		background: var(--bit-error-bg, #fdeff2); //TODO
+		border: 1px solid var(--bit-error-color, #e62e5c);
 	}
 }
 

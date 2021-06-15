@@ -5,8 +5,8 @@
   border: none;
   background: inherit;
 
-  color: var(--text-inactive, var(--text-muted));
+  color: var(--bit-text-inactive, var(--bit-text-color-light));
   &:hover {
-    color: var(--text-muted-highlight, var(--muted-highlight));
+    color: var(--bit-text-color-light-highlight, var(--bit-accent-bg-heavy));
   }
 }
