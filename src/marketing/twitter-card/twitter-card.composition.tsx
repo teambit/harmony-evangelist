@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { ThemeCompositions } from '@teambit/evangelist.theme.evangelist-theme';
 import { TwitterCard } from './twitter-card';
 
 export const TwitterCardExample = () => (

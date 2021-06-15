@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { ThemeCompositions } from '@teambit/evangelist.theme.evangelist-theme';
 import { Testimonial } from './testimonial';
 
 export const TestimonialExample = () => (

@@ -337,6 +337,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/theme/brands"
     },
+    "theme/evangelist-theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.tsx",
+        "rootDir": "src/theme/evangelist-theme"
+    },
     "theme/icon-font": {
         "scope": "teambit.evangelist",
         "version": "0.6.0",
