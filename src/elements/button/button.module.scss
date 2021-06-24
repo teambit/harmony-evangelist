@@ -20,8 +20,8 @@
 		color: var(--bit-accent-color, #6c5ce7);
 
 		&:hover:not(:disabled) {
-			border: 1px solid var(--bit-bg-color-highlight, white);
-			background-color: var(--bit-bg-color-highlight, white);
+			border: 1px solid var(--bit-bg-heavy, white);
+			background-color: var(--bit-bg-heavy, white);
 			color: var(--bit-accent-heavy, #5d4aec);
 		}
 	}
@@ -33,7 +33,7 @@
 
 		&:hover:not(:disabled) {
 			border: 1px solid var(--bit-accent-heavy, #5d4aec);
-			background-color: var(--bit-bg-color-highlight, white);
+			background-color: var(--bit-bg-heavy, white);
 			color: var(--bit-accent-heavy, #5d4aec);
 		}
 	}
