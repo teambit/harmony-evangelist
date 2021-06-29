@@ -3,7 +3,7 @@
   grid-gap: 70px 0;
   display: grid;
   align-items: center;
-  max-width: 1330px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -13,20 +13,14 @@
 
   @media (max-width: 1440px) {
     grid-template-columns: repeat(auto-fill, minmax(216px, 1fr));
-    max-width: 1080px;
+    max-width: 920px;
 	}
 
   @media (max-width: 1080px) {
-    max-width: 648px;
-    .icon:nth-child(n+10) {
-      display: none;
-    }
+    max-width: 870px;
 	}
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
     grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
     max-width: 432px;
-    .icon:nth-child(n+7) {
-      display: none;
-    }
 	}
 }

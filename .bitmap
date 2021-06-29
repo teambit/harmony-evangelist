@@ -117,7 +117,7 @@
     },
     "marketing/enterprise-logos": {
         "scope": "teambit.evangelist",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "mainFile": "index.ts",
         "rootDir": "src/marketing/enterprise-logos"
     },
@@ -135,13 +135,13 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
