@@ -37,7 +37,3 @@ export const HeadingH6 = () => (
 		<H6>Title</H6>
 	</ThemeCompositions>
 );
-
-const compositions = [HeadingH1, HeadingH2, HeadingH3, HeadingH4, HeadingH5, HeadingH6];
-// @ts-ignore
-compositions.map((comp) => (comp.canvas = { height: 90 }));

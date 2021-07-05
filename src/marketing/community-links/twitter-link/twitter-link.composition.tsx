@@ -8,7 +8,3 @@ export const TwitterLinkExample = () => (
 		<TwitterLink href="https://twitter.com/bitdev_" data-testid="test-link" />
 	</ThemeCompositions>
 );
-
-TwitterLinkExample.canvas = {
-	height: 90,
-};

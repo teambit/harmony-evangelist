@@ -9,7 +9,5 @@ export const HeroExample = () => (
 );
 
 HeroExample.canvas = {
-	width: 1400,
-	height: 600,
-	overflow: 'scroll',
+	width: 1440,
 };

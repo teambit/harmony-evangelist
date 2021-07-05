@@ -11,7 +11,3 @@ export const SlackLinkExample = () => (
 		/>
 	</ThemeCompositions>
 );
-
-SlackLinkExample.canvas = {
-	height: 90,
-};

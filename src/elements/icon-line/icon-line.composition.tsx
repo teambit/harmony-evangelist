@@ -17,7 +17,3 @@ export const IconLineExample = () => (
 		/>
 	</ThemeCompositions>
 );
-
-IconLineExample.canvas = {
-	height: 90,
-};

@@ -9,7 +9,6 @@ export const IndependentTeamsExample = () => (
 );
 
 IndependentTeamsExample.canvas = {
-	width: 1400,
+	width: 1440,
 	height: 600,
-	overflow: 'scroll',
 };

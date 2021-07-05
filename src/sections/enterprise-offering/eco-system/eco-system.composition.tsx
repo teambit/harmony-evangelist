@@ -7,7 +7,3 @@ export const EcoSystemExample = () => (
 		<EcoSystem data-testid="test-ecosystem" />
 	</ThemeCompositions>
 );
-
-EcoSystemExample.canvas = {
-	height: 120,
-};

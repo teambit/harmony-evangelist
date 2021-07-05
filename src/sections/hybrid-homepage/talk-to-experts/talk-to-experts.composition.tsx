@@ -7,9 +7,3 @@ export const TalkToExpertsExample = () => (
 		<TalkToExperts data-testid="test-talk" />
 	</ThemeCompositions>
 );
-
-TalkToExpertsExample.canvas = {
-	width: 1400,
-	height: 300,
-	overflow: 'scroll',
-};

@@ -9,7 +9,6 @@ export const DiscoverComponentsExample = () => (
 );
 
 DiscoverComponentsExample.canvas = {
-	width: 1400,
+	width: 1440,
 	height: 400,
-	overflow: 'scroll',
 };

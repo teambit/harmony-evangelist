@@ -7,7 +7,3 @@ export const IntegrationsExample = () => (
 		<Integrations data-testid="test-integrations" />
 	</ThemeCompositions>
 );
-
-IntegrationsExample.canvas = {
-	height: 180,
-};

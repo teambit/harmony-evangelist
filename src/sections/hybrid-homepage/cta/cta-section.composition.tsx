@@ -7,7 +7,3 @@ export const CtaSectionExample = () => (
 		<CtaSection data-testid="test-cta" />
 	</ThemeCompositions>
 );
-
-CtaSectionExample.canvas = {
-	height: 70,
-};

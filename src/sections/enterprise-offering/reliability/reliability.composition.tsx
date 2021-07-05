@@ -7,7 +7,3 @@ export const ReliabilityExample = () => (
 		<Reliability data-testid="test-reliability" />
 	</ThemeCompositions>
 );
-
-ReliabilityExample.canvas = {
-	height: 650,
-};

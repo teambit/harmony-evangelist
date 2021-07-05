@@ -10,7 +10,3 @@ export const BaseCommunityLink = () => (
 		</CommunityLink>
 	</ThemeCompositions>
 );
-
-BaseCommunityLink.canvas = {
-	height: 90,
-};

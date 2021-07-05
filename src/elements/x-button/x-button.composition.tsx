@@ -7,7 +7,3 @@ export const CloseButton = () => (
 		<XButton onClick={() => alert('on click')} data-testid="test-x" />
 	</ThemeCompositions>
 );
-
-CloseButton.canvas = {
-	height: 90,
-};

@@ -8,12 +8,8 @@ export const ImageExample = ({ ...rest }) => (
 			src="homepage-bit/map.png"
 			data-testid="test-img"
 			alt="alt world"
-			style={{ width: 500 }}
+			style={{ width: 500, margin: 'auto' }}
 			{...rest}
 		/>
 	</ThemeCompositions>
 );
-
-ImageExample.canvas = {
-	height: 250,
-};

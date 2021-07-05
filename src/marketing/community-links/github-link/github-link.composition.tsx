@@ -12,7 +12,3 @@ export const GithubLinkExample = () => (
 		/>
 	</ThemeCompositions>
 );
-
-GithubLinkExample.canvas = {
-	height: 90,
-};

@@ -8,9 +8,3 @@ export const SupportChannelsExample = () => (
 		<SupportChannels data-testid="test-support" />
 	</ThemeCompositions>
 );
-
-SupportChannelsExample.canvas = {
-	width: 1400,
-	height: 550,
-	overflow: 'scroll',
-};

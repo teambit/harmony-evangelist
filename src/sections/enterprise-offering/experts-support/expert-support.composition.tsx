@@ -9,5 +9,6 @@ export const ExpertSupportExample = () => (
 );
 
 ExpertSupportExample.canvas = {
+	width: 1440,
 	height: 650,
 };

@@ -98,7 +98,3 @@ export const IconExamples = () => (
 		</div>
 	</ThemeCompositions>
 );
-
-IconExamples.canvas = {
-	height: 200,
-};

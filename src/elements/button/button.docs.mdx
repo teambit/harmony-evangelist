@@ -27,7 +27,7 @@ You can also turn on the loading animation explicitly, using the `loading={isBus
 > Use a promise when possible! it is easier and more maintainable.
 
 ```js live=true
-<Button loading />
+<Button loading style={{ margin: 16}} />
 ```
 
 #### Multi trigger
@@ -57,7 +57,7 @@ Setting a button as 'cta' indicates the user *should* press this button as the i
 > Do not add more than one cta button in a viewport, as this would confuse the user.
 
 ```js live
-<ThemeCompositions style={{ minHeight: 90 }}>
+<ThemeCompositions>
   <Button importance="cta" style={{ width: 120 }}>Submit</Button>
 </ThemeCompositions>
 ```
@@ -66,7 +66,7 @@ Setting a button as 'cta' indicates the user *should* press this button as the i
 Indicates an action the user could take (like changing privacy, etc)
 
 ```js live
-<ThemeCompositions style={{ minHeight: 90 }}>
+<ThemeCompositions>
   <Button importance="ghost" style={{ width: 120 }}>Update</Button>
 </ThemeCompositions>
 ```
@@ -76,7 +76,7 @@ Indicates an action is undesirable or unimportant.
 May also be used in areas with high contrast.
 
 ```js live
-<ThemeCompositions style={{ minHeight: 90 }}>
+<ThemeCompositions>
   <Button style={{ width: 120 }}>Learn more</Button>
 </ThemeCompositions>
 ```

@@ -7,9 +7,3 @@ export const HeroExample = () => (
 		<Hero data-testid="test-hero" />
 	</ThemeCompositions>
 );
-
-HeroExample.canvas = {
-	width: 1400,
-	height: 600,
-	overflow: 'scroll',
-};

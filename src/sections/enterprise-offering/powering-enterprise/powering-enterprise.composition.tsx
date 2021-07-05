@@ -7,7 +7,3 @@ export const PoweringEnterpriseExample = () => (
 		<PoweringEnterprise data-testid="test-powering" />
 	</ThemeCompositions>
 );
-
-PoweringEnterpriseExample.canvas = {
-	height: 350,
-};

@@ -7,7 +7,3 @@ export const SalesCtaExample = () => (
 		<SalesCta data-testid="test-sales-cta" />
 	</ThemeCompositions>
 );
-
-SalesCtaExample.canvas = {
-	height: 650,
-};

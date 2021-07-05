@@ -3,7 +3,7 @@ import { ThemeCompositions } from '@teambit/evangelist.theme.evangelist-theme';
 import { TwitterCard } from './twitter-card';
 
 export const TwitterCardExample = () => (
-	<ThemeCompositions style={{ maxWidth: 250 }}>
+	<ThemeCompositions style={{ display: 'inline-block' }}>
 		<TwitterCard
 			title="@bitdev_"
 			image="bit-logo.png"

@@ -9,7 +9,6 @@ export const EnterpriseOfferingPage = () => (
 );
 
 EnterpriseOfferingPage.canvas = {
-	width: 1200,
+	width: 1440,
 	height: 400,
-	overflow: 'scroll',
 };

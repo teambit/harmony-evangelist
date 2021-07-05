@@ -17,7 +17,3 @@ export const LinkWithExternal = () => (
 		</Link>
 	</ThemeCompositions>
 );
-
-const compositions = [LinkExample, LinkWithExternal];
-// @ts-ignore
-compositions.map((comp) => (comp.canvas = { height: 90 }));

@@ -9,7 +9,5 @@ export const EnterpriseSectionExample = () => (
 );
 
 EnterpriseSectionExample.canvas = {
-	width: 1400,
-	height: 400,
-	overflow: 'scroll',
+	width: 1440,
 };

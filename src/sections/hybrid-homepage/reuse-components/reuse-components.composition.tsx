@@ -9,7 +9,7 @@ export const ReuseComponentsExample = () => (
 );
 
 ReuseComponentsExample.canvas = {
-	width: 1400,
+	width: 1440,
 	height: 600,
-	overflow: 'scroll',
+
 };

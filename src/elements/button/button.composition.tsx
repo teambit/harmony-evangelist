@@ -91,14 +91,3 @@ export const LightButtonDisabled = ({ ...rest }) => {
 		</ThemeCompositions>
 	);
 };
-
-const compositions = [
-	CallToActionButton,
-	MainButton,
-	LightButton,
-	CallToActionLoading,
-	Loading,
-	LightButtonLoading,
-];
-// @ts-ignore
-compositions.map((comp) => (comp.canvas = { height: 90 }));

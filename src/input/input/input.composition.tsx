@@ -25,7 +25,3 @@ export const TextAreaWithError = () => (
 		<TextArea error={true} data-testid="test-textarea" />
 	</ThemeCompositions>
 );
-
-const compositions = [InputExample, InputWithError, TextAreaExample, TextAreaWithError];
-// @ts-ignore
-compositions.map((comp) => (comp.canvas = { height: 90 }));

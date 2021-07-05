@@ -9,5 +9,6 @@ export const ComponentAnalyticsExample = () => (
 );
 
 ComponentAnalyticsExample.canvas = {
-	height: 350,
+	height: 400,
+	width: 1440,
 };
