@@ -42,7 +42,6 @@
         "@teambit/base-ui.elements.label": "^1.0.0",
         "@teambit/base-ui.elements.link": "^1.0.0",
         "@teambit/base-ui.elements.separator": "^1.0.0",
-        "@teambit/base-ui.geometry.curve-peek": "^1.0.0",
         "@teambit/base-ui.input.button": "^1.0.0",
         "@teambit/base-ui.input.checkbox.indicator": "^1.0.0",
         "@teambit/base-ui.input.checkbox.label": "^1.0.0",
