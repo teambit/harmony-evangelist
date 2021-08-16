@@ -22,7 +22,7 @@ import { EnterpriseLogos } from '@teambit/evangelist.marketing.enterprise-logos'
 
 export type HybridHomepageProps = {
 	/** placeholder for content, after the first purple background fold. */
-	communityCollections?: ReactNode;
+	communityScopes?: ReactNode;
 	/** placeholder for content, at the bottom of the first purple background fold */
 	mainCta?: ReactNode;
 	/** show github star count at the community section */
@@ -41,7 +41,7 @@ export type HybridHomepageProps = {
 export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 	render() {
 		const {
-			communityCollections = null,
+			communityScopes = null,
 			mainCta,
 			githubStars,
 			onBookMeeting,
@@ -63,7 +63,7 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 					{mainCta}
 				</div>
 
-				{communityCollections}
+				{communityScopes}
 
 				<EnterpriseSection className={classNames(centerColumn, styles.margin100)} />
 
