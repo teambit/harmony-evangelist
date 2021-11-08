@@ -28,11 +28,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 			data-bit-id="teambit.evangelist/sections/reuse-components"
 		>
 			<div className={classNames(textColumn, marginCenter)}>
-				<H2 size={PossibleSizes.sm}>
-					Host and reuse components in the cloud.
-					<br />
-					Max dev speed and consistency.
-				</H2>
+				<H2 size={PossibleSizes.sm}>Host and share components in the cloud</H2>
 				<Paragraph size={PossibleSizes.xl} className={classNames(styles.subtitle)}>
 					Build better together with a reusable component marketplace for your
 					organization. Collaborate and integrate to speed up delivery.
@@ -48,9 +44,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Enjoy a world-class package registry, or bring your own
-					</H3>
+					<H3 size={PossibleSizes.xs}>Find and use any component</H3>
 					<Paragraph>
 						Install components directly from the bit.dev registry using your
 						favorite package manager, or bring your own registry or Artifactory.
@@ -64,13 +58,10 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Integrate components in build-time or runtime, it's your choice
-					</H3>
+					<H3 size={PossibleSizes.xs}>Access source-code and contribute changes</H3>
 					<Paragraph>
-						Bit gives you control over which components should be integrated in
-						build-time and which in runtime, to avoid complexity and max
-						performance.
+						Clone components into your local dev workspace and contribute changes
+						without painful context switching.
 					</Paragraph>
 				</div>
 				<Image
@@ -79,9 +70,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 					fullWidth
 				/>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Standardize development across teams and projects
-					</H3>
+					<H3 size={PossibleSizes.xs}>Central component marketplace</H3>
 					<Paragraph>
 						Connect all teams and projects with your component system to make sure
 						your entire organization builds and ships together the same way.

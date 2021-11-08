@@ -40,9 +40,9 @@ export function EnterpriseSection(props: HTMLAttributes<HTMLDivElement>) {
 						Join the world's best teams on the enterprise component cloud
 					</H2>
 					<Paragraph size={PossibleSizes.lg} className={styles.paragraph}>
-						Empower teams in your organization with a component hub where all teams
-						can easily share, discover, and integrate each other's features to
-						increase delivery and drive rapid innovation.
+						Empower teams in your organization to deliver features and innovate
+						autonomously while continuously collaborating on each other's components
+						and building world-class products together.
 					</Paragraph>
 					<Link href="/contact-sales">
 						<Button
@@ -50,7 +50,7 @@ export function EnterpriseSection(props: HTMLAttributes<HTMLDivElement>) {
 							importance="cta"
 							elevation="medium"
 						>
-							Contact sales
+							Contact Sales
 							<Icon of="right_arrow" className={styles.linkArrow} />
 						</Button>
 					</Link>
