@@ -31,7 +31,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm}>
-					Continuously release and integrate component updates. Innovate more.
+					Collaborate on component updates to build in perfect sync
 				</H2>
 
 				<Paragraph size={PossibleSizes.lg} className={styles.subtitle}>
@@ -50,9 +50,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Rapidly release component upgrades, hotfixes, or rollbacks
-					</H3>
+					<H3 size={PossibleSizes.xs}>Update components across apps</H3>
 					<Paragraph>
 						Deliver updates fast and fearlessly multiple times a day with decoupled
 						component versions and release pipelines. Ship changes to many apps in a
@@ -66,9 +64,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Build and test all impacted components, nothing else
-					</H3>
+					<H3 size={PossibleSizes.xs}>Ensure nothing ever breaks</H3>
 					<Paragraph>
 						Bit's component-driven CI propogates changes to all impacted components,
 						in all your apps, and nothing else. Result: 10x faster builds, and
@@ -78,7 +74,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 				<Image alt="cloud code" src="homepage-bit/comp-build-flow.png" fullWidth />
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>
-						Automatically create PRs to impacted GitHub projects
+						Keep all projects synced with automatic GitHub PRs
 					</H3>
 					<Paragraph>
 						Connect Bit with GitHub to get automatic PRs for every new component
@@ -94,7 +90,7 @@ export function BuildTogether(props: HTMLAttributes<HTMLDivElement>) {
 
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>
-						Keep everyone in the loop with automatic Slack updates
+						Keep all people synced with automatic Slack alerts
 					</H3>
 					<Paragraph>
 						Connect your team to Slack to get automatic updates on important stuff

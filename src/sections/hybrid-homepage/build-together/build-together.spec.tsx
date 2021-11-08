@@ -12,9 +12,7 @@ it('should render correctly', () => {
 });
 it('should render h2 element', () => {
 	const { getByText } = render(<BuildTogetherExample />);
-	const rendered = getByText(
-		'Continuously release and integrate component updates. Innovate more.'
-	);
+	const rendered = getByText('Collaborate on component updates to build in perfect sync');
 
 	expect(rendered.tagName).to.be.equal('H2');
 });

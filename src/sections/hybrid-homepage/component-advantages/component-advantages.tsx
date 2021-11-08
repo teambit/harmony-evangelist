@@ -36,13 +36,11 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				)}
 			>
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Develop and compose components in your workspace
-					</H3>
+					<H3 size={PossibleSizes.xs}>Build independent components</H3>
 					<Paragraph>
-						Spawn Bit's workspace to seamlessly turn our project into a powerful
-						monorepo where you can easily add, remove, and compose components to
-						build apps.
+						Build components you can use anywhere and compose them together to
+						create infinite features and apps, in a simple yet powerful developer
+						experience.
 					</Paragraph>
 				</div>
 				<Image
@@ -54,7 +52,7 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>
-						Easily version components and update dependencies
+						Compose components to create infinite features and apps
 					</H3>
 					<Paragraph>
 						Enjoy simple yet scalable semantic versioning per component, with smart
@@ -70,11 +68,11 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>
-						Develop, build, and test with reusable dev environments
+						Compose and reuse your component dev environments
 					</H3>
 					<Paragraph>
-						Enjoy reusable and highly customizable dev environments for components,
-						to speed up and standardize development across teams and apps.
+						Compose your favorite dev tools into dev environments you can reuse
+						across components and projects to speed and standardize development.
 					</Paragraph>
 				</div>
 				<Image

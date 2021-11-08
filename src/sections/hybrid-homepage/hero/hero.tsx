@@ -71,10 +71,9 @@ export function Hero(props: ReuseLandingProps) {
 							size={PossibleSizes.lg}
 							className={classNames(styles.paragraph, textColumn, marginCenter)}
 						>
-							Bit is a standard infrastructure for components. It's everything
-							your teams need to enjoy autonomous development, faster releases,
-							effortless consistency, and collaboration at scale. Try it out for
-							free.
+							Bit is the platform for component-driven development. Forget
+							monoliths and distribute app development to components. Enjoy better
+							scale, speed, and consistency. Join 200k+ developers and start free.
 						</Paragraph>
 					</div>
 

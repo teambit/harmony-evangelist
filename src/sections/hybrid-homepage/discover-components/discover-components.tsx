@@ -30,9 +30,7 @@ export function DiscoverComponents(props: HTMLAttributes<HTMLDivElement>) {
 		>
 			<div className={classNames(textColumn, marginCenter)}>
 				<H2 size={PossibleSizes.sm} className={text.center}>
-					Effortlessly document,
-					<br />
-					organize and discover components
+					Stunning docs and simple discovery
 				</H2>
 
 				<Paragraph
