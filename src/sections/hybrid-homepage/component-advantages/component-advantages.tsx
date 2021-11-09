@@ -83,9 +83,7 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>
-						Enjoy an effortless, scalable monorepo dev experience
-					</H3>
+					<H3 size={PossibleSizes.xs}>Enjoy a simple and powerful dev experience</H3>
 					<Paragraph>
 						Bit brings you the benefits of highly modular and distributed
 						development, with a simple holistic dev experience that makes
