@@ -8,7 +8,14 @@ export type XButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function XButton(props: XButtonProps) {
 	return (
-		<button {...props} className={classnames(styles.xButton, props.className)}>
+		<button
+			{...props}
+			className={classnames(
+				styles.xButton,
+				props.onClick && styles.interactive,
+				props.className
+			)}
+		>
 			<Icon of="x-close" />
 		</button>
 	);

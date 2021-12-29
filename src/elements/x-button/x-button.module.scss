@@ -5,8 +5,13 @@
   border: none;
   background: inherit;
 
-  color: var(--bit-text-inactive, var(--bit-text-color-light));
-  &:hover {
-    color: var(--bit-text-color-light-highlight, var(--bit-accent-bg-heavy));
+  transition: color 80ms;
+  color: var(--bit-text-inactive, var(--bit-text-color-light, #babec9));
+  &.interactive {
+    cursor: pointer;
+    
+    &:hover {
+      color: var(--bit-text-color-heavy, #2b2b2b);
+    }
   }
 }

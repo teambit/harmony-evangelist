@@ -65,7 +65,7 @@
     },
     "elements/x-button": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/elements/x-button"
     },
