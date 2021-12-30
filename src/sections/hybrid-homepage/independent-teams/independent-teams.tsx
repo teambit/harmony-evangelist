@@ -34,7 +34,7 @@ export function IndependentTeams(props: HTMLAttributes<HTMLDivElement>) {
 				</H2>
 				<Paragraph className={classNames(text.center, styles.subtitle)}>
 					Enable teams to develop features independently in decoupled codebases,
-					exposing expandable APIs and continuously integrating with each other. Miro
+					exposing expandable APIs and continuously integrating with each other. Micro
 					Frontends? Try Micro Everything.
 				</Paragraph>
 			</div>

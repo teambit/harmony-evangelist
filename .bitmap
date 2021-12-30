@@ -149,7 +149,7 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -275,7 +275,7 @@
     },
     "sections/independent-teams": {
         "scope": "teambit.evangelist",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
