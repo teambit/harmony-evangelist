@@ -71,13 +71,13 @@
     },
     "input/checkbox/indicator": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/indicator"
     },
     "input/checkbox/label": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/label"
     },
