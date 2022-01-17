@@ -77,7 +77,7 @@
     },
     "input/checkbox/label": {
         "scope": "teambit.evangelist",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/label"
     },
