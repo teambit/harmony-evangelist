@@ -1,4 +1,5 @@
 .checkmarkInputIndicator {
+	font-size: 16px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -42,8 +43,14 @@
 	}
 
 	input:checked:disabled + & {
-		background: var(--bit-accent-bg-heavy, #c9c3f6); // TODO - should be --accent-bg-disabled
-		border-color: var(--bit-accent-bg-heavy, #c9c3f6); // TODO - should be --accent-bg-disabled
+		background: var(
+			--bit-accent-bg-heavy,
+			#c9c3f6
+		); // TODO - should be --accent-bg-disabled
+		border-color: var(
+			--bit-accent-bg-heavy,
+			#c9c3f6
+		); // TODO - should be --accent-bg-disabled
 	}
 }
 
