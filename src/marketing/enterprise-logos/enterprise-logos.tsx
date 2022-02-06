@@ -11,7 +11,7 @@ const LOGOS = [
 	'homepage-enterprise-logos/Moodys.svg',
 	'homepage-enterprise-logos/Carlsberg-1.svg',
 	'homepage-enterprise-logos/Autodesk.svg',
-	'homepage-enterprise-logos/progressive-leasing.svg?v=0.1',
+	'homepage-enterprise-logos/western-union.svg',
 ];
 
 export type EnterpriseLogosProps = {} & React.HTMLAttributes<HTMLDivElement>;
