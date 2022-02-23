@@ -72,8 +72,8 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>Central component marketplace</H3>
 					<Paragraph>
-						Connect all teams and projects with your component system to make sure
-						your entire organization builds and ships together the same way.
+						Collaborate on components across teams and projects to build
+						component-driven apps together efficiently, consistently, and at scale.
 					</Paragraph>
 				</div>
 				<Image

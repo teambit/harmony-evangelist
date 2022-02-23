@@ -33,9 +33,9 @@ export function IndependentTeams(props: HTMLAttributes<HTMLDivElement>) {
 					Build everything like microservices.
 				</H2>
 				<Paragraph className={classNames(text.center, styles.subtitle)}>
-					Enable teams to develop features independently in decoupled codebases,
-					exposing expandable APIs and continuously integrating with each other. Micro
-					Frontends? Try Micro Everything.
+					Distribute business responsibilities to autonomous teams who own and deliver
+					components to speed innovation, and continuously integrate to ship fast,
+					efficiently, and at scale.
 				</Paragraph>
 			</div>
 
@@ -48,23 +48,23 @@ export function IndependentTeams(props: HTMLAttributes<HTMLDivElement>) {
 
 			<Grid colL={3} className={classNames(text.left, styles.benefitsGrid)}>
 				<div className={styles.benefit}>
-					<H5 size={PossibleSizes.xxs}>Decoupled codebases</H5>
-					<Paragraph>
-						Develop components and build features in simple, decoupled codebases.
-					</Paragraph>
-				</div>
-
-				<div className={styles.benefit}>
 					<H5 size={PossibleSizes.xxs}>Autonomous teams</H5>
 					<Paragraph>
-						Empower product teams to build and ship component APIs to everyone.
+						Make product teams autonomous to build and own different components.
 					</Paragraph>
 				</div>
 
 				<div className={styles.benefit}>
-					<H5 size={PossibleSizes.xxs}>Build-time integrations</H5>
+					<H5 size={PossibleSizes.xxs}>Independent delivery</H5>
 					<Paragraph>
-						Continuously integrate and compose applications without complexity.
+						Empower product teams to rapidly deliver components and innovate.
+					</Paragraph>
+				</div>
+
+				<div className={styles.benefit}>
+					<H5 size={PossibleSizes.xxs}>Continuous integrations</H5>
+					<Paragraph>
+						Continuously integrate and update components to build together.
 					</Paragraph>
 				</div>
 			</Grid>
