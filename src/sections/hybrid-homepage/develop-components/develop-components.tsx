@@ -27,8 +27,9 @@ export function DevelopComponents(props: HTMLAttributes<HTMLDivElement>) {
 					Split app development to independent components and teams
 				</H2>
 				<Paragraph size={PossibleSizes.lg} className={classNames(styles.subtitle)}>
-					Say goodbye to monolithic app development, and hello to modular applications
-					composed from features built by autonomous teams working side by side.
+					Say goodbye to monolithic web apps, and hello to component-driven apps
+					composed of independent components built by autonomous teams working side by
+					side.
 				</Paragraph>
 			</div>
 			<Image alt="bit" src="homepage-bit/assets/booking-breakdown.png" fullWidth />

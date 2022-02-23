@@ -50,7 +50,7 @@ export function EnterpriseSection(props: HTMLAttributes<HTMLDivElement>) {
 							importance="cta"
 							elevation="medium"
 						>
-							Contact Sales
+							Talk to Us
 							<Icon of="right_arrow" className={styles.linkArrow} />
 						</Button>
 					</Link>

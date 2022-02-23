@@ -77,7 +77,7 @@
     },
     "input/checkbox/label": {
         "scope": "teambit.evangelist",
-        "version": "1.0.9",
+        "version": "1.0.11",
         "mainFile": "index.ts",
         "rootDir": "src/input/checkbox/label"
     },
@@ -149,7 +149,7 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "2.0.7",
+        "version": "2.0.8",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -179,7 +179,7 @@
     },
     "sections/component-advantages": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/component-advantages"
     },
@@ -191,7 +191,7 @@
     },
     "sections/develop-components": {
         "scope": "teambit.evangelist",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/develop-components"
     },
@@ -263,7 +263,7 @@
     },
     "sections/enterprise-section": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
@@ -275,13 +275,13 @@
     },
     "sections/independent-teams": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/independent-teams"
     },
     "sections/reuse-components": {
         "scope": "teambit.evangelist",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },

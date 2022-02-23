@@ -38,9 +38,8 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>Build independent components</H3>
 					<Paragraph>
-						Build components you can use anywhere and compose them together to
-						create infinite features and apps, in a simple yet powerful developer
-						experience.
+						Develop independent components with decoupled codebases, versions, and
+						build pipelines. Enjoy a dev experience like in a single project.
 					</Paragraph>
 				</div>
 				<Image
@@ -55,8 +54,8 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 						Compose components to create infinite features and apps
 					</H3>
 					<Paragraph>
-						Enjoy simple yet scalable semantic versioning per component, with smart
-						automatic dependency definitions and management.
+						Compose components via dependencies and create infinite new features and
+						applications while easily controlling each component's version.
 					</Paragraph>
 				</div>
 				<Image
@@ -68,7 +67,7 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>
-						Compose and reuse your component dev environments
+						Create custom dev envs with your favorite tools
 					</H3>
 					<Paragraph>
 						Compose your favorite dev tools into dev environments you can reuse
@@ -83,11 +82,10 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Enjoy a simple and powerful dev experience</H3>
+					<H3 size={PossibleSizes.xs}>Collaborate on components</H3>
 					<Paragraph>
-						Bit brings you the benefits of highly modular and distributed
-						development, with a simple holistic dev experience that makes
-						development fun!
+						Bit automates the overhead of manual configs for every component so that
+						you can focus on creating and composing components.
 					</Paragraph>
 				</div>
 				<Image
