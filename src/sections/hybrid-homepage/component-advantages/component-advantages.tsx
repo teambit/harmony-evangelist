@@ -82,7 +82,7 @@ export function ComponentsAdvantages(props: HTMLAttributes<HTMLDivElement>) {
 				/>
 
 				<div className={styles.text}>
-					<H3 size={PossibleSizes.xs}>Collaborate on components</H3>
+					<H3 size={PossibleSizes.xs}>No config overhead</H3>
 					<Paragraph>
 						Bit automates the overhead of manual configs for every component so that
 						you can focus on creating and composing components.

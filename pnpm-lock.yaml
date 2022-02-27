@@ -18,7 +18,7 @@ importers:
       '@teambit/base-ui.elements.separator': ^1.0.0
       '@teambit/base-ui.input.button': ^1.0.0
       '@teambit/base-ui.input.checkbox.indicator': ^1.0.0
-      '@teambit/base-ui.input.checkbox.label': ^1.0.0
+      '@teambit/base-ui.input.checkbox.label': ^1.0.2
       '@teambit/base-ui.input.error': ^1.0.0
       '@teambit/base-ui.layout.align': ^1.0.0
       '@teambit/base-ui.layout.breakpoints': ^1.0.0
@@ -93,7 +93,7 @@ importers:
       '@teambit/base-ui.elements.separator': registry.npmjs.org/@teambit/base-ui.elements.separator/1.1.0_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.button': registry.npmjs.org/@teambit/base-ui.input.button/1.0.3_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.checkbox.indicator': registry.npmjs.org/@teambit/base-ui.input.checkbox.indicator/1.0.0_react-dom@16.14.0+react@16.14.0
-      '@teambit/base-ui.input.checkbox.label': registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.1_react-dom@16.14.0+react@16.14.0
+      '@teambit/base-ui.input.checkbox.label': registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.2_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error/1.0.3_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.layout.align': registry.npmjs.org/@teambit/base-ui.layout.align/1.0.0_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.layout.breakpoints': registry.npmjs.org/@teambit/base-ui.layout.breakpoints/1.0.0_react-dom@16.14.0+react@16.14.0
@@ -334,7 +334,7 @@ importers:
 packages:
 
   /@bit/bit.javascript.component.id/1.1.5:
-    resolution: {integrity: sha1-ajxcdAz2kL5q+iUOSwg3gSGNVEw=}
+    resolution: {integrity: sha1-ajxcdAz2kL5q+iUOSwg3gSGNVEw=, tarball: '@bit/bit.javascript.component.id/-/bit.javascript.component.id-1.1.5.tgz'}
     dependencies:
       '@bit/bit.javascript.component.npm-id': /@bit/bit.javascript.component.npm-id/0.4.3
       '@bit/bit.utils.string.optional': /@bit/bit.utils.string.optional/0.0.4
@@ -586,11 +586,11 @@ packages:
       react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: false
 
-  registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.1_react-dom@16.14.0+react@16.14.0:
-    resolution: {integrity: sha512-gGUqZs+n0F2EeJaSryGkNfE1MOslKdKqNveI6jgphoYhhQ2WEOiZaDtsxTKIAzi/tbnEe5kZlC+uAk0q7jo6Ug==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/-/base-ui.input.checkbox.hidden-1.0.1.tgz}
-    id: registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.1
+  registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.2_react-dom@16.14.0+react@16.14.0:
+    resolution: {integrity: sha512-S7hSTkGqj/ODMdhYD+y89U6ZyXiBXeQlPS/uy/cyD77X1Bk3CWnNg2dYKRbFLxDnlI/OsPDzI4cOLaGAT8oWWg==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/-/base-ui.input.checkbox.hidden-1.0.2.tgz}
+    id: registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.2
     name: '@teambit/base-ui.input.checkbox.hidden'
-    version: 1.0.1
+    version: 1.0.2
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -616,16 +616,16 @@ packages:
       react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: false
 
-  registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.1_react-dom@16.14.0+react@16.14.0:
-    resolution: {integrity: sha512-5TXD6JGVLxd8vcRZ/PeoyUVp9W20AQFzlamauZt0PGKaWNl7CrGiOsnCAl9wiDO2yWu/gPwelTI3ThjoaIv+rQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.checkbox.label/-/base-ui.input.checkbox.label-1.0.1.tgz}
-    id: registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.1
+  registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.2_react-dom@16.14.0+react@16.14.0:
+    resolution: {integrity: sha512-Q4D4Nv6evhw4iM1F8obnMc9HwdlCoZJBceiWgtsitQJiodlcEt6N5x5/t2gKxyJtOBEB5EorOdslrPKCVrwneA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.checkbox.label/-/base-ui.input.checkbox.label-1.0.2.tgz}
+    id: registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.2
     name: '@teambit/base-ui.input.checkbox.label'
-    version: 1.0.1
+    version: 1.0.2
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-      '@teambit/base-ui.input.checkbox.hidden': registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.1_react-dom@16.14.0+react@16.14.0
+      '@teambit/base-ui.input.checkbox.hidden': registry.npmjs.org/@teambit/base-ui.input.checkbox.hidden/1.0.2_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.checkbox.indicator': registry.npmjs.org/@teambit/base-ui.input.checkbox.indicator/1.0.0_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.19.1
       react: registry.npmjs.org/react/16.14.0
