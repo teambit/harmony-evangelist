@@ -13,6 +13,7 @@ import { textColumn } from '@teambit/base-ui.layout.page-frame';
 
 import { Image } from '@teambit/evangelist.elements.image';
 import { H2, H3 } from '@teambit/evangelist.elements.heading';
+import { links } from '@teambit/evangelist.content.links';
 
 /**
  * @name ReuseComponents
@@ -46,7 +47,7 @@ export function ReuseComponents(props: HTMLAttributes<HTMLDivElement>) {
 				<div className={styles.text}>
 					<H3 size={PossibleSizes.xs}>Find and use any component</H3>
 					<Paragraph>
-						Install components directly from the bit.dev registry using your
+						Install components directly from the {links.siteDisplayName} registry using your
 						favorite package manager, or bring your own registry or Artifactory.
 						Your choice.
 					</Paragraph>

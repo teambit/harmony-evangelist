@@ -4,15 +4,17 @@
  */
 
 export const links = {
+	siteDisplayName: 'bit.cloud',
+	
 	docs: 'https://docs.bit.dev',
 	github: 'https://github.com/teambit/bit',
 	envs: 'https://github.com/teambit/envs',
 	slack:
 		'https://join.slack.com/t/bit-dev-community/shared_invite/enQtNzM2NzQ3MTQzMTg3LWI2YmFmZjQwMTkxNmFmNTVkYzU2MGI2YjgwMmJlZDdkNWVhOGIzZDFlYjg4MGRmOTM4ODAxNTIxMTMwNWVhMzg',
-	mailTeam: 'team@bit.dev',
-	mailPrivacy: 'privacy@bit.dev',
-	mailSecurity: 'security@bit.dev',
-	mailSales: 'sales@bit.dev',
+	mailTeam: 'team@bit.cloud',
+	mailPrivacy: 'privacy@bit.cloud',
+	mailSecurity: 'security@bit.cloud',
+	mailSales: 'sales@bit.cloud',
 	blog: 'https://blog.bitsrc.io',
 	twitter: 'https://twitter.com/bitdev_',
 	bitRegistry: 'https://node.bit.dev',
