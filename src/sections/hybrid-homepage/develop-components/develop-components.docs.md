@@ -7,4 +7,4 @@ description: 'home page breaks down section'
   
 A section of static content, showing how Bit breaks down complicated websites.  
 Assumes the consuming component to supply className with width and other styles.  
-[Link to page](https://bit.dev).
+[Link to page](https://bit.cloud).

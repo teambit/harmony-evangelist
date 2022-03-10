@@ -7,4 +7,4 @@ description: 'home page cloud section'
   
 A section of static content, presenting Bit's cloud platform.  
 Assumes the consuming component to supply className with width and other styles.  
-[Link to page](https://bit.dev).
+[Link to page](https://bit.cloud).

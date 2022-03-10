@@ -6,4 +6,4 @@ description: 'support section'
 ### Overview
 
 Support section elaborating on the benefits of our support packages.  
-[Link to page](https://bit.dev/support-plans).
+[Link to page](https://bit.cloud/support-plans).

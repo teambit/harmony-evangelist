@@ -7,4 +7,4 @@ description: 'home page reuse section'
   
 A static section, showing how bit can be used to share and sync code between projects and people.  
 Assumes the consuming component to supply className with width and other styles.  
-[Link to page](https://bit.dev).
+[Link to page](https://bit.cloud).

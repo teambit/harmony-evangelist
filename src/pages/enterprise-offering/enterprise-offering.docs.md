@@ -6,4 +6,4 @@ description: 'enterprise offering page'
 ### Overview
   
 A full, responsive page, detailing Bit's offering for enterprises.  
-[Link to page](https://bit.dev/enterprise).
+[Link to page](https://bit.cloud/enterprise).
