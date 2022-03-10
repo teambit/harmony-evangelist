@@ -38,7 +38,7 @@ export function DuoComponentBubble({
 	);
 }
 
-function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '/', ...rest }: ScopeBubbleProps) {
+function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '', ...rest }: ScopeBubbleProps) {
 	const fullName = bitId.getFullScopeName();
 	const name = bitId.scope;
 	const scopeUrl = `${baseUrl}/${bitId.getFullScopeName('/')}`;
@@ -58,7 +58,7 @@ function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '/', ...rest }
 	);
 }
 
-function ComponentBubble({ bitId, className, baseUrl, ...rest }: ComponentBubbleProps) {
+function ComponentBubble({ bitId, className, baseUrl = '', ...rest }: ComponentBubbleProps) {
 	const version = bitId.version;
 	const fullName = bitId.getFullName();
 	const componentQuery = bitId.toQueryParams();
