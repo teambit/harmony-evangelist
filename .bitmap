@@ -327,6 +327,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
+    "surfaces/component-highlighter": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/surfaces/component-highlighter"
+    },
     "surfaces/dropdown": {
         "scope": "teambit.evangelist",
         "version": "1.0.3",

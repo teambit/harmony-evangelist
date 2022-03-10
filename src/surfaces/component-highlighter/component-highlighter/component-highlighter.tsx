@@ -5,12 +5,10 @@ import debounce from 'lodash.debounce';
 
 import styles from './component-highlighter.module.scss';
 import { RefTooltip } from '@teambit/base-ui.placement.ref-tooltip';
-// @ts-ignore deprecated
-import { OverlayBorder } from '@teambit/evangelist.dev-tools.overlay-border';
+import { OverlayBorder } from '../overlay-border';
 import { VersionMap } from './content-type';
 
-// @ts-ignore deprecated
-import { ComponentLabel } from '@teambit/evangelist.dev-tools.component-label';
+import { ComponentLabel } from '../component-label';
 
 export type ComponentHighlighterProps = {
 	/** enable highlighting */
@@ -23,6 +21,10 @@ export type ComponentHighlighterProps = {
 	blacklist?: Set<string>;
 	/** Actively recalculate position, to support moving elements  */
 	motionTracking?: boolean;
+	/** base url for links. leave undefined for relative links
+	 * @example 'https://bit.cloud
+	 */
+	baseUrl?: string;
 } & HTMLAttributes<HTMLDivElement>;
 
 type ComponentHighlighterState = {
@@ -111,6 +113,7 @@ export class ComponentHighlighter extends Component<
 			children,
 			fullScopeName,
 			versionMap = {},
+			baseUrl,
 			blacklist,
 			motionTracking,
 			...rest
@@ -150,6 +153,7 @@ export class ComponentHighlighter extends Component<
 						bitId={highlightTargetId}
 						versionOverride={explicitVersion}
 						fullScopeName={fullScopeName}
+						baseUrl={baseUrl}
 						data-ignore-component-highlight
 					/>
 				</RefTooltip>

@@ -14,6 +14,8 @@ export type ComponentLabelProps = {
 	versionOverride?: string;
 	/** Show full scope name, including owner */
 	fullScopeName?: boolean;
+	/** base url for links. leave undefined for relative links */
+	baseUrl?: string;
 } & HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -23,7 +25,7 @@ export type ComponentLabelProps = {
  * <ComponentLabel bitId="kutorg.nerv/atoms/lcl" versionOverride="1.5.3" />
  */
 export function ComponentLabel(props: ComponentLabelProps) {
-	const { bitId, versionOverride, fullScopeName, className, ...rest } = props;
+	const { bitId, versionOverride, fullScopeName, className, baseUrl, ...rest } = props;
 
 	if (!bitId) return null;
 
@@ -46,6 +48,7 @@ export function ComponentLabel(props: ComponentLabelProps) {
 			elevation="medium"
 			className={classNames(className)}
 			fullScopeName={fullScopeName}
+			baseUrl={baseUrl}
 			{...rest}
 		/>
 	);

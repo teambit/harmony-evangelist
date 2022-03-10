@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { Card } from '@teambit/base-ui.surfaces.card';
 
 import scopeStyles from './scope-colors.module.scss';
-import { BASE_URL } from '../base-url';
 
 import { DuoComponentBubbleProps, ScopeBubbleProps, ComponentBubbleProps } from './duo-component-types';
 import styles from './duo-component-bubble.module.scss';
@@ -12,6 +11,7 @@ export function DuoComponentBubble({
 	bitId,
 	fullScopeName,
 	className,
+	baseUrl,
 	...rest
 }: DuoComponentBubbleProps) {
 	const scopeFullName = bitId.getFullScopeName();
@@ -31,16 +31,17 @@ export function DuoComponentBubble({
 				bitId={bitId}
 				fullScopeName={fullScopeName}
 				className={styles.scopeBubble}
+				baseUrl={baseUrl}
 			/>
-			<ComponentBubble bitId={bitId} />
+			<ComponentBubble bitId={bitId} baseUrl={baseUrl} />
 		</Card>
 	);
 }
 
-function ScopeBubble({ bitId, fullScopeName, className, ...rest }: ScopeBubbleProps) {
+function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '/', ...rest }: ScopeBubbleProps) {
 	const fullName = bitId.getFullScopeName();
 	const name = bitId.scope;
-	const scopeUrl = `${BASE_URL}/${bitId.getFullScopeName('/')}`;
+	const scopeUrl = `${baseUrl}/${bitId.getFullScopeName('/')}`;
 
 	return (
 		<a
@@ -57,11 +58,11 @@ function ScopeBubble({ bitId, fullScopeName, className, ...rest }: ScopeBubblePr
 	);
 }
 
-function ComponentBubble({ bitId, className, ...rest }: ComponentBubbleProps) {
+function ComponentBubble({ bitId, className, baseUrl, ...rest }: ComponentBubbleProps) {
 	const version = bitId.version;
 	const fullName = bitId.getFullName();
 	const componentQuery = bitId.toQueryParams();
-	const url = `${BASE_URL}/${bitId.toUrl()}${componentQuery && `?${componentQuery}`}`;
+	const url = `${baseUrl}/${bitId.toUrl()}${componentQuery && `?${componentQuery}`}`;
 	return (
 		<a
 			href={url}
