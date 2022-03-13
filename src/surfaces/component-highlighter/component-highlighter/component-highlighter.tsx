@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 import debounce from 'lodash.debounce';
 
-import styles from './component-highlighter.module.scss';
 import { RefTooltip } from '@teambit/base-ui.placement.ref-tooltip';
+import styles from './component-highlighter.module.scss';
 import { OverlayBorder } from '../overlay-border';
 import { VersionMap } from './content-type';
 

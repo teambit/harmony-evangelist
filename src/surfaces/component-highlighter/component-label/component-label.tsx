@@ -1,8 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-// @ts-ignore
-import BitNameId from '@bit/bit.javascript.component.id';
+import { ComponentID } from '@teambit/component-id';
 
 import { DuoComponentBubble } from './duo-component-bubble';
 import { DefaultLabel } from './default-label';
@@ -29,7 +28,8 @@ export function ComponentLabel(props: ComponentLabelProps) {
 
 	if (!bitId) return null;
 
-	const parsed = BitNameId.fromBitId(bitId);
+	let parsed = ComponentID.tryFromString(bitId);
+	if (versionOverride) parsed = parsed?.changeVersion(versionOverride);
 
 	// local or malformed component ids may fail parsing
 	if (!parsed) {
@@ -39,8 +39,6 @@ export function ComponentLabel(props: ComponentLabelProps) {
 			</DefaultLabel>
 		);
 	}
-
-	if (versionOverride) parsed.version = versionOverride;
 
 	return (
 		<DuoComponentBubble

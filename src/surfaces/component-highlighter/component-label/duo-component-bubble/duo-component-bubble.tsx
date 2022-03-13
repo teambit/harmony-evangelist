@@ -4,8 +4,15 @@ import { Card } from '@teambit/base-ui.surfaces.card';
 
 import scopeStyles from './scope-colors.module.scss';
 
-import { DuoComponentBubbleProps, ScopeBubbleProps, ComponentBubbleProps } from './duo-component-types';
+import {
+	DuoComponentBubbleProps,
+	ScopeBubbleProps,
+	ComponentBubbleProps,
+} from './duo-component-types';
 import styles from './duo-component-bubble.module.scss';
+
+const VERSION_QUERY_PARAM = 'version';
+const LATEST_VERSION = 'latest';
 
 export function DuoComponentBubble({
 	bitId,
@@ -14,7 +21,7 @@ export function DuoComponentBubble({
 	baseUrl,
 	...rest
 }: DuoComponentBubbleProps) {
-	const scopeFullName = bitId.getFullScopeName();
+	const scopeFullName = bitId.scope;
 
 	return (
 		<Card
@@ -38,10 +45,16 @@ export function DuoComponentBubble({
 	);
 }
 
-function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '', ...rest }: ScopeBubbleProps) {
-	const fullName = bitId.getFullScopeName();
+function ScopeBubble({
+	bitId,
+	fullScopeName,
+	className,
+	baseUrl = '',
+	...rest
+}: ScopeBubbleProps) {
+	const fullName = bitId.scope;
 	const name = bitId.scope;
-	const scopeUrl = `${baseUrl}/${bitId.getFullScopeName('/')}`;
+	const scopeUrl = `${baseUrl}/${bitId.scope.replace('/', '.')}`;
 
 	return (
 		<a
@@ -59,10 +72,14 @@ function ScopeBubble({ bitId, fullScopeName, className, baseUrl = '', ...rest }:
 }
 
 function ComponentBubble({ bitId, className, baseUrl = '', ...rest }: ComponentBubbleProps) {
-	const version = bitId.version;
-	const fullName = bitId.getFullName();
-	const componentQuery = bitId.toQueryParams();
-	const url = `${baseUrl}/${bitId.toUrl()}${componentQuery && `?${componentQuery}`}`;
+	const version = bitId.version !== LATEST_VERSION && bitId.version;
+	const fullName = bitId.fullName;
+
+	const componentQuery = version && `?${VERSION_QUERY_PARAM}=${version}`;
+	const scopeUrl = `${bitId.scope.replace('/', '.')}`;
+	const componentUrl = fullName;
+	const url = `${baseUrl}/${scopeUrl}/${componentUrl}${componentQuery}`;
+
 	return (
 		<a
 			href={url}
@@ -73,7 +90,6 @@ function ComponentBubble({ bitId, className, baseUrl = '', ...rest }: ComponentB
 			<div className={styles.fullName}>{fullName}</div>
 			{version && (
 				<div className={styles.version}>
-					{/* <span className={styles.separator}>|</span> */}
 					<span className={styles.versionPrefix}>@</span>
 					{version}
 				</div>
