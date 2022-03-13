@@ -1,8 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-//@ts-ignore
-import BitNameId from '@bit/bit.javascript.component.id';
+import { ComponentID } from '@teambit/component-id';
 
 import { DuoComponentBubble } from './duo-component-bubble';
 import { DefaultLabel } from './default-label';
@@ -14,6 +13,8 @@ export type ComponentLabelProps = {
 	versionOverride?: string;
 	/** Show full scope name, including owner */
 	fullScopeName?: boolean;
+	/** base url for links. leave undefined for relative links */
+	baseUrl?: string;
 } & HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -23,11 +24,12 @@ export type ComponentLabelProps = {
  * <ComponentLabel bitId="kutorg.nerv/atoms/lcl" versionOverride="1.5.3" />
  */
 export function ComponentLabel(props: ComponentLabelProps) {
-	const { bitId, versionOverride, fullScopeName, className, ...rest } = props;
+	const { bitId, versionOverride, fullScopeName, className, baseUrl, ...rest } = props;
 
 	if (!bitId) return null;
 
-	const parsed = BitNameId.fromBitId(bitId);
+	let parsed = ComponentID.tryFromString(bitId);
+	if (versionOverride) parsed = parsed?.changeVersion(versionOverride);
 
 	// local or malformed component ids may fail parsing
 	if (!parsed) {
@@ -38,14 +40,13 @@ export function ComponentLabel(props: ComponentLabelProps) {
 		);
 	}
 
-	if (versionOverride) parsed.version = versionOverride;
-
 	return (
 		<DuoComponentBubble
 			bitId={parsed}
 			elevation="medium"
 			className={classNames(className)}
 			fullScopeName={fullScopeName}
+			baseUrl={baseUrl}
 			{...rest}
 		/>
 	);

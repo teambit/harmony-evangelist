@@ -3,18 +3,25 @@ import classNames from 'classnames';
 import { Card } from '@teambit/base-ui.surfaces.card';
 
 import scopeStyles from './scope-colors.module.scss';
-import { BASE_URL } from '../base-url';
 
-import { DuoComponentBubbleProps, ScopeBubbleProps, ComponentBubbleProps } from './duo-component-types';
+import {
+	DuoComponentBubbleProps,
+	ScopeBubbleProps,
+	ComponentBubbleProps,
+} from './duo-component-types';
 import styles from './duo-component-bubble.module.scss';
+
+const VERSION_QUERY_PARAM = 'version';
+const LATEST_VERSION = 'latest';
 
 export function DuoComponentBubble({
 	bitId,
 	fullScopeName,
 	className,
+	baseUrl,
 	...rest
 }: DuoComponentBubbleProps) {
-	const scopeFullName = bitId.getFullScopeName();
+	const scopeFullName = bitId.scope;
 
 	return (
 		<Card
@@ -31,16 +38,23 @@ export function DuoComponentBubble({
 				bitId={bitId}
 				fullScopeName={fullScopeName}
 				className={styles.scopeBubble}
+				baseUrl={baseUrl}
 			/>
-			<ComponentBubble bitId={bitId} />
+			<ComponentBubble bitId={bitId} baseUrl={baseUrl} />
 		</Card>
 	);
 }
 
-function ScopeBubble({ bitId, fullScopeName, className, ...rest }: ScopeBubbleProps) {
-	const fullName = bitId.getFullScopeName();
+function ScopeBubble({
+	bitId,
+	fullScopeName,
+	className,
+	baseUrl = '',
+	...rest
+}: ScopeBubbleProps) {
+	const fullName = bitId.scope;
 	const name = bitId.scope;
-	const scopeUrl = `${BASE_URL}/${bitId.getFullScopeName('/')}`;
+	const scopeUrl = `${baseUrl}/${bitId.scope.replace('/', '.')}`;
 
 	return (
 		<a
@@ -57,11 +71,15 @@ function ScopeBubble({ bitId, fullScopeName, className, ...rest }: ScopeBubblePr
 	);
 }
 
-function ComponentBubble({ bitId, className, ...rest }: ComponentBubbleProps) {
-	const version = bitId.version;
-	const fullName = bitId.getFullName();
-	const componentQuery = bitId.toQueryParams();
-	const url = `${BASE_URL}/${bitId.toUrl()}${componentQuery && `?${componentQuery}`}`;
+function ComponentBubble({ bitId, className, baseUrl = '', ...rest }: ComponentBubbleProps) {
+	const version = bitId.version !== LATEST_VERSION && bitId.version;
+	const fullName = bitId.fullName;
+
+	const componentQuery = version && `?${VERSION_QUERY_PARAM}=${version}`;
+	const scopeUrl = `${bitId.scope.replace('/', '.')}`;
+	const componentUrl = fullName;
+	const url = `${baseUrl}/${scopeUrl}/${componentUrl}${componentQuery}`;
+
 	return (
 		<a
 			href={url}
@@ -72,7 +90,6 @@ function ComponentBubble({ bitId, className, ...rest }: ComponentBubbleProps) {
 			<div className={styles.fullName}>{fullName}</div>
 			{version && (
 				<div className={styles.version}>
-					{/* <span className={styles.separator}>|</span> */}
 					<span className={styles.versionPrefix}>@</span>
 					{version}
 				</div>
