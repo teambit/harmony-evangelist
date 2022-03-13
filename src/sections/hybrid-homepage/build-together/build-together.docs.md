@@ -7,4 +7,4 @@ description: 'home page collaboration section'
   
 A section of static content, showing Bit's collaboration abilities.  
 Assumes the consuming component to supply className with width and other styles.  
-[Link to page](https://bit.dev).
+[Link to page](https://bit.cloud).

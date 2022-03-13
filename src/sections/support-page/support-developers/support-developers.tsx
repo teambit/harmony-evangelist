@@ -63,7 +63,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
 			text: (
 				<Paragraph>
 					We constantly write{' '}
-					<Link external href={links.docs}>
+					<Link external href={links.gettingStartedDocs}>
 						documentation
 					</Link>
 					, tutorials and guides to support every use case.

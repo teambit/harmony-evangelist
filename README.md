@@ -1,24 +1,24 @@
-[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https://api.bit.dev/scope/teambit/evangelist?UseCache=1)](https://bit.dev/teambit/evangelist)
+[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https://api.bit.dev/scope/teambit/evangelist?UseCache=1)](https://bit.cloud/teambit/evangelist)
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="apache" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 <a href="https://github.com/teambit/example-templates/blob/master/README.md#contributing"><img alt="prs" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 ![Tests](https://github.com/teambit/harmony-evangelist/workflows/Tests/badge.svg)
 
 # Marketing components of bit.dev
 
-The reusable set of React components used to build the [bit.dev marketing website](https://bit.dev). This repository is a **component-based micro-frontend** that exposes components.
+The reusable set of React components used to build the [bit.dev marketing website](https://bit.cloud). This repository is a **component-based micro-frontend** that exposes components.
 
-[![screenshot](./docs/highlighter.png)](https://bit.dev)
+[![screenshot](./docs/highlighter.png)](https://bit.cloud)
 
 
 ## Component collection - choose and use
 
-All components in this frontend codebase were [contained and exposed using Bit](https://github.com/teambit/bit) as a set of independently-usable components. See the **[Evangelist collection on bit.dev](https://bit.dev/bit/evangelist)** to explore and integrate any component into your project.
+All components in this frontend codebase were [contained and exposed using Bit](https://github.com/teambit/bit) as a set of independently-usable components. See the **[Evangelist collection on bit.dev](https://bit.cloud/bit/evangelist)** to explore and integrate any component into your project.
 
 - Install independent components with npm/yarn.
 - Use `bit import` to source and edit components locally for quick editing and integration.
 - Try any component hands-on in a live playground.
 
-[![scope](./docs/scope-screenshot.png)](https://bit.dev/bit/evangelist)
+[![scope](./docs/scope-screenshot.png)](https://bit.cloud/bit/evangelist)
 
 
 ## This is a component-based micro-frontend
@@ -30,7 +30,7 @@ Instead, it's built from **[components maintained in different codebases](https:
 
 ### Show me an example!
 
-Take a look at the [bit.dev homepage](https://bit.dev/).  
+Take a look at the [bit.dev homepage](https://bit.cloud/).  
 
 You will notice that it's built from components that live in different front-end codebases:
 
@@ -39,10 +39,10 @@ You will notice that it's built from components that live in different front-end
 - Container application (private).
 - etc
 
-We use [Bit](https://github.com/teambit/bit) to contain and expose components from any codebase as a set of APIs in [bit.dev](https://bit.dev) that can be integrated into different pages and applications. For example:
+We use [Bit](https://github.com/teambit/bit) to contain and expose components from any codebase as a set of APIs in [bit.dev](https://bit.cloud) that can be integrated into different pages and applications. For example:
 
 - Exposed evangelist components on bit.dev.
-- Exposed [base-ui components on bit.dev](https://bit.dev/bit/base-ui).
+- Exposed [base-ui components on bit.dev](https://bit.cloud/bit/base-ui).
 
 
 ## Key components

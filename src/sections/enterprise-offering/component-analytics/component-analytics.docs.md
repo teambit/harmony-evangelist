@@ -7,4 +7,4 @@ description: 'Bit analytical abilities'
   
 A section showing Bit's analytical abilities.  
 It features a large image extending outside the section, which gets nicely cut in lower resolutions.  
-[Link to page](https://bit.dev/enterprise).
+[Link to page](https://bit.cloud/enterprise).
