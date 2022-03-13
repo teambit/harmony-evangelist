@@ -1,18 +1,20 @@
 import React from 'react';
 import { CardProps } from '@teambit/base-ui.surfaces.card';
-//@ts-ignore
-import BitNameId from '@bit/bit.javascript.component.id';
+import type { ComponentID } from '@teambit/component-id';
 
 export type DuoComponentBubbleProps = {
-	bitId: BitNameId;
+	bitId: ComponentID;
 	fullScopeName?: boolean;
+	baseUrl?: string;
 } & CardProps;
 
 export type ScopeBubbleProps = {
-	bitId: BitNameId;
+	bitId: ComponentID;
 	fullScopeName?: boolean;
+	baseUrl?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export type ComponentBubbleProps = {
-	bitId: BitNameId;
+	bitId: ComponentID;
+	baseUrl?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
