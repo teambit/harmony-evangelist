@@ -329,7 +329,7 @@
     },
     "surfaces/component-highlighter": {
         "scope": "teambit.evangelist",
-        "version": "0.0.1",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/component-highlighter"
     },
