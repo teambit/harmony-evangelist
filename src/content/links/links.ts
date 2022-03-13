@@ -6,7 +6,7 @@
 export const links = {
 	siteDisplayName: 'bit.cloud',
 	
-	docs: 'https://docs.bit.dev',
+	gettingStartedDocs: 'https://bit.dev/docs',
 	github: 'https://github.com/teambit/bit',
 	envs: 'https://github.com/teambit/envs',
 	slack:
