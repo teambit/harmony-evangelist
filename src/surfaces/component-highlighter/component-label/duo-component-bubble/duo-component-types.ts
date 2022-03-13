@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardProps } from '@teambit/base-ui.surfaces.card';
-//@ts-ignore
+// @ts-ignore
 import BitNameId from '@bit/bit.javascript.component.id';
 
 export type DuoComponentBubbleProps = {

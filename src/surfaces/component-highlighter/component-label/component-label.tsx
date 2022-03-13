@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
-//@ts-ignore
+// @ts-ignore
 import BitNameId from '@bit/bit.javascript.component.id';
 
 import { DuoComponentBubble } from './duo-component-bubble';
