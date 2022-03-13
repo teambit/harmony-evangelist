@@ -54,7 +54,7 @@ function ScopeBubble({
 }: ScopeBubbleProps) {
 	const fullName = bitId.scope;
 	const name = bitId.scope;
-	const scopeUrl = `${baseUrl}/${bitId.scope.replace('/', '.')}`;
+	const scopeUrl = `${baseUrl}/${bitId.scope.replace('.', '/')}`;
 
 	return (
 		<a
@@ -76,7 +76,7 @@ function ComponentBubble({ bitId, className, baseUrl = '', ...rest }: ComponentB
 	const fullName = bitId.fullName;
 
 	const componentQuery = version && `?${VERSION_QUERY_PARAM}=${version}`;
-	const scopeUrl = `${bitId.scope.replace('/', '.')}`;
+	const scopeUrl = `${bitId.scope.replace('.', '/')}`;
 	const componentUrl = fullName;
 	const url = `${baseUrl}/${scopeUrl}/${componentUrl}${componentQuery}`;
 
