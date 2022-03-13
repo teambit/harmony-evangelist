@@ -328,8 +328,8 @@
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },
     "surfaces/component-highlighter": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.evangelist",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/surfaces/component-highlighter"
     },
