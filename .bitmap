@@ -3,9 +3,9 @@
 /**
  * The Bitmap file is an auto generated file used by Bit to track all your Bit components. It maps the component to a folder in your file system.
  * This file should be committed to VCS(version control).
- * Components are listed using their component ID (https://harmony-docs.bit.dev/aspects/component/#component-id).
+ * Components are listed using their component ID (https://bit.dev/docs/components/component-id).
  * If you want to delete components you can use the "bit remove <component-id>" command.
- * See the docs (https://harmony-docs.bit.dev/building-with-bit/removing-components) for more information, or use "bit remove --help".
+ * See the docs (https://bit.dev/docs/components/removing-components) for more information, or use "bit remove --help".
  */
 
 {
@@ -29,7 +29,7 @@
     },
     "elements/button": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.tsx",
         "rootDir": "src/elements/button"
     },
@@ -143,19 +143,19 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "2.0.10",
+        "version": "2.0.11",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
     "pages/support": {
         "scope": "teambit.evangelist",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "src/pages/support"
     },
@@ -185,7 +185,7 @@
     },
     "sections/cta": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/cta"
     },
@@ -203,7 +203,7 @@
     },
     "sections/enterprise-offering/advantage-cards": {
         "scope": "teambit.evangelist",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/advantage-cards"
     },
@@ -233,7 +233,7 @@
     },
     "sections/enterprise-offering/hero": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
@@ -257,19 +257,19 @@
     },
     "sections/enterprise-offering/sales-cta": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/sales-cta"
     },
     "sections/enterprise-section": {
         "scope": "teambit.evangelist",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/enterprise-section"
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
@@ -287,13 +287,13 @@
     },
     "sections/support-page/global-enterprise": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/global-enterprise"
     },
     "sections/support-page/hero": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/hero"
     },
@@ -305,7 +305,7 @@
     },
     "sections/support-page/support-cta": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-cta"
     },
@@ -323,7 +323,7 @@
     },
     "sections/talk-to-experts": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/talk-to-experts"
     },

@@ -15,7 +15,7 @@ importers:
       '@teambit/base-ui.elements.label': ^1.0.0
       '@teambit/base-ui.elements.link': ^1.0.0
       '@teambit/base-ui.elements.separator': ^1.0.0
-      '@teambit/base-ui.input.button': ^1.0.0
+      '@teambit/base-ui.input.button': ^1.0.5
       '@teambit/base-ui.input.checkbox.indicator': ^1.0.0
       '@teambit/base-ui.input.checkbox.label': ^1.0.2
       '@teambit/base-ui.input.error': ^1.0.0
@@ -90,7 +90,7 @@ importers:
       '@teambit/base-ui.elements.label': registry.npmjs.org/@teambit/base-ui.elements.label/1.0.0_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.elements.link': registry.npmjs.org/@teambit/base-ui.elements.link/1.0.0_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.elements.separator': registry.npmjs.org/@teambit/base-ui.elements.separator/1.1.0_react-dom@16.14.0+react@16.14.0
-      '@teambit/base-ui.input.button': registry.npmjs.org/@teambit/base-ui.input.button/1.0.3_react-dom@16.14.0+react@16.14.0
+      '@teambit/base-ui.input.button': registry.npmjs.org/@teambit/base-ui.input.button/1.0.5_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.checkbox.indicator': registry.npmjs.org/@teambit/base-ui.input.checkbox.indicator/1.0.0_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.checkbox.label': registry.npmjs.org/@teambit/base-ui.input.checkbox.label/1.0.2_react-dom@16.14.0+react@16.14.0
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error/1.0.3_react-dom@16.14.0+react@16.14.0
@@ -556,11 +556,11 @@ packages:
       react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: false
 
-  registry.npmjs.org/@teambit/base-ui.input.button/1.0.3_react-dom@16.14.0+react@16.14.0:
-    resolution: {integrity: sha512-Za3A9Nl2FfCcN09jAzYyUqwyvT6WFQba9+6yIH64+hfcjFAFTrenP0zmGxUxGGSPKZzthyjmCNFRmoZOZdUllQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.button/-/base-ui.input.button-1.0.3.tgz}
-    id: registry.npmjs.org/@teambit/base-ui.input.button/1.0.3
+  registry.npmjs.org/@teambit/base-ui.input.button/1.0.5_react-dom@16.14.0+react@16.14.0:
+    resolution: {integrity: sha512-uItTjoLLZ3C+k3+Am++NhdfK/azGCsYyIVgGJV6nHN1+t+cDSe5ylzOwrH9nKmUvmNva3WqhnrlmZwER9qPifA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@teambit/base-ui.input.button/-/base-ui.input.button-1.0.5.tgz}
+    id: registry.npmjs.org/@teambit/base-ui.input.button/1.0.5
     name: '@teambit/base-ui.input.button'
-    version: 1.0.3
+    version: 1.0.5
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
