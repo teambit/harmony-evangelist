@@ -17,7 +17,7 @@
     },
     "content/links": {
         "scope": "teambit.evangelist",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "mainFile": "index.ts",
         "rootDir": "src/content/links"
     },
@@ -149,13 +149,13 @@
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "2.0.11",
+        "version": "2.0.12",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
     "pages/support": {
         "scope": "teambit.evangelist",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "src/pages/support"
     },
@@ -173,7 +173,7 @@
     },
     "sections/community": {
         "scope": "teambit.evangelist",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/community"
     },
@@ -281,7 +281,7 @@
     },
     "sections/reuse-components": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/hybrid-homepage/reuse-components"
     },
@@ -299,7 +299,7 @@
     },
     "sections/support-page/support-channels": {
         "scope": "teambit.evangelist",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-channels"
     },
@@ -311,7 +311,7 @@
     },
     "sections/support-page/support-developers": {
         "scope": "teambit.evangelist",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "src/sections/support-page/support-developers"
     },
