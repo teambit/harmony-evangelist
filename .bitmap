@@ -143,13 +143,13 @@
     },
     "pages/enterprise-offering": {
         "scope": "teambit.evangelist",
-        "version": "1.0.14",
+        "version": "1.0.15",
         "mainFile": "index.ts",
         "rootDir": "src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "teambit.evangelist",
-        "version": "2.0.12",
+        "version": "2.0.13",
         "mainFile": "index.ts",
         "rootDir": "src/pages/hybrid-homepage"
     },
@@ -233,7 +233,7 @@
     },
     "sections/enterprise-offering/hero": {
         "scope": "teambit.evangelist",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "src/sections/enterprise-offering/hero"
     },
@@ -269,7 +269,7 @@
     },
     "sections/hero": {
         "scope": "teambit.evangelist",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.tsx",
         "rootDir": "src/sections/hybrid-homepage/hero"
     },
@@ -363,5 +363,5 @@
         "mainFile": "index.ts",
         "rootDir": "src/theme/icon-font"
     },
-    "$schema-version": "14.9.0"
+    "$schema-version": "15.0.0"
 }

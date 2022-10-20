@@ -3,105 +3,104 @@
 
 //backgrounds:
 .purpleBackground {
-	color: white;
-	background-image: url($staticStorageUrl + '/homepage-bit/backgrounds/01-purple-gradient.svg');
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: 200% 100%;
+  color: white;
+  background-image: url($staticStorageUrl + '/homepage-bit/backgrounds/01-purple-gradient.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
 
-	padding-bottom: 180px;
-	padding-top: 100px;
+  padding-bottom: 180px;
+  padding-top: 100px;
 
-	@media (min-width: $br-l) {
-		background-size: 101% 100%;
-		//+1% - prevent white line at the edge of the screen
+  @media (min-width: $br-l) {
+    background-size: 101% 100%;
+    //+1% - prevent white line at the edge of the screen
 
-		padding-top: 150px;
-	}
+    padding-top: 150px;
+  }
 }
 
 .hotpinkBackground {
-	background-image: url($staticStorageUrl + '/homepage-bit/backgrounds/01-hotpink.svg');
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+  background-image: url($staticStorageUrl + '/homepage-bit/backgrounds/01-hotpink.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .uEllipse {
-	background: url($staticStorageUrl + '/homepage-bit/backgrounds/grey-curve-U.svg') no-repeat;
-	background-size: 100% 100%;
+  background: url($staticStorageUrl + '/homepage-bit/backgrounds/grey-curve-U.svg') no-repeat;
+  background-size: 100% 100%;
 
-	width: 100%;
-	height: 30px;
+  width: 100%;
+  height: 30px;
 
-	@media screen and (min-width: $br-sm) {
-		height: 50px;
-		display: block;
-	}
+  @media screen and (min-width: $br-sm) {
+    height: 50px;
+    display: block;
+  }
 
-	@media screen and (min-width: $br-l) {
-		height: 100px;
-	}
+  @media screen and (min-width: $br-l) {
+    height: 100px;
+  }
 }
 
 .greyBackground {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 
-	background:
-		url($staticStorageUrl + '/homepage-bit/backgrounds/grey-bg-flat-strips.svg'),
-		url($staticStorageUrl + '/homepage-bit/backgrounds/grey-bg.svg');
+  background: url($staticStorageUrl + '/homepage-bit/backgrounds/grey-bg-flat-strips.svg'),
+    url($staticStorageUrl + '/homepage-bit/backgrounds/grey-bg.svg');
 
-	background-size: 100% 100%, 100% 100%;
-	background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .greyBgPadding {
-	padding-top: 80px;
-	padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
-	@media screen and (min-width: $br-l) {
-		padding-top: 130px;
-		padding-bottom: 130px;
-	}
+  @media screen and (min-width: $br-l) {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
 }
 
 .foldMargin {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 
-	@media screen and (min-width: $br-l) {
-		margin-bottom: 130px;
-	}
+  @media screen and (min-width: $br-l) {
+    margin-bottom: 130px;
+  }
 }
 
 //sections:
 .landingSection {
-	padding: 35px 20px 80px;
-	max-width: $br-xl;
-	margin-right: auto;
-	margin-left: auto;
+  padding: 35px 20px 80px;
+  max-width: $br-xl;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .separator {
-	margin-top: 80px;
-	margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 //handy margins:
 .margin30 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .margin100 {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .margin130 {
-	margin-bottom: 130px;
+  margin-bottom: 130px;
 }
 
 .margin180 {
-	margin-bottom: 180px;
+  margin-bottom: 180px;
 }
